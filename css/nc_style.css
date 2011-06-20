@@ -167,8 +167,13 @@ footer {
 
 #search {
 	float:left;
+	width:450px;
 	margin-top:0px;
-	position:fixed;
+	position:absolute;
+	z-index:9999;
+	background-image:url("../images/search_soft_edge.png");
+	background-position:right;
+	background-repeat:repeat-y;
 	}
 
 .searchbox {
@@ -189,8 +194,7 @@ footer {
 	font-weight:bold;
 	color:#ffffff;
 	float:right;
-	margin-top:-35px;
-	margin-left:10px;
+	margin-right:35px;
 	}
 
 #tags {
