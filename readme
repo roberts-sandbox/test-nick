@@ -1,0 +1,24 @@
+
+ __  __   ______  ____     __       ______                       
+/\ \/\ \ /\  _  \/\  _`\  /\ \     /\  _  \  /'\_/`\  /'\_/`\    
+\ \ \/'/'\ \ \L\ \ \ \L\ \\ \ \    \ \ \L\ \/\      \/\      \   
+ \ \ , <  \ \  __ \ \  _ <'\ \ \  __\ \  __ \ \ \__\ \ \ \__\ \  
+  \ \ \\`\ \ \ \/\ \ \ \L\ \\ \ \L\ \\ \ \/\ \ \ \_/\ \ \ \_/\ \ 
+   \ \_\ \_\\ \_\ \_\ \____/ \ \____/ \ \_\ \_\ \_\\ \_\ \_\\ \_\
+    \/_/\/_/ \/_/\/_/\/___/   \/___/   \/_/\/_/\/_/ \/_/\/_/ \/_/
+
+           /)                                    
+_   _  _  // _  ______    _    _/_ ___  ___      
+(_(/ _(/_(/_(__(_) // (__(/_   (__(_)   // (_(_/_
+	                                            .-/  
+	                                           (_/   
+         ,   /)       /)                    
+   _     _/_(/       (/_    __   _   _    _ 
+  (_/__(_(__/ )_(_(_/_)     /_)_(_(_(_/__(/_   o   o   o
+ .-/                     .-/       .-/      
+(_/                     (_/       (_/
+
+
+Just having fun with making a 'me' page. the goal is for it to be an app like experience with a horizontal scroll. I found some js by Marco Rosella - http://www.centralscrutinizer.it/en/design/js-php/horizontal-tiny-scrolling.
+
+It's really cool, but it looks like there might be an issue with the firefox and IE support... it's scrolling... very... slowly... on those browsers...
