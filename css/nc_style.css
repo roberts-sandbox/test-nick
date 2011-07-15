@@ -20,6 +20,8 @@ body {
 	background-position:top;
 	background-repeat:repeat-x;
 	background-attachment:fixed;
+	background-color:#999999;
+	
 	}
 
 #container{
@@ -159,7 +161,6 @@ footer {
 	width:100%;
 	position:fixed;
 	margin-top:385px;
-	background-color:#999999;
 	clear:both;
 	}
 
