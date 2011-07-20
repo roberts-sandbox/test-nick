@@ -196,6 +196,8 @@ footer {
 	color:#ffffff;
 	float:right;
 	margin-right:35px;
+	border:none;
+	border-radius:8px;
 	}
 
 #tags {
