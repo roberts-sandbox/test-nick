@@ -183,8 +183,10 @@ footer {
 	color:#999999;
 	font-size:18px;
 	width:370px;
-	border-radius:8px;
-	}
+	-webkit-border-radius:8px;
+	 -khtml-border-radius:8px;
+	   -moz-border-radius:8px;
+            border-radius:8px;	}
 
 .subM_bttn {
 	display:block;
@@ -198,8 +200,10 @@ footer {
 	float:right;
 	margin-right:35px;
 	border:none;
-	border-radius:8px;
-	}
+	-webkit-border-radius:8px;
+	 -khtml-border-radius:8px;
+	   -moz-border-radius:8px;
+            border-radius:8px;	}
 
 #tags {
 	float:right;
