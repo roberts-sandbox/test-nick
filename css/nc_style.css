@@ -38,7 +38,7 @@ h1 {
 	color: #999999;
 	font-size:24px;
 	margin-bottom:10px;
-	margin-top:35px;
+	margin-top:5px;
 	}
 
 h2 {
@@ -176,6 +176,10 @@ a.gotobttn img {
 	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.36);
 	   -moz-box-shadow: 0 0 8px rgba(0,0,0,.36);
 	        box-shadow: 0 0 8px rgba(0,0,0,.36);
+	
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
 	}
 	
 a.gotobttn:hover img {
@@ -184,6 +188,11 @@ a.gotobttn:hover img {
 	-webkit-box-shadow: 0 0 0px rgba(0,0,0,.36);
 	   -moz-box-shadow: 0 0 0px rgba(0,0,0,.36);
 	        box-shadow: 0 0 0px rgba(0,0,0,.36);
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	
+	
 	}
 	
 a.gotobttn.blog img {
@@ -269,6 +278,8 @@ a.gotobttn:hover.music img {
 	
 
 #baselist {
+	float:right;
+	right:0;
 	position:fixed;
 	top:100px;
 	padding-left:0;
@@ -288,12 +299,17 @@ a.gotobttn:hover.music img {
 	text-decoration:none;
 	margin:0;
 	padding:0;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+	     -o-transition: all .1s ease-in-out;
 	}
 
 #baselist a.active,  #baselist a:hover {
-	color:#333333;
 	border-bottom: 4px solid #333333;
 	padding-bottom: 4px;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+	     -o-transition: all .1s ease-in-out;
 	}
 
 
@@ -350,7 +366,20 @@ footer {
 	-webkit-border-radius:8px;
 	 -khtml-border-radius:8px;
 	   -moz-border-radius:8px;
-            border-radius:8px	}
+            border-radius:8px;	
+	cursor:pointer;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+	     -o-transition: all .1s ease-in-out;
+}
+
+
+.subM_bttn:hover {
+	background-color:#333333;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+	     -o-transition: all .1s ease-in-out;
+}
 
 #tags {
 	float:right;
