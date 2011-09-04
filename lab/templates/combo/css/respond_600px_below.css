@@ -1,0 +1,95 @@
+/*
+This is just a test file for making sure the script is working properly.
+If it is, the media queries below will change the body's background color depending on the browser width.
+For a realistic use case for media queries: read up on Responsive Web Design: 
+http://www.alistapart.com/articles/responsive-web-design/
+*/
+
+body {
+	background: black;
+	color: #333;
+	font-family: Helvetica, sans-serif;
+}
+div {
+	width: 60%;
+	min-width: 300px;
+	max-width: 700px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0;
+}
+a {
+	color: #333;
+}
+
+#blog {
+	width:60%;  
+	overflow: auto;
+}
+
+#blog_content {
+	float:left; 
+	width:100%
+	}
+	
+#blog_nav {
+	float:left; 
+	width:100%; 
+	background-color:#cccccc;	
+	}
+
+
+
+/* hide the attribute-test element. test2.css will show it */
+#attribute-test {
+	display: none;
+}
+
+/*styles for 480px and up!*/
+@media only screen and (min-width: 480px), only screen and (max-width: 620px) {
+	body {
+		background: green;
+	}
+}
+
+
+
+/*styles for 620px and up! (let's try this one minified )*/
+@media screen and (min-width: 620px),only print,projector{
+	body{
+		background:red;
+	}
+
+}
+
+/*styles for 800px and up!*/
+@media screen and (min-width: 800px){
+	body {
+		background: blue;
+	}
+	
+}
+
+/*styles for 1000px and up!*/
+@media screen and (min-width: 1000px){
+	body {
+		background: orange;
+	}
+	
+	#blog_content {
+	float:left; 
+	width:50%
+	}
+	
+	#blog_nav {
+	float:right; 
+	width:50%; 
+	}
+}
+
+/*styles for 1300px and up!*/
+@media screen and (min-width: 1300px){
+	body {
+		background: navy;
+	}
+}
