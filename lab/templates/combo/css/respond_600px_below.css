@@ -97,69 +97,6 @@ a {
 
 
 
-/* Turn on the scrollbar */
-#blog_nav ::-webkit-scrollbar {
-    width: 8px;
-
-}
- 
-#blog_nav ::-webkit-scrollbar-button:vertical {
-    display:hidden;
-}
- 
-/* Turn off the down area up on top, and up area on bottom */
-#blog_nav ::-webkit-scrollbar-button:vertical:start:increment,
-#blog_nav ::-webkit-scrollbar-button:vertical:end:decrement {
-    display: hidden;
-
-}
- 
-/* Place The scroll down button at the bottom */
-#blog_nav ::-webkit-scrollbar-button:vertical:decrement,
-#blog_nav ::-webkit-scrollbar-button:vertical:increment {
-display:hidden;
-}
- 
- 
-/*::-webkit-scrollbar-track:vertical {
-    background-color: blue;
-    border: 1px dashed pink;
-}*/
- 
-/* Top area above thumb and below up button */
-#blog_nav ::-webkit-scrollbar-track-piece:vertical:start {
-    background-color:transparent;
-
-}
- 
-/* Bottom area below thumb and down button */
-#blog_nav ::-webkit-scrollbar-track-piece:vertical:end {
-    background-color:transparent;
-}
- 
-/* Track below and above */
-#blog_nav ::-webkit-scrollbar-track-piece {
-    background-color:#fff;
-}
- 
-/* The thumb itself */
-#blog_nav ::-webkit-scrollbar-thumb:vertical {
-    height: 30%;
-	border-left:4px #cccccc solid;
-}
- 
-/* Corner */
-/*::-webkit-scrollbar-corner:vertical {
-    background-color: black;
-}*/
- 
-/* Resizer */
-#blog_nav ::-webkit-scrollbar-resizer:vertical {
-    background-color: red;
-}
-
-
-
 
 
 
