@@ -11,8 +11,7 @@ body {
 	font-family: Helvetica, sans-serif;
 	overflow-y:hidden;
 	overflow-x:hidden;
-	-webkit-user-select:none;
-    -webkit-text-size-adjust:none;
+
 
 }
 
@@ -69,7 +68,6 @@ a {
 	padding:0;
 	margin:0;
 	text-align:left;
-	overflow:hidden;
 }
 
 .scroller li {
@@ -81,7 +79,6 @@ a {
 	border-top:1px solid #ccc;
 	border-bottom:1px solid #fff;
 	font-size:14px;
-	overflow:hidden;
 }
 
 
