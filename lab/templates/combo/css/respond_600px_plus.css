@@ -5,4 +5,5 @@ it should only apply on screen > 600px */
 	color: #fff;
 	background: black;
 	text-align: center;
+	height:300px;
 }
