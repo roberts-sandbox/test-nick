@@ -3,36 +3,29 @@
 /*main styles
 --------------------------------------*/
 
-
 body {
-	background: black;
 	color: #333;
 	font-family: Helvetica, sans-serif;
 	overflow-x:hidden;
 	margin: 0 auto;
 	-webkit-user-select:none;
     -webkit-text-size-adjust:none;
-}
+	float:left;
+	}
 
 header, footer, #main_content {
-	min-width:300px
-	max-width:1000px;
 	background-color:#fff;
-	padding: 0;
+	padding:0;
 	margin-right:0;
-}
-
-div {
-
-}
+	}
 
 a {
 	color: #333;
-}
+	}
 
 #blog {
 	overflow: hidden;
-}
+	}
 
 #blog_content {
 	float:left; 
@@ -41,9 +34,10 @@ a {
 	
 #blog_nav {
 	float:left; 
-	width:100%; 
-	background-color:#cccccc;	
+	width:100%;
+	height:100%;
 	overflow: hidden;
+	background-color:#cccccc;	
 	}
 	
 	
@@ -69,51 +63,21 @@ a {
 #wrapper {
 	width:100%;
 	height:90%;
-
 	float:left;
 	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
 	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
 	overflow:hidden;
-
-	background:#aaa;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	-o-border-radius:10px;
-	border-radius:10px;
-	background:#e3e3e3;
-}
-
-#scroller {
-	width:10000px;
-	height:100%;
-	float:left;
-	padding:0;
 }
 
 #scroller ul {
-	list-style:none;
-	display:block;
-	float:left;
 	width:100%;
 	height:100%;
+	display:block;
+	list-style:none;
+	float:left;
 	padding:0;
 	margin:0;
 	text-align:left;
-}
-
-#scroller li {
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-o-box-sizing:border-box;
-	box-sizing:border-box;
-	display:block; float:left;
-	width:600px; height:100%;
-	margin-right:0;
-	background-color:#666;
-	text-align:center;
-	font-family:georgia;
-	font-size:18px;
-	line-height:140%;
 }
 
 #nav {
@@ -152,32 +116,53 @@ a {
 	-moz-border-radius:4px;
 	-o-border-radius:4px;
 	border-radius:4px;
-	background:#ddd;
+	background:#666666;
 	overflow:hidden;
 	margin-right:4px;
 }
 
 #indicator > li.active {
-	background:#888;
+	background:#333333;
 }
 
 #indicator > li:last-child {
 	margin:0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #thelist {
 }
 
+#scroller {
+	height:100%;
+	float:left;
+	padding:0;
+}
 
-
-
-
-
-
-
-
-
-
+#scroller li {
+	height:100%;
+	display:block; 
+	float:left;
+	margin-left:0;
+	margin-right:0;
+	text-align:left;
+	font-family:georgia;
+	font-size:18px;
+	line-height:24px;
+	background-color:#666;
+}
 
 
 
@@ -215,7 +200,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 */
 
 
-/* hide the attribute-test element. test2.css will show it */
+/* hide the attribute-test element. test2.css will show it ***********************************--*/
 #attribute-test {
 	display: none;
 }
@@ -225,6 +210,11 @@ http://www.alistapart.com/articles/responsive-web-design/
 	body {
 		background: green;
 	}
+	
+	#scroller li {
+		width:480px; 
+	}
+
 }
 
 /*styles for 620px and up! (let's try this one minified )*/
@@ -233,16 +223,23 @@ http://www.alistapart.com/articles/responsive-web-design/
 		background:red;
 	}
 
+	#scroller li {
+		width:584px; /* max-width (620px) - 36px) */
+		margin-left:36px
+	}
+
+
 }
 
 /*styles for 800px and up!*/
 @media screen and (min-width: 800px){
 	body {
 		background: blue;
+		width:700px;
 	}
 
 	header, footer, #main_content {
-		margin-right:100px;
+		
 	}
 
 	#blog_content {
@@ -253,9 +250,14 @@ http://www.alistapart.com/articles/responsive-web-design/
 	#blog_nav {
 		float:right; 
 		width:30%; 
-		background-color:#cccccc;	
+		height:100%;
+		padding-bottom:10%;
 	}
 	
+	#scroller li {
+		width:764px; /* max-width (800px) - 36px) */
+		margin-left:36px
+	}
 	
 }
 
@@ -263,7 +265,27 @@ http://www.alistapart.com/articles/responsive-web-design/
 @media screen and (min-width: 1000px){
 	body {
 		background: orange;
+		width:900px;
 	}
+	
+	/*#scroller li {
+		width:13.771429%; /* max-width - margin-left) */
+	/*	margin-left:0.51428571%
+	}*/
+
+	#scroller li {
+		width:964px; /* max-width - margin-left) */
+		margin-left:36px;
+	}	
+	
+	#thelist {
+		width:7000px;
+	}
+
+	#scroller {
+		width:7000px;
+	}
+
 
 }
 
@@ -271,5 +293,6 @@ http://www.alistapart.com/articles/responsive-web-design/
 @media screen and (min-width: 1300px){
 	body {
 		background: navy;
+		width:1200px;
 	}
 }
