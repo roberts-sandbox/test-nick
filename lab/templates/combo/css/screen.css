@@ -13,16 +13,19 @@ body {
 }
 
 p {
+	font-family: Helvetica, sans-serif;
 	padding-left:36px;
 	padding-right:36px;
 }
 	
 h1 {
+	font-family: Helvetica, sans-serif;
 	padding-left:36px;
 	padding-right:36px;
 }
 
 h2 {
+	font-family: Helvetica, sans-serif;
 	padding-left:36px;
 	padding-right:36px;
 }
@@ -37,9 +40,9 @@ header, footer, #main_content {
 	background-color:#fff;
 	margin:0;
 	padding:0;
-	-moz-box-shadow: 0 0 5px #888;
-	-webkit-box-shadow: 0 0 5px#888;
-	box-shadow: 0 0 5px #888;
+	-moz-box-shadow: 0 0 4px #888;
+	-webkit-box-shadow: 0 0 4px#888;
+	box-shadow: 0 0 4px #888;
 	}
 
 header, footer {
@@ -53,6 +56,7 @@ a {
 
 #blog {
 	overflow: hidden;
+	padding-top:36px;
 	}
 
 #blog_content {
@@ -64,11 +68,13 @@ a {
 	float:left; 
 	width:100%;
 	height:100%;
+	padding-top:36px;
+	margin-top:-36px;
 	overflow: hidden;
 	background-color:#cccccc;
-	-moz-box-shadow: inset 4px -2px 6px #888;
-	-webkit-box-shadow: inset 4px -2px 6px #888;
-	box-shadow: inner 4px -2px 6px #888;
+	-moz-box-shadow: inset 0 0 8px #888;
+	-webkit-box-shadow: inset 0 0 8px #888;
+	box-shadow: inner 0 0 8px #888;
 	}
 	
 
@@ -78,7 +84,6 @@ a {
 
 #slider {
 	display: block;
-	color: #000000;
 	background: #cccccc;
 	height:400px;
 }
@@ -104,11 +109,8 @@ a {
 	margin:0;
 }
 
-#nav {
+#slider_nav {
 	width:100%;
-	-moz-box-shadow: 0 -2px 6px #999;
-	-webkit-box-shadow: 0 -2px 6px #999;
-	box-shadow: 0 -2px 6px #999;
 }
 
 #prev {
@@ -190,7 +192,7 @@ a {
 }
 
 #scroller {
-	height:100%;
+	height:100%; /* Removing this 100% height will allow each li module to appear with its own vertical slider for overflow */
 	float:left;
 	padding:0;
 }
@@ -243,17 +245,26 @@ http://www.alistapart.com/articles/responsive-web-design/
 
 /* hide the attribute-test element. test2.css will show it ***********************************--*/
 #not-small-screen {
-	display:hidden;
+	display:none;
 }
 
 /*styles for 480px and up!*/
 @media only screen and (min-width: 480px), only screen and (max-width: 620px) {
 	body {
-		background: green;
+		background: #C8E5CE;
 	}
 	
 	#scroller li {
 		width:480px; 
+	}
+		
+	
+	#thelist {
+		width:3600px; /* body-width (480px) * number of list items (7)) */
+	}
+
+	#scroller {
+		width:3600px;
 	}
 
 }
@@ -261,7 +272,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 /*styles for 620px and up! (let's try this one minified )*/
 @media screen and (min-width: 620px),only print,projector{
 	body{
-		background:red;
+		background:#D69C7B;
 		width:620px;
 	}
 	
@@ -286,7 +297,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 	border-bottom-right-radius:8px;
 	border-bottom-left-radius:8px;
 	}
-
+	
 	#scroller li {
 		width:620px;
 	}	
@@ -316,7 +327,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 /*styles for 800px and up!*/
 @media screen and (min-width: 800px){
 	body {
-		background: blue;
+		background: #C1E8FB;
 		width:700px;
 		float:left;
 	}
@@ -344,10 +355,6 @@ http://www.alistapart.com/articles/responsive-web-design/
 	}
 
 
-
-
-
-
 	#blog_content {
 		-webkit-border-top-right-radius:8px;
 		-khtml-border-top-right-radius:8px;
@@ -370,6 +377,9 @@ http://www.alistapart.com/articles/responsive-web-design/
 		width:30%; 
 		height:100%;
 		padding-bottom:30%;
+		-moz-box-shadow: inset 4px -2px 6px #888;
+		-webkit-box-shadow: inset 4px -2px 6px #888;
+		box-shadow: inner 4px -2px 6px #888;
 	}
 	
 	#scroller li {
@@ -401,7 +411,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 /*styles for 1000px and up!*/
 @media screen and (min-width: 1000px){
 	body {
-		background: orange;
+		background: #FFF9B6;
 		width:900px;
 		float:left;
 	}
@@ -429,7 +439,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 /*styles for 1300px and up!*/
 @media screen and (min-width: 1300px){
 	body {
-		background: navy;
+		background: #DBDAC5;
 		width:1200px;
 		float:left;
 	}
@@ -449,4 +459,30 @@ http://www.alistapart.com/articles/responsive-web-design/
 	#scroller {
 		width:8400px;
 	}
+}
+
+/*styles for 1600px and up!*/
+@media screen and (min-width: 1600px){
+	body {
+		background: #A3A9BD;
+		width:1400px;
+		float:left;
+	}
+	
+	#blog_nav {
+		padding-bottom:10%;
+	}
+	
+	#scroller li {
+		width:1400px;
+	}	
+	
+	#thelist {
+		width:9800px; /* body-width (1400px) * number of list items (7)) */
+	}
+
+	#scroller {
+		width:9800px;
+	}
+	
 }
