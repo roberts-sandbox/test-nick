@@ -224,10 +224,17 @@ http://www.alistapart.com/articles/responsive-web-design/
 	}
 
 	#scroller li {
-		width:584px; /* max-width (620px) - 36px) */
-		margin-left:36px
+		width:584px; /* body width (620px) - margin-left (36px) */
+		margin-left:36px;
+	}	
+	
+	#thelist {
+		width:4340px; /* body-width (620px) * number of list items (7)) */
 	}
 
+	#scroller {
+		width:4340px;
+	}
 
 }
 
@@ -255,8 +262,16 @@ http://www.alistapart.com/articles/responsive-web-design/
 	}
 	
 	#scroller li {
-		width:764px; /* max-width (800px) - 36px) */
-		margin-left:36px
+		width:664px; /* body width (700px) - margin-left (36px) */
+		margin-left:36px;
+	}	
+	
+	#thelist {
+		width:4900px; /* body-width (700px) * number of list items (7)) */
+	}
+
+	#scroller {
+		width:4900px;
 	}
 	
 }
@@ -268,22 +283,18 @@ http://www.alistapart.com/articles/responsive-web-design/
 		width:900px;
 	}
 	
-	/*#scroller li {
-		width:13.771429%; /* max-width - margin-left) */
-	/*	margin-left:0.51428571%
-	}*/
 
 	#scroller li {
-		width:964px; /* max-width - margin-left) */
+		width:864px; /* body width (900px) - margin-left (36px) */
 		margin-left:36px;
 	}	
 	
 	#thelist {
-		width:7000px;
+		width:6300px; /* body-width (900px) * number of list items (7)) */
 	}
 
 	#scroller {
-		width:7000px;
+		width:6300px;
 	}
 
 
@@ -294,5 +305,18 @@ http://www.alistapart.com/articles/responsive-web-design/
 	body {
 		background: navy;
 		width:1200px;
+	}
+	
+	#scroller li {
+	width:1164px; /* body width (1200px) - margin-left (36px) */
+	margin-left:36px;
+	}	
+	
+	#thelist {
+		width:8400px; /* body-width (1200px) * number of list items (7)) */
+	}
+
+	#scroller {
+		width:8400px;
 	}
 }
