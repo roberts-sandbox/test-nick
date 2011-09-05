@@ -10,8 +10,28 @@ body {
 	margin: 0 auto;
 	-webkit-user-select:none;
     -webkit-text-size-adjust:none;
-	float:left;
-	}
+}
+
+p {
+	padding-left:36px;
+	padding-right:36px;
+}
+	
+h1 {
+	padding-left:36px;
+	padding-right:36px;
+}
+
+h2 {
+	padding-left:36px;
+	padding-right:36px;
+}
+
+h3 {
+	padding-left:36px;
+	padding-right:36px;
+}
+
 
 header, footer, #main_content {
 	background-color:#fff;
@@ -40,21 +60,6 @@ a {
 	background-color:#cccccc;	
 	}
 	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*scrollbox slideshow
@@ -62,7 +67,7 @@ a {
 
 #wrapper {
 	width:100%;
-	height:90%;
+	height:85%;
 	float:left;
 	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
 	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
@@ -74,39 +79,59 @@ a {
 	height:100%;
 	display:block;
 	list-style:none;
-	float:left;
 	padding:0;
 	margin:0;
-	text-align:left;
 }
 
 #nav {
 	width:100%;
 }
 
-#prev, #next {
+#prev {
 	float:left;
-	font-weight:bold;
-	font-size:14px;
-	padding:5px 0;
+	text-align:center;
+	cursor:pointer;
+	background-color:#666666;
 	width:80px;
-}
+	display:block;
+	margin-top:20px;
+	margin-left:35px;
+	padding:5px 0 5px 0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	}
 
 #next {
+	background-color:#666666;
 	float:right;
-	text-align:right;
+	text-align:center;
+	cursor:pointer;
+	width:80px;
+	display:block;
+	margin-top:20px;
+	margin-right:35px;
+	padding:5px 0 5px 0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
 }
 
 #indicator, #indicator > li {
-	display:block; float:left;
+	display:block;
+	float:left;
 	list-style:none;
 	padding:0; margin:0;
 }
 
 #indicator {
 	width:110px;
-	padding:12px 0 0 30px;
-	margin-left:35%;
+	padding:12px 0 0 0;
+	text-align:center;
+	padding-left: 50%;
+	margin-left:-160px; 
 }
 
 #indicator > li {
@@ -128,19 +153,6 @@ a {
 #indicator > li:last-child {
 	margin:0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #thelist {
 }
@@ -191,11 +203,8 @@ a {
 
 /*@media styles
 --------------------------------------*/
-
 /*
-This is just a test file for making sure the script is working properly.
-If it is, the media queries below will change the body's background color depending on the browser width.
-For a realistic use case for media queries: read up on Responsive Web Design: 
+Read up on Responsive Web Design: 
 http://www.alistapart.com/articles/responsive-web-design/
 */
 
@@ -221,12 +230,13 @@ http://www.alistapart.com/articles/responsive-web-design/
 @media screen and (min-width: 620px),only print,projector{
 	body{
 		background:red;
+		width:620px;
 	}
 
 	#scroller li {
-		width:584px; /* body width (620px) - margin-left (36px) */
-		margin-left:36px;
+		width:620px;
 	}	
+		
 	
 	#thelist {
 		width:4340px; /* body-width (620px) * number of list items (7)) */
@@ -243,6 +253,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 	body {
 		background: blue;
 		width:700px;
+		float:left;
 	}
 
 	header, footer, #main_content {
@@ -251,20 +262,20 @@ http://www.alistapart.com/articles/responsive-web-design/
 
 	#blog_content {
 		float:left; 
-		width:70%
+		width:70%;
 	}
 	
 	#blog_nav {
 		float:right; 
 		width:30%; 
 		height:100%;
-		padding-bottom:10%;
+		padding-bottom:30%;
 	}
 	
 	#scroller li {
-		width:664px; /* body width (700px) - margin-left (36px) */
-		margin-left:36px;
+		width:700px;
 	}	
+		
 	
 	#thelist {
 		width:4900px; /* body-width (700px) * number of list items (7)) */
@@ -281,12 +292,16 @@ http://www.alistapart.com/articles/responsive-web-design/
 	body {
 		background: orange;
 		width:900px;
+		float:left;
+	}
+	
+	#blog_nav {
+		padding-bottom:20%;
 	}
 	
 
 	#scroller li {
-		width:864px; /* body width (900px) - margin-left (36px) */
-		margin-left:36px;
+		width:900px;
 	}	
 	
 	#thelist {
@@ -305,11 +320,15 @@ http://www.alistapart.com/articles/responsive-web-design/
 	body {
 		background: navy;
 		width:1200px;
+		float:left;
+	}
+	
+	#blog_nav {
+		padding-bottom:10%;
 	}
 	
 	#scroller li {
-	width:1164px; /* body width (1200px) - margin-left (36px) */
-	margin-left:36px;
+		width:1200px;
 	}	
 	
 	#thelist {
