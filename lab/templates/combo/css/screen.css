@@ -1,0 +1,275 @@
+
+
+/*main styles
+--------------------------------------*/
+
+
+body {
+	background: black;
+	color: #333;
+	font-family: Helvetica, sans-serif;
+	overflow-x:hidden;
+	margin: 0 auto;
+	-webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+}
+
+header, footer, #main_content {
+	min-width:300px
+	max-width:1000px;
+	background-color:#fff;
+	padding: 0;
+	margin-right:0;
+}
+
+div {
+
+}
+
+a {
+	color: #333;
+}
+
+#blog {
+	overflow: hidden;
+}
+
+#blog_content {
+	float:left; 
+	width:100%
+	}
+	
+#blog_nav {
+	float:left; 
+	width:100%; 
+	background-color:#cccccc;	
+	overflow: hidden;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*scrollbox slideshow
+--------------------------------------*/
+
+#wrapper {
+	width:100%;
+	height:90%;
+
+	float:left;
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+	overflow:hidden;
+
+	background:#aaa;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	background:#e3e3e3;
+}
+
+#scroller {
+	width:10000px;
+	height:100%;
+	float:left;
+	padding:0;
+}
+
+#scroller ul {
+	list-style:none;
+	display:block;
+	float:left;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	text-align:left;
+}
+
+#scroller li {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	display:block; float:left;
+	width:600px; height:100%;
+	margin-right:0;
+	background-color:#666;
+	text-align:center;
+	font-family:georgia;
+	font-size:18px;
+	line-height:140%;
+}
+
+#nav {
+	width:100%;
+}
+
+#prev, #next {
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 0;
+	width:80px;
+}
+
+#next {
+	float:right;
+	text-align:right;
+}
+
+#indicator, #indicator > li {
+	display:block; float:left;
+	list-style:none;
+	padding:0; margin:0;
+}
+
+#indicator {
+	width:110px;
+	padding:12px 0 0 30px;
+	margin-left:35%;
+}
+
+#indicator > li {
+	text-indent:-9999em;
+	width:8px; height:8px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	background:#ddd;
+	overflow:hidden;
+	margin-right:4px;
+}
+
+#indicator > li.active {
+	background:#888;
+}
+
+#indicator > li:last-child {
+	margin:0;
+}
+
+#thelist {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media styles
+--------------------------------------*/
+
+/*
+This is just a test file for making sure the script is working properly.
+If it is, the media queries below will change the body's background color depending on the browser width.
+For a realistic use case for media queries: read up on Responsive Web Design: 
+http://www.alistapart.com/articles/responsive-web-design/
+*/
+
+
+/* hide the attribute-test element. test2.css will show it */
+#attribute-test {
+	display: none;
+}
+
+/*styles for 480px and up!*/
+@media only screen and (min-width: 480px), only screen and (max-width: 620px) {
+	body {
+		background: green;
+	}
+}
+
+/*styles for 620px and up! (let's try this one minified )*/
+@media screen and (min-width: 620px),only print,projector{
+	body{
+		background:red;
+	}
+
+}
+
+/*styles for 800px and up!*/
+@media screen and (min-width: 800px){
+	body {
+		background: blue;
+	}
+
+	header, footer, #main_content {
+		margin-right:100px;
+	}
+
+	#blog_content {
+		float:left; 
+		width:70%
+	}
+	
+	#blog_nav {
+		float:right; 
+		width:30%; 
+		background-color:#cccccc;	
+	}
+	
+	
+}
+
+/*styles for 1000px and up!*/
+@media screen and (min-width: 1000px){
+	body {
+		background: orange;
+	}
+
+}
+
+/*styles for 1300px and up!*/
+@media screen and (min-width: 1300px){
+	body {
+		background: navy;
+	}
+}
