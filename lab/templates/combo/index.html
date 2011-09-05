@@ -11,82 +11,126 @@
 	
 	<link href="css/style.css" rel="stylesheet"/>
 	<link href="css/normalize.css" rel="stylesheet"/>
-	<link href="css/respond_600px_below.css" rel="stylesheet"/>
-	<link href="css/respond_600px_plus.css" media="screen and (min-width: 600px)" rel="stylesheet"/>
+	<link href="css/screen.css" rel="stylesheet"/>
+	<link href="css/screen_600_plus.css" media="screen and (min-width: 600px)" rel="stylesheet"/>
 	<script src="js/respond.src.js"></script>
-	
-	
-	<link rel="stylesheet" href="css/jq-ui/jquery.ui.all.css">
 	<script src="js/jquery-1.5.1.js"></script>
 	<script src="js/jq-ui/jquery.ui.core.js"></script>
 	<script src="js/jq-ui/jquery.ui.widget.js"></script>
 	<script src="js/jq-ui/jquery.ui.accordion.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
 	
 	
-	
-		<script>
+	<script>
 	$(function() {
 		$( "#accordion" ).accordion({
-			collapsible: true
+			collapsible: true, 
+    		autoHeight: false, 
+    		active: false 
 		});
 	});
 	</script>
+	
+	<script type="text/javascript">
+	var myScroll;
+
+	function loaded() {
+		myScroll = new iScroll('wrapper', {
+			snap: true,
+			momentum: false,
+			hScrollbar: false,
+			onScrollEnd: function () {
+				document.querySelector('#indicator > li.active').className = '';
+				document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';
+				}
+	 		});
+		}
+		document.addEventListener('DOMContentLoaded', loaded, false);
+	</script>
+	
 
 </head> 
 <body>
 	
-	<div>
+	<header>
 	<p>This is just a visual test file, and an ugly one at that!</p>
+	</header>
+	
+	<div id="main_content">
+		<div id="blog">
+	
+			<div id="blog_content">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+			</div><!--end #blog_content-->
+	
+			<div id="blog_nav">
+				<div id="accordion">
+					<h3><a href="#">Section 1</a></h3>
+					<div>
+						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
 	</div>
+					<h3><a href="#">Section 2</a></h3>
+					<div>
+						<p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+					</div>
+					<h3><a href="#">Section 3</a></h3>
+					<div>
+						<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+						<ul>
+							<li>List item one</li>
+							<li>List item two</li>
+							<li>List item three</li>
+						</ul>
+					</div>
+					<h3><a href="#">Section 4</a></h3>
+					<div>
+						<p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p>
+						<p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+					</div>
+				</div>
+			</div><!--end #blog_nav-->
+	
+		</div><!--end #blog-->
 	
 	
+		<div id="attribute-test">
 	
-	<div id="blog">
+		<!--slideshow-ish thingy-->
+		<div id="wrapper">
+			<div id="scroller">
+				<ul id="thelist">
+					<li><strong>1.</strong> <em>A robot may not injure a human being or, through inaction, allow a human being to come to harm.</em></li>
+					<li><strong>2.</strong> <em>A robot must obey any orders given to it by human beings, except where such orders would conflict with the First Law.</em></li>
+					<li><strong>3.</strong> <em>A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.</em></li>
+					<li><strong>Zeroth Law:</strong> <em>A robot may not harm humanity, or, by inaction, allow humanity to come to harm.</em></li>
+					<li><strong>Lyuben Dilov's Forth law:</strong> <em>A robot must establish its identity as a robot in all cases.</em></li>
+					<li><strong>Harry Harrison's Forth law:</strong> <em>A robot must reproduce. As long as such reproduction does not interfere with the First or Second or Third Law.</em></li>
+					<li><strong>Nikola Kesarovski's Fifth law:</strong> <em>A robot must know it is a robot.</em></li>
+				</ul>
+			</div>
+		</div>
+		<div id="nav">
+			<div id="prev" onclick="myScroll.scrollToPage('prev', 0);return false">&larr; prev</div>
+			<ul id="indicator">
+				<li class="active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+			</ul>
+			<div id="next" onclick="myScroll.scrollToPage('next', 0);return false">next &rarr;</div>
+		</div><!--end .wrapper for slideshow-ish thingy-->
+		</div>
 	
-	<div id="blog_content">
-	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+	</div><!--end #main_content-->
 
-	</div><!--end #blog_content-->
-	
-	<div id="blog_nav">
-		<div id="accordion">
-	<h3><a href="#">Section 1</a></h3>
-	<div>
-		<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-	</div>
-	<h3><a href="#">Section 2</a></h3>
-	<div>
-		<p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
-	</div>
-	<h3><a href="#">Section 3</a></h3>
-	<div>
-		<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
-		<ul>
-			<li>List item one</li>
-			<li>List item two</li>
-			<li>List item three</li>
-		</ul>
-	</div>
-	<h3><a href="#">Section 4</a></h3>
-	<div>
-		<p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-	</div>
-</div>
-	</div><!--end #blog_nav-->
-	
-
-	</div><!--end #blog-->
-	
-	
-	<div id="attribute-test">
-	<p>Media-attributes are working too! This should be visible above 600px.</p>
-	</div>
-	
-
-	<div><p>For a realistic use case for media queries: read up on <a href="http://www.alistapart.com/articles/responsive-web-design/">Responsive Web Design</a></p>
-	</div>
+	<footer>
+		<p>For a realistic use case for media queries: read up on <a href="http://www.alistapart.com/articles/responsive-web-design/">Responsive Web Design</a></p>
+	</footer>
 	
 </body>
 </html>
