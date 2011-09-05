@@ -37,6 +37,7 @@ header, footer, #main_content {
 	background-color:#fff;
 	padding:0;
 	margin-right:0;
+
 	}
 
 a {
@@ -232,6 +233,28 @@ http://www.alistapart.com/articles/responsive-web-design/
 		background:red;
 		width:620px;
 	}
+	
+	header, footer, #main_content {
+	-webkit-border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	
+	-khtml-border-top-left-radius:8px;
+	-khtml-border-top-right-radius:8px;
+	-khtml-border-bottom-right-radius:8px;
+	-khtml-border-bottom-left-radius:8px;
+	
+	-moz-border-top-left-radius:8px;
+	-moz-border-top-right-radius:8px;
+	-moz-border-bottom-right-radius:8px;
+	-moz-border-bottom-left-radius:8px;
+	
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	border-bottom-left-radius:8px;
+	}
 
 	#scroller li {
 		width:620px;
@@ -245,6 +268,17 @@ http://www.alistapart.com/articles/responsive-web-design/
 	#scroller {
 		width:4340px;
 	}
+	
+	#attribute-test {
+		-webkit-border-bottom-right-radius:8px;
+		-khtml-border-bottom-right-radius:8px;
+		-moz-border-bottom-right-radius:8px;
+		border-bottom-right-radius:8px;
+		-webkit-border-bottom-left-radius:8px;
+		-khtml-border-bottom-left-radius:8px;
+		-moz-border-bottom-left-radius:8px;
+		border-bottom-left-radius:8px;
+	}
 
 }
 
@@ -257,15 +291,45 @@ http://www.alistapart.com/articles/responsive-web-design/
 	}
 
 	header, footer, #main_content {
-		
+		-webkit-border-top-left-radius:0;
+		-webkit-border-top-right-radius:8px;
+		-webkit-border-bottom-right-radius:8px;
+		-webkit-border-bottom-left-radius:0;
+	
+		-khtml-border-top-left-radius:0;
+		-khtml-border-top-right-radius:8px;
+		-khtml-border-bottom-right-radius:8px;
+		-khtml-border-bottom-left-radius:0;
+	
+		-moz-border-top-left-radius:0;
+		-moz-border-top-right-radius:8px;
+		-moz-border-bottom-right-radius:8px;
+		-moz-border-bottom-left-radius:0;
+	
+	    border-top-left-radius:0;
+	    border-top-right-radius:8px;
+	    border-bottom-right-radius:8px;
+	    border-bottom-left-radius:0;
 	}
 
 	#blog_content {
+		-webkit-border-top-right-radius:8px;
+		-khtml-border-top-right-radius:8px;
+		-moz-border-top-right-radius:8px;
+		border-top-right-radius:8px;
+		-webkit-border-bottom-right-radius:8px;
+		-khtml-border-bottom-right-radius:8px;
+		-moz-border-bottom-right-radius:8px;
+		border-bottom-right-radius:8px;
 		float:left; 
 		width:70%;
 	}
 	
 	#blog_nav {
+		-webkit-border-top-right-radius:8px;
+		-khtml-border-top-right-radius:8px;
+		-moz-border-top-right-radius:8px;
+		border-top-right-radius:8px;
 		float:right; 
 		width:30%; 
 		height:100%;
@@ -283,6 +347,13 @@ http://www.alistapart.com/articles/responsive-web-design/
 
 	#scroller {
 		width:4900px;
+	}
+	
+	#attribute-test {
+		-webkit-border-bottom-right-radius:8px;
+		-khtml-border-bottom-right-radius:8px;
+		-moz-border-bottom-right-radius:8px;
+		border-bottom-right-radius:8px;
 	}
 	
 }
