@@ -14,7 +14,14 @@
               (_/                                   (_/              
 
 
-DEMO
-======================
+I stitched this piece together so that I would have a concise template that contains many of features of modern web designs:
+
+* slide menu with touch support
+* jquery menu
+* css3 features such as easing and shadows
+* multi-context, responsive layout with multi-device support
+* html5
 
 View the [demo](http://nickcottrell.github.com/lab/templates/snap/).
+
+Check out the scripts I used to see where they came from. Those dudes are badass.
