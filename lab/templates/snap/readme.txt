@@ -14,5 +14,7 @@
               (_/                                   (_/              
 
 
+DEMO
+======================
 
-View the [demo](https://github.com/nickcottrell/nickcottrell.github.com/tree/master/lab/templates/snap).
+View the [demo](http://nickcottrell.github.com/lab/templates/snap/).
