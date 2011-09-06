@@ -14,17 +14,16 @@
               (_/                                   (_/              
 
 
-I stitched this piece together so that I would have a concise template that contains many of features of modern web designs:
+I stitched this piece together so I would have a concise template that contains many features of modern web designs:
 
-* slide menu with touch support
-* jquery menu
-* css3 features such as easing and shadows
-* multi-context, responsive layout with multi-device support
 * html5
+* multi-context, responsive layout with multi-device support
+* slide menus, scrolls, and touch support
+* css3 features such as easing and shadows
 
 View the demo: http://nickcottrell.github.com/lab/templates/snap/
 
-Check out the scripts I used for more information. These dudes are badass:
+Check out the resources and scripts I used for more information. These dudes are badass:
 
 http://www.alistapart.com/articles/responsive-web-design/
 https://github.com/scottjehl/Respond

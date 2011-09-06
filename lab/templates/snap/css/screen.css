@@ -165,7 +165,7 @@ a:active {
 }
 
 #maintext_nav p a:link {
-	color: #ff0064;
+	color: #999;
 	text-decoration:none;
 	display:inline;
 	width:auto;
@@ -197,7 +197,7 @@ a:active {
 
 
 #maintext_nav ul a:link {
-	color: #ff0064;
+	color: #999;
 	text-decoration:none;
 	display:inline;
 	width:auto;
