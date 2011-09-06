@@ -3,7 +3,6 @@ it should only apply on screen > 600px */
 
 #slider {
 	display: block;
-	background: #cccccc;
 	height:400px;
 }
 
