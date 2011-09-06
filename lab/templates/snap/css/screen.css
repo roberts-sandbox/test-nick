@@ -333,23 +333,8 @@ a#prev:hover , a#next:hover {
 @media only screen and (min-width: 480px), only screen and (max-width: 620px) {
 	body {
 		background: #C8E5CE;
-		width:480px;
 	}
 	
-	#scroller li {
-		width:480px;
-		
-	}
-		
-	
-	#thelist {
-		width:3600px; /* body-width (480px) * number of list items (7)) */
-	}
-
-	#scroller {
-		width:3600px;
-	}
-
 }
 
 /*styles for 620px and up!*/
