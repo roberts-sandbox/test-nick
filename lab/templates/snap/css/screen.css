@@ -275,9 +275,6 @@ a#prev:hover , a#next:hover {
 	body {
 		background: #C8E5CE;
 		width:480px;
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
 	}
 	
 	#scroller li {
@@ -301,9 +298,6 @@ a#prev:hover , a#next:hover {
 	body{
 		background:#D69C7B;
 		width:620px;
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
 	}
 	
 	header, footer, #main_content {
@@ -361,9 +355,7 @@ a#prev:hover , a#next:hover {
 		background: #C1E8FB;
 		width:700px;
 		float:left;
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
+
 	}
 
 	header, footer, #main_content {
@@ -416,9 +408,6 @@ a#prev:hover , a#next:hover {
 		-webkit-box-shadow: inset 4px -2px 6px #888;
 		box-shadow: inner 4px -2px 6px #888;
 		
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
 	}
 	
 	#scroller li {
@@ -453,9 +442,6 @@ a#prev:hover , a#next:hover {
 		background: #FFF9B6;
 		width:900px;
 		float:left;
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
 	}
 	
 	#maintext_nav {
@@ -484,9 +470,6 @@ a#prev:hover , a#next:hover {
 		background: #DBDAC5;
 		width:1200px;
 		float:left;
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
 	}
 	
 	#maintext_nav {
@@ -512,9 +495,6 @@ a#prev:hover , a#next:hover {
 		background: #A3A9BD;
 		width:1400px;
 		float:left;
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
 	}
 	
 	#maintext_nav {
