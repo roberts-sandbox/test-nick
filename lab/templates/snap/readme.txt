@@ -22,6 +22,12 @@ I stitched this piece together so that I would have a concise template that cont
 * multi-context, responsive layout with multi-device support
 * html5
 
-View the [demo](http://nickcottrell.github.com/lab/templates/snap/).
+View the demo: http://nickcottrell.github.com/lab/templates/snap/
 
-Check out the scripts I used to see where they came from. Those dudes are badass.
+Check out the scripts I used for more information. These dudes are badass:
+
+http://www.alistapart.com/articles/responsive-web-design/
+https://github.com/scottjehl/Respond
+https://github.com/jonathantneal/normalize.css
+https://github.com/cubiq
+http://www.css3.info/

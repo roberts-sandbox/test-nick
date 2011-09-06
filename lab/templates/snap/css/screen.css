@@ -12,7 +12,7 @@
 ---------------------------------------------*/
 
 body {
-	color: #666;
+	color: #666666;
 	font-family: Helvetica, sans-serif;
 	overflow-x:hidden;
 	margin: 0 auto;
@@ -89,14 +89,17 @@ a:active {
 ---------------------------------------------*/
 
 #maintext {
-	overflow: hidden;
+	overflow: hidden;	
 	padding-top:36px;
+	height:100%;
 	}
 
 #maintext_content {
 	float:left; 
-	width:100%
+	width:100%;
+	height:100%;
 	padding-bottom:36px;
+	overflow: auto;
 	}
 	
 #maintext_nav {
@@ -105,7 +108,7 @@ a:active {
 	height:100%;
 	padding-top:36px;
 	padding-bottom:36px;
-	overflow: hidden;
+	overflow: auto;
 	background-color:#cccccc;
 	-moz-box-shadow: inset 0 0 8px #888;
 	-webkit-box-shadow: inset 0 0 8px #888;
@@ -159,6 +162,65 @@ a:active {
 #maintext_nav .ui-state-active .ui-accordion-heading {
 	background-color:#000000;
 	color:#ffffff;
+}
+
+#maintext_nav p a:link {
+	color: #ff0064;
+	text-decoration:none;
+	display:inline;
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+	-webkit-transition: all 0s ease-in-out;
+	-moz-transition: all 0s ease-in-out;
+	-o-transition: all 0s ease-in-out;
+	}
+
+#maintext_nav p a:visited {
+	color: #999;
+}
+
+#maintext_nav p a:hover {
+	background-color:transparent;
+	color:#333;
+
+	}
+
+#maintext_nav p a:active {
+	color: #999;
+}
+
+#maintext_nav ul {
+	margin-left:14px;
+	}
+
+
+#maintext_nav ul a:link {
+	color: #ff0064;
+	text-decoration:none;
+	display:inline;
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+	-webkit-transition: all 0s ease-in-out;
+	-moz-transition: all 0s ease-in-out;
+	-o-transition: all 0s ease-in-out;
+	}
+
+#maintext_nav ul a:visited {
+	color: #999;
+}
+
+#maintext_nav ul a:hover {
+	background-color:transparent;
+	color:#333;
+
+	}
+
+#maintext_nav ul a:active {
+	color: #999;
 }
 
 
@@ -499,7 +561,9 @@ styles for 800px and up!
 		float:right; 
 		width:30%; 
 		height:100%;
-		padding-bottom:40%;
+		overflow-y:auto;
+		padding-bottom:2000px; /*this is a hack for the 2 cols*/
+		margin-bottom:-2000px; /*this is a hack for the 2 cols*/
 		-moz-box-shadow: inset 4px -2px 6px #888;
 		-webkit-box-shadow: inset 4px -2px 6px #888;
 		box-shadow: inner 4px -2px 6px #888;	
@@ -559,10 +623,6 @@ styles for 1000px and up!
 		float:left;
 	}
 	
-	#maintext_nav {
-		padding-bottom:20%;
-	}
-	
 
 	#scroller li {
 		width:900px;
@@ -593,9 +653,6 @@ styles for 1300px and up!
 		float:left;
 	}
 	
-	#maintext_nav {
-		padding-bottom:10%;
-	}
 	
 	#scroller li {
 		width:1200px;
@@ -622,10 +679,6 @@ styles for 1600px and up!
 		background: #A3A9BD; /*lavender (light purple)*/
 		width:1400px;
 		float:left;
-	}
-	
-	#maintext_nav {
-		padding-bottom:10%;
 	}
 	
 	#scroller li {
