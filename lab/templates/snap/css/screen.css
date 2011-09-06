@@ -120,6 +120,7 @@ a:active {
 
 #maintext_nav p {
 	padding-top:10px;
+	padding-right:48px;
 }
 
 #maintext_nav a:link {
@@ -193,6 +194,7 @@ a:active {
 
 #maintext_nav ul {
 	margin-left:14px;
+	padding-right:36px;
 	}
 
 
