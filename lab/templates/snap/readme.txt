@@ -1,4 +1,3 @@
-<!--
 
  ____    __  __  ______  ____    __     
 /\  _`\ /\ \/\ \/\  _  \/\  _`\ /\ \    
@@ -13,4 +12,7 @@
 (_(_  / (__(/_/_)_/_)_(_) / (_/_)__(_(/___(/_  (/_(_(_(_/_(_)(_(_(__ 
                .-/                                   .-/             
               (_/                                   (_/              
--->
+
+
+
+View the [demo](https://github.com/nickcottrell/nickcottrell.github.com/tree/master/lab/templates/snap).
