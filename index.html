@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang=en>
 <head>
+<meta charset=utf-8>
 <!-- 
            /)                                    
  _   _  _ //  _  ______    _    _/_ ___  ___      
@@ -34,7 +35,6 @@
                         /)      
                        (/       
 --> 
-<meta charset=utf-8>
 <meta name="description" content="Hi. I'm Nick Cottrell. This page contains links to all of my online profiles such as linkedin, facebook, twitter, flickr, etc. Use it to connect with me." /> 
 <meta name="keywords" content="san francisco graphic design, san francisco graphic design, san francisco communication design, san francisco user experience design, UX, UI, Brand Experience Designer, Brand Experience, Communication Designer, brands, web, identity, print, fonts, photos, nick cottrell, cottrell" /> 
 <meta name="author" content="Nick Cottrell, Brand Experience Designer" /> 
@@ -47,7 +47,25 @@
           (_/                              (_/
 -->
 <link rel="stylesheet" type="text/css" media="screen" href="css/nc_style.css" />
-<script type="text/javascript" src="js/thw.js"></script>
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<!--<script type="text/javascript" src="js/thw.js"></script>-->
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript">
+	var myScroll;
+
+	function loaded() {
+		myScroll = new iScroll('wrapper', {
+			snap: true,
+			momentum: false,
+			hScrollbar: false,
+			onScrollEnd: function () {
+				document.querySelector('#indicator > li.active').className = '';
+				document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';
+				}
+	 		});
+		}
+		document.addEventListener('DOMContentLoaded', loaded, false);
+	</script>
 
 </head>
 
@@ -72,8 +90,8 @@
               .-/                    
              (_/                     
 -->
-<nav>
-	<ul id="socialcloud"> 
+<!--<nav>
+<ul id="socialcloud"> 
 		<li><a class="gotobttn blog" id="blog" href="http://www.nickcottrell.info/blog"><span class="desc">Blog</span><img src="images/block_hack.gif" alt="blog"/></a></li>
 		<li><a class="gotobttn linkedin" id="socialnet" href="http://www.nickcottrell.info/linkedin"><span class="desc">Linkedin</span><img src="images/block_hack.gif" alt="Linkedin" /></a></li> 
 		<li><a class="gotobttn twitter" href="http://www.nickcottrell.info/twitter"><span class="desc">Twitter</span><img src="images/block_hack.gif" alt="Twitter"/></a></li>
@@ -83,14 +101,36 @@
 		<li><a class="gotobttn published" id="special" href="http://www.nickcottrell.info/book"><span class="desc">Story</span><img src="images/block_hack.gif" alt="Short Story" /></a></li> 
 		<li><a class="gotobttn music" href="http://www.nickcottrell.info/music"><span class="desc">Music</span><img src="images/block_hack.gif" alt="Music" /></a></li>
 	</ul>
-	<ul id="baselist">
-		<li><a href="#blog">**BETA**</a></li>
-		<li><a href="#blog">read my blog</a></li>
-		<li><a href="#socialnet">connect with me</a></li>
-		<li><a href="#pictures">see the world through my eyes</a></li>
-		<li><a href="#special">check it out</a></li>		
-	</ul>	
-</nav>
+-->
+
+		<div id="wrapper">
+			<div id="scroller">
+				<ul id="socialcloud"> 
+		<li><a class="gotobttn blog" id="blog" href="http://www.nickcottrell.info/blog"><span class="desc">Blog</span><img src="images/block_hack.gif" alt="blog"/></a></li>
+		<li><a class="gotobttn linkedin" id="socialnet" href="http://www.nickcottrell.info/linkedin"><span class="desc">Linkedin</span><img src="images/block_hack.gif" alt="Linkedin" /></a></li> 
+		<li><a class="gotobttn twitter" href="http://www.nickcottrell.info/twitter"><span class="desc">Twitter</span><img src="images/block_hack.gif" alt="Twitter"/></a></li>
+		<li><a class="gotobttn github" href="https://github.com/nickcottrell"><span class="desc">Github</span><img src="images/block_hack.gif" alt="Github" /></a></li>
+		<li><a class="gotobttn facebook" href="http://www.nickcottrell.info/facebook"><span class="desc">Facebook</span><img src="images/block_hack.gif" alt="Facebook" /></a></li> 
+		<li><a class="gotobttn flickr" id="pictures" href="http://www.flickr.com/photos/27495102@N05/"><span class="desc">Flickr</span><img src="images/block_hack.gif" alt="Flickr" /></a></li> 
+		<li><a class="gotobttn published" id="special" href="http://www.nickcottrell.info/book"><span class="desc">Story</span><img src="images/block_hack.gif" alt="Short Story" /></a></li> 
+		<li><a class="gotobttn music" href="http://www.nickcottrell.info/music"><span class="desc">Music</span><img src="images/block_hack.gif" alt="Music" /></a></li>
+	</ul>
+			</div><!--end #scroller-->
+		
+		<div id="slider_nav">
+			<a href id="prev" onclick="myScroll.scrollToPage('prev', 0);return false">prev</a>
+			<a href id="next" onclick="myScroll.scrollToPage('next', 0);return false">next</a>
+			<ul id="indicator">
+				<li class="active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+			</ul>
+		</div><!--end #slider_nav-->
+	</div><!--end #wrapper-->
 
 <!--
     /)                 

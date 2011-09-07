@@ -14,7 +14,7 @@
 
 body {
 	font-family:helvetica, arial, sans-serif;
-	padding:100px 35px 0px 35px;
+	padding:100px 0 0px 0;
 	font-family:helvetica, arial, sans-serif;
 	background-image:url("../images/nc_bg_vert.png");
 	background-position:top;
@@ -25,13 +25,14 @@ body {
 	}
 
 #container{
-	width:6000px;
+	width:100%;
 	}
 
 /*Type
 ----------------------------------------------------*/
 
 h1 {
+	padding:20px 35px 0px 35px;
 	font-family:georgia, times, serif;
 	font-weight:normal;
 	line-height: 36px;
@@ -72,16 +73,23 @@ a	{
 	text-decoration:none;
 	}
 	
-a:link, a:visited, {
+a:link {
 	font-size:11px;
 	font-weight:normal;
 	color:#999999;
 	text-decoration:none;
 	}
+	
+a:visited {
+	color:#999999;
+	}
+
+a:active {
+	color:#000000;
+	}
 
 a:hover {
 	color:#000000;
-	text-decoration:underline;
 	}
 	
 img {
@@ -98,6 +106,154 @@ header {
 	padding-top:0;
 	}
 
+
+#slider p {
+	color:#000;
+	font-family: Helvetica, sans-serif;
+	line-height:24px;
+	padding-left:36px;
+	padding-right:36px;
+}
+
+#slider h3 {
+	color:#333;
+	font-size:24px;
+	font-family: Helvetica, sans-serif;
+	line-height:48px;
+	padding-left:36px;
+	padding-right:20%;
+}
+
+
+#wrapper {
+	margin-top:100px;
+	margin-left:0;
+	margin-right:0px;
+	width:100%;
+	height:270px;
+	float:left;
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+	overflow:hidden;
+}
+
+#scroller ul {
+	width:100%;
+	height:100%;
+	display:block;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#thelist {
+
+}
+
+#scroller {
+	width:6000px;
+	height:100%; /* Removing this 100% height will allow each li module to appear with its own vertical slider for overflow */
+	float:left;
+	padding:0;
+	magin:0;
+}
+
+#scroller li {
+
+}
+
+
+a#prev:hover , a#next:hover {
+	background-color:#000000;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+}
+
+
+#prev {
+	text-decoration:none;
+	float:left;
+	color:#ffffff;
+	text-align:center;
+	cursor:pointer;
+	background-color:#666666;
+	width:80px;
+	display:block;
+	margin-top:20px;
+	margin-left:35px;
+	padding:5px 0 5px 0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow: 0 0 5px #222;
+	-webkit-box-shadow: 0 0 5px#222;
+	box-shadow: 0 0 5px #222;
+	}
+
+#next {
+	text-decoration:none;
+	background-color:#666666;
+	color:#ffffff;
+	float:right;
+	text-align:center;
+	cursor:pointer;
+	width:80px;
+	display:block;
+	margin-top:20px;
+	margin-right:35px;
+	padding:5px 0 5px 0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow: 0 0 5px #222;
+	-webkit-box-shadow: 0 0 5px#222;
+	box-shadow: 0 0 5px #222;
+}
+
+#indicator, #indicator > li {
+	display:block;
+	float:left;
+	list-style:none;
+	padding:0; margin:0;
+}
+
+#indicator {
+	width:110px;
+	padding:12px 0 0 0;
+	text-align:center;
+	padding-left: 50%;
+	margin-left:-160px; 
+}
+
+#indicator > li {
+	text-indent:-9999em;
+	width:8px; height:8px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	background:#666666;
+	overflow:hidden;
+	margin-right:4px;
+}
+
+#indicator > li.active {
+	background:#000000;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+
+#indicator > li:last-child {
+	margin:0;
+}
+
+
+
+
 /*Navigation
 ----------------------------------------------------*/
 
@@ -107,28 +263,25 @@ nav {
 	}
 
 #socialcloud {
-	margin-left:200px;
+	margin-left:0;
 	position:absolute;
 	display:inline;
 	padding-left:0;
-	top:200px;
+	top:0;
 	width:6000px;
-	height:224px;
-	
+	height:100%;
 }
 
 #socialcloud li {
 	display:inline;
 	list-style-type:none;
-	margin-right:300px;
-	margin-left:0;
-	padding-left:0;
+	margin:0 0 0 230px;
 	padding:0;
 	text-decoration:none;
 	height:224px;
 	}
 
-a.gotobttn {
+a.gotobttn:link {
 	display:inline;
 	width:245px;
 	height:224px;
@@ -137,7 +290,16 @@ a.gotobttn {
 	text-decoration:none;
 	}
 
+a.gotobttn:visited {
+	color:#cccccc;	
+	}
+
 a.gotobttn:hover {
+	color:#cccccc;	
+	}
+
+a.gotobttn:active {
+	color:#cccccc;	
 	}
 	
 .desc {
@@ -277,7 +439,7 @@ a.gotobttn:hover.music img {
 		}	
 	
 
-#baselist {
+/*#baselist {
 	float:right;
 	right:0;
 	position:fixed;
@@ -311,14 +473,14 @@ a.gotobttn:hover.music img {
 	   -moz-transition: all .1s ease-in-out;
 	     -o-transition: all .1s ease-in-out;
 	}
-
+*/
 
 
 /*Footer
 ----------------------------------------------------*/
 
 footer {
-	margin-left:-43px;
+	margin-left:0;
 	padding-left:43px;
 	height:300px;
 	width:100%;
