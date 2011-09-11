@@ -18,8 +18,4 @@ _   _  _  // _  ______    _    _/_ ___  ___
 (_/                     (_/       (_/
 
 
-Just having fun with making a 'me' page. the goal is for it to be an app like experience with a horizontal scroll. 
-I found some js by Marco Rosella - http://www.centralscrutinizer.it/en/design/js-php/horizontal-tiny-scrolling.
-
-It's really cool, but it looks like there might be an issue with the firefox and IE support... it's scrolling... 
-very... slowly... on those browsers...
+Just having fun with making a 'me' page. the idea is for it to have an app like experience using a horizontal scroll. I also want to use as few images as possible, using HTML5 and CSS3. At this point, the HTML5 validatess. Not so much on the CSS3 yet... but it looks ok.
