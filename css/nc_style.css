@@ -112,10 +112,11 @@ nav {
 #socialcloud {
 	position:absolute;
 	top:200px;
-	left:-12px;
+	left:0;
 	height:240px;
 	display:block;
-	white-space: nowrap;
+	white-space:nowrap;
+	float:left;
 }
 
 #socialcloud li {
