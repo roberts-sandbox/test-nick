@@ -274,7 +274,7 @@ http://www.alistapart.com/articles/responsive-web-design/
                
 styles for 620px and up!
 ---------------------------------------------*/
-@media screen and (min-width: 620px),only print,projector {
+@media screen and (min-width: 768px),only print,projector {
 	
 	body {
 	width:80%;
