@@ -31,9 +31,9 @@ body {
 header {}
 
 #content {
-	/*min-height:600px;*/
 	margin-top:208px;
-	padding:0 10% 20% 10%;
+	min-height:450px;
+	padding:0 10% 0 10%;
 	-webkit-transition: all 1s ease-in-out;
 	   -moz-transition: all 1s ease-in-out;
 	     -o-transition: all 1s ease-in-out;
@@ -44,15 +44,17 @@ article {}
 nav {}
 
 #twitter {
-	min-height:100px;
+	min-height:75px;
 	width:100%;
 	background-color:#ccc;
-	padding:0 0 10% 0;
+	padding:0 0 0 0;
 	}
 
 footer { 
 	min-height:100px;
 	width:100%;
+	height:100%;
+	margin-bottom:0;
 	background-color:#999;
 	}
 
@@ -60,7 +62,12 @@ footer {
 /*type
 ---------------------------------------------*/
 	
-h1 {}
+h1 {
+	font-family:helvetica, arial, sans-serif;
+	color: #ccc;
+	font-size:48px;
+	margin-bottom:10px;
+	}
 
 h2 {
 	font-family:"Georgia", times, serif;	
@@ -150,11 +157,11 @@ nav ul {
 #logo {
 	display:block;
 	background-color:#fff;
-	width:216px;
-	height:78px;
+	width:259px;
+	height:68px;
 	position:absolute;
 	left:50%;
-	margin-left:-108px; /*50% width value*/
+	margin-left:-129px; /*50% width value*/
 	top:24px;
 	-webkit-box-shadow: 0 0 8px  #999;
 	   -moz-box-shadow: 0 0 8px  #999;
@@ -189,6 +196,65 @@ a:hover#addme {background:url("../img/add.png") 81px 0 transparent;}
 a:active#addme {background:url("../img/add.png") 81px 0 transparent;}
 
 
+a:link.cta {
+	display:block;
+	z-index:99999;
+	height:38px;
+	width:200px;
+	float:right;
+	margin-right:0;
+	margin-top:12px;
+	margin-bottom:100px;
+	padding-top:14px;
+	text-decoration:none;
+	background-color:#999;
+	font-family:helvetica, arial, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#ffffff;
+	border:none;
+	text-align:center;
+	-webkit-appearance:none;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	text-decoration:none;
+	
+	-webkit-border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	
+	 -khtml-border-top-left-radius:8px;
+	 -khtml-border-top-right-radius:8px;
+	 -khtml-border-bottom-right-radius:8px;
+	 -khtml-border-bottom-left-radius:8px;
+	
+	   -moz-border-top-left-radius:8px;
+	   -moz-border-top-right-radius:8px;
+	   -moz-border-bottom-right-radius:8px;
+	   -moz-border-bottom-left-radius:8px;
+	
+		    border-top-left-radius:8px;
+		    border-top-right-radius:8px;
+		    border-bottom-right-radius:8px;
+		    border-bottom-left-radius:8px;
+	
+	}
+
+a:visited.cta {
+	color:#ffffff;
+	}
+
+a:hover.cta {
+	background-color:#000;
+	}
+
+a:active.cta {
+	background-color:#999999;
+	}
+
+.low-ui {}
 
 /*
    _                       
@@ -295,7 +361,15 @@ styles for 620px and up!
 	#nav2 a:hover {color:#000;}
 	#nav2 a:active {color:#000;}	
 
+	#content img {
+	max-width:1024%;
+	margin: 0 0 24px 0;
+	}
+
+
 }
+
+
 
 
 /*
@@ -326,21 +400,6 @@ styles for 800px and up!
 
 styles for 1000px and up!
 ---------------------------------------------*/
-
-/*
--webkit-border-top-right-radius:8px;
--webkit-border-bottom-right-radius:8px;
-	
--khtml-border-top-right-radius:8px;
--khtml-border-bottom-right-radius:8px;
-	
--moz-border-top-right-radius:8px;
--moz-border-bottom-right-radius:8px;
-	
-border-top-right-radius:8px;
-border-bottom-right-radius:8px;*/
-
-
 
 
 	

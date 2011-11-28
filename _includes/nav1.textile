@@ -1,5 +1,5 @@
-<li><a href="##">why read?</a></li>
-<li><a href="/what-i-do.html">what i do</a></li>
-<li><a href="##">my work</a></li>
-<li><a href="##">lets connect</a></li>
-<li><a href="/articles.html">articles</a></li>	
+<li><a href="/about-nick-cottrell">Why read?</a></li>
+<li><a href="/nick-cottrell-skills/">What I do</a></li>
+<li><a href="/visual-samples/">My work</a></li>
+<li><a href="/contact-nick-cottrell/">Let's connect</a></li>
+<!--<li><a href="/articles/">Articles</a></li>-->
