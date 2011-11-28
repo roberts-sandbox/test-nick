@@ -1,0 +1,5 @@
+<li><a href="##">why read?</a></li>
+<li><a href="/what-i-do.html">what i do</a></li>
+<li><a href="##">my work</a></li>
+<li><a href="##">lets connect</a></li>
+<li><a href="/articles.html">articles</a></li>	
