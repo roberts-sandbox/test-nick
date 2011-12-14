@@ -1,0 +1,12 @@
+---
+  layout: post
+  title: Multi-Device UI
+---
+
+<h2>Here’s a peak at one of my on-going projects. It’s a UI I’m designing to use for multi-device display. The goal is to develop a usable system that works for the web as well as tablets and mobiles. The general idea is along the lines of web design that feels more app-like and less like a “page.”</h2>
+
+<img src="/img/articles/ui-1024x574.png" width="100%" /><br />
+
+First step is to design it. Some of the behaviors are fantasies that I’m not quite sure how to build a la the ‘pullstretch’ menu. The idea is that it works like a window shade. The user pulls down on it to a certain point where it sticks and stays down. To return it back to it’s collapsed state, the user pulls on it further, which causes it to release and snap back into it’s original place. The function will work as a drag and drop feature on a desktop terminal and as a tap and slide feature on a touchscreen.
+
+Perhaps I will eventually use an existing MVC and add a modular set of UI elements that can act as a sort of widget system. I’d like it to be customizable with straight forward code that doesn’t get too complicated like many of these Javascript frameworks that are coming out every week. The goal will be for it to be simple enough for me to produce, while flexible enough for it to apply to many different projects.
