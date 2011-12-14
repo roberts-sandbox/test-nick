@@ -3,6 +3,18 @@
   title: Naked Social Media
 ---
 
-Keytar 3 wolf moon before they sold out, vinyl echo park bicycle rights salvia gentrify organic synth retro leggings Austin. Banh mi you probably haven't heard of them brunch ethical. Put a bird on it mustache cosby sweater, messenger bag mcsweeney's high life irony DIY vice food truck pitchfork brooklyn viral stumptown. Chambray DIY Austin cardigan trust fund twee, shoreditch brooklyn cliche banh mi you probably haven't heard of them ethical.
-	
-Synth letterpress blog dreamcatcher mixtape hoodie. Carles put a bird on it freegan sustainable letterpress. Tofu banh mi echo park high life, wolf messenger bag squid fap thundercats iphone butcher mcsweeney's.
+<h2>While companies like Facebook and Google actively try to enhance the social media space by adding more, a few of us are trying to figure out ways to simplify our on-line experience.</h2>
+
+<img src="/img/articles/hello-world-1024x574.png" width="100%" /><br />
+
+Recently, I made some changes to the structure of the the myriad personal profiles I (and all of us, now-a-days) have online. The idea was to remove some of the duplicate info that I would have on a personal website and focus energy on the what’s most important–keeping relevant information online and creating a workflow that effectively managing the sharing and cataloging of said information. The basic idea was to describing what I’ve done, where I’m at, what I’m doing, how I’m doing it, and sharing that information with as many people as possible.
+
+The idea was to work the online presence, helping to curate what is on various profiles and to reduce the amount of duplicate info. Instead of duplicating the info, I set up pointers to various pieces of info. It seems obvious, but you’d be surprised at how much duplicate info you have out there. In some ways, I had to keep reminding myself that a link to somewhere else on the web is not a bad thing. For example, no more posted résumé PDF’s and things like that. Those sorts of items should be replaced with links to profiles such as linkedin.
+
+I designed a social media hub page, which links all of my various media. Many people are starting to do this with sites such as about.me and onesheet.com. I just wanted to make my own because that’s what I do!
+
+Simplicity is also in the way things are named. Another key part of the strategy of simplification was to set up a set forwarding URLs that make logical sense and link to my various profiles. For example, the base URL is “nickcottrell.info” which makes sense because it’s info about me, nick cottrell. When I want to share my music on SoundCloud, I set up the URL, “nickcottrell.info/music.” I set up a similar forwarding URL for each of my online profiles, e.g. linkedin, twitter, etc.
+
+I also removed residual information that I had on my old website, istitch.net by using a public GitHub repo as an archive, set up referring 404′s and funneled all traffic to the main site. It felt good to finally put the old site away and get that off of my server.
+
+The idea was that by simplifying things, we can leverage social media more efficiently to better collaborate with each other. However, the challenge has been (and continues to be), the overarching anxiety all of these online profiles cause me personally as I try to navigate through it all. Weaving these things together in a logical way will hopefully help pave the way for the next generation of interconnected individuals.

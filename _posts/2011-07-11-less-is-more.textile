@@ -3,6 +3,32 @@
   title: Less is More
 ---
 
-Keytar 3 wolf moon before they sold out, vinyl echo park bicycle rights salvia gentrify organic synth retro leggings Austin. Banh mi you probably haven't heard of them brunch ethical. Put a bird on it mustache cosby sweater, messenger bag mcsweeney's high life irony DIY vice food truck pitchfork brooklyn viral stumptown. Chambray DIY Austin cardigan trust fund twee, shoreditch brooklyn cliche banh mi you probably haven't heard of them ethical.
-	
-Synth letterpress blog dreamcatcher mixtape hoodie. Carles put a bird on it freegan sustainable letterpress. Tofu banh mi echo park high life, wolf messenger bag squid fap thundercats iphone butcher mcsweeney's.
+<h2>While many of the new features of Apple’s new Lion operating system (10.7) are a welcome addition, it seems like much was added and little taken away. I think we should expect more… or maybe actually less… from our friends in Cupertino.</h2>
+
+<img src="/img/articles/new_groups_proposed_by_nickcottrell-1024x574.png" width="100%" /><br />
+
+<em>The photo above is a mock I made to show how the ‘grid’ view could be combined with the iOS-style “apps” grid configuration for a more streamlined solution.</em>
+
+Simplicity is what we come to expect from Apple, the company that has revolutionized consumer electronics with beautifully executed industrial design and streamlined user interfaces. Apple has taught us that good design not only kicks ass because it’s cool, it’s also extremely profitable. The relentless pursuit of perfection is virtually unmatched, but the latest iteration of the OSX operating system might fall short on a couple of key features.
+
+Masterful at the showmanship of public announcement, the rollout campaign for the new Lion operating system has been enough to turn the heads of fanboys and neigh-sayers alike. Promises of a new streamlined interface aimed at linking the wildly popular iOS and its family of devices to the desktop space, have definitely set a very high bar even higher. After previewing some of the features, it turns out the bar might be a little too high this time.
+
+
+<em>Note: these are just mocks! The feature does not actually exist in Lion! It’s just what I’m proposing!</em>
+
+A simple google search will be easy to find all the reviews–good or bad–of this widely popular product. However, I decided to focus on one particular feature and propose a solution. I’ve created a series of mock-ups that display some potential improvements to the “grid” view that, until I demo’ed the OS, I thought were going to be replaced by the iOS-style “apps” grid configuration.
+
+The idea is to replace the standard “grid” view with the new iOS-style “apps” grid, which I believe is superior to its older counterpart. The new “apps” style grid, is more streamlined and has simple interaction behaviors that allow the user to organize and arrange items. It was the thing I was looking forward to the most in this latest version. Frankly, I was pretty disappointed when I previewed the launchpad feature, which gives the feature a minimal–or minimally integrated–place in the ecosystem.
+
+As the primary form of navigation for iOS touch devices, it is virtually a sidebar feature in Lion. I almost have to think that there must have been some contentious debate about adding it to this release because it feels like simply an add-on (although that is complete speculation on my part). Maybe they want to see what sticks. Whatever. I still think it was a little half-assed.
+
+
+<em>Note: this are just mocks! The feature does not actually exist in Lion! It’s just what I’m proposing!</em>
+
+My proposal basically kills the old “grid” view from the OS and introduces “groups” to those views instead of folders. In my opinion, I think grouping items is a better way to organize and is the direction Apple has taken in other views such as the list view shown (above) in this post. My proposal would simply do away with the existing “grid” so that a more seemless integration can take place. Instead of simply tacking on the feature as a separate function completely, I propose to integrate the functionality into the OS.
+
+Personally I think that the old “grid” view is outdated. For example when the grid expands from the “Applications” folder in the Dock, there’s no way to interact with and arrange the apps. Folder-style directories (another outdated archetype) are displayed with another pop-over menu, which is not nearly as elegant as the breakaway expanded “groups” view in the iOS grid style.
+
+Basically, I’m going to, of course, get used to the new features like everyone else in the Mac universe. Hopefully, Apple is simply creating the space for further refinement to take place for the next iteration. My only problem is that, for all the hoopla, it seems like Apple is putting out a cookie that’s only half-baked. I’ve come to expect more (or most of the time, less) from Apple, and suspect that some of the issues that are popping up will be fleshed out at some point after the big, big release of iCloud this Fall. I just hope that Apple will concentrate on what it’s releasing to consumers now, instead of focusing more and more on the future roadmap.
+
+Apple is best known for releasing products that are distilled to a simple, easy-to-use format. The latest Lion product has more added than reduced… just sayin.

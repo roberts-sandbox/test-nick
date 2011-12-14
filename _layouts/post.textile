@@ -3,18 +3,14 @@ layout: default
 ---
 
 <article>
+	<h1><a href='/{{ page.url }}'>{{ page.title }}</a></h1>
+	{{ content }}
+</article>
 
-	<h1>{{ page.title }}</h1>
-	
-{{ content }}
-
-	<h3>Other posts:</h3>
-	
+<h3>More Articles</h3>
 	<ul class="posts">
-{% for post in site.posts limit:3 %}
-    	<li><a href='{{ post.url }}'>{{ post.title }}</a></li>
+{% for post in site.posts %}
+    	<li><a href='/{{ post.url }}'>{{ post.title }}</a></li>
 {% endfor %}
     </ul>
-
-</article>
 

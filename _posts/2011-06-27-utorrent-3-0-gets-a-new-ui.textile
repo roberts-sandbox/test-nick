@@ -3,6 +3,24 @@
   title: µTorrent gets a makeover
 ---
 
-Keytar 3 wolf moon before they sold out, vinyl echo park bicycle rights salvia gentrify organic synth retro leggings Austin. Banh mi you probably haven't heard of them brunch ethical. Put a bird on it mustache cosby sweater, messenger bag mcsweeney's high life irony DIY vice food truck pitchfork brooklyn viral stumptown. Chambray DIY Austin cardigan trust fund twee, shoreditch brooklyn cliche banh mi you probably haven't heard of them ethical.
-	
-Synth letterpress blog dreamcatcher mixtape hoodie. Carles put a bird on it freegan sustainable letterpress. Tofu banh mi echo park high life, wolf messenger bag squid fap thundercats iphone butcher mcsweeney's.
+<h2>The new µTorrent version 3.0 has been a long time in the making. In addition to streamlining the functional structure of the UI to provide more options to the user, careful attention was spent on adding an improved brand experience to the product, making it more consistent with the ecosystem from which it is discovered.</h2>
+
+<img src="/img/articles/utorrent-gets-a-makeover-1024x574.png" width="100%" /><br />
+
+<strong>Color</strong>
+
+The first noticeable difference in the new product is the monochromatic approach. µTorrent green is dominant in the color palette, and allows the functional color palette to stand out, boldly highlighting status, and action-related functionality.
+
+In addition to the color palette, there were also subtle changes to the treatment of the icons, such as a slight ‘deboss’ effect on the items that appear directly on the chrome of the toolbar vs. the slight shadow and 3-dimension to the status icons.
+
+<strong>Consistency</strong>
+
+A consistent, branded approach was taken in the UI as well as a re-vamped consumer facing acquisition funnel. By the time the user opens up the product for the first time, the website helps to create a familiarity with the product brand and the icons on the user-interface.
+
+<strong>Clarity</strong>
+
+Not only does the new 3.0 client look-and-feel more consistent in terms of the visual brand, it also contains features that make it easier to use for new users as well as the pros. One such crossover feature is the minified view. The new user will hopefully be less overwhelmed with all the information that’s in the detailed view, while the expert will hopefully find the view useful for simpler, ‘info-at-a-glance’ view.
+
+There’s also a new video (produced by Alchemy Creative) featured directly in the client’s own ‘getting started’ page. The quality of animation preps the launch for prime time as well as provides super useful information to the new user.
+
+With over 100M+ users in the BitTorrent ecosystem, there are bound to be many opinions about the new 3.0 µTorrent client. However, one thing is certain: many people worked toward the goal of making a product that is lightweight (still weighing in at only about 600K), efficient, and simple for the noob and expert alike! Get yours now!

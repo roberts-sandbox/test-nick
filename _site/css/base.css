@@ -39,7 +39,9 @@ header {}
 	     -o-transition: all 1s ease-in-out;
 	}
 
-article {}
+article {
+	margin-bottom:96px;
+	}
 
 nav {}
 
@@ -75,6 +77,12 @@ h2 {
 	font-size:24px;
 	line-height:36px;
 	font-weight:normal;
+	}
+	
+p {
+	font-family:"Georgia", times, serif;		
+	line-height:30px;
+	color:#666;
 	}
 
 #twitter h1 {
@@ -149,7 +157,9 @@ nav ul {
 #nav2 a:hover {color:#000;}
 #nav2 a:active {color:#000;}
 
-
+ul.posts {
+	margin-bottom:96px;
+	}
 
 /*elements
 ---------------------------------------------*/
