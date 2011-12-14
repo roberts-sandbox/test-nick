@@ -3,4 +3,4 @@
 <li><a href="/visual-samples/">Design</a></li>
 <li><a href="/code-samples/">Code</a></li>
 <li><a href="/contact-nick-cottrell/">Let's connect</a></li>
-<!--<li><a href="/articles/">Articles</a></li>-->
+<li><a href="/articles/">Articles</a></li>
