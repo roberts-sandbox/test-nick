@@ -40,7 +40,7 @@ header {}
 	}
 
 article {
-	margin-bottom:96px;
+	margin-bottom:124px;
 	}
 
 nav {}
@@ -78,6 +78,21 @@ h2 {
 	line-height:36px;
 	font-weight:normal;
 	}
+
+h3 {
+	font-family:helvetica, arial, sans-serif;
+	color: #666;	
+	margin-top:48px;
+	}
+	
+ul {
+	line-height:32px;
+	}
+	
+li {
+	font-family:helvetica, arial, sans-serif;
+	color: #666;	
+	}	
 	
 p {
 	font-family:"Georgia", times, serif;		
@@ -181,6 +196,28 @@ ul.posts {
 	     -o-transition: all 1s ease-in-out;		
 	}
 
+#logo a:link {
+	width:259px; 
+	height:68px; 
+	display:block; 
+	background-image:url('../img/nick_cottrell.png');
+	background-position:0 0;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+	     -o-transition: all .4s ease-in-out;		
+	}
+#logo a:visited {background-image:url('../img/nick_cottrell.png');background-position:0 0;}
+#logo a:hover {
+	background-image:url('../img/nick_cottrell.png');
+	background-position:0 -69px;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;		
+	}
+#logo a:active {background-image:url('../img/nick_cottrell.png');background-position:0 -68px;}
+
+
+
 #connect {
 	position:absolute;
 	right:0;
@@ -265,6 +302,25 @@ a:active.cta {
 	}
 
 .low-ui {}
+
+.post_date {
+	font-family:helvetica, arial, sans-serif;
+	font-size:12px;
+	color:#a2a3a6;
+	height:22px;
+	width:200px;
+	background-image:url('../img/time.png');
+	background-position:0 6px;
+	background-repeat:no-repeat;
+	padding:0 0 0 22px;
+	}
+
+.leave_comment {
+	float:right;
+	margin-top:32px;
+	}
+
+
 
 /*
    _                       

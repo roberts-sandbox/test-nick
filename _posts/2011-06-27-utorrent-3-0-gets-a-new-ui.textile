@@ -7,20 +7,20 @@
 
 <img src="/img/articles/utorrent-gets-a-makeover-1024x574.png" width="100%" /><br />
 
-<strong>Color</strong>
+<h3>Color</h3>
 
 The first noticeable difference in the new product is the monochromatic approach. µTorrent green is dominant in the color palette, and allows the functional color palette to stand out, boldly highlighting status, and action-related functionality.
 
 In addition to the color palette, there were also subtle changes to the treatment of the icons, such as a slight ‘deboss’ effect on the items that appear directly on the chrome of the toolbar vs. the slight shadow and 3-dimension to the status icons.
 
-<strong>Consistency</strong>
+<h3>Consistency</h3>
 
 A consistent, branded approach was taken in the UI as well as a re-vamped consumer facing acquisition funnel. By the time the user opens up the product for the first time, the website helps to create a familiarity with the product brand and the icons on the user-interface.
 
-<strong>Clarity</strong>
+<h3>Clarity</h3>
 
 Not only does the new 3.0 client look-and-feel more consistent in terms of the visual brand, it also contains features that make it easier to use for new users as well as the pros. One such crossover feature is the minified view. The new user will hopefully be less overwhelmed with all the information that’s in the detailed view, while the expert will hopefully find the view useful for simpler, ‘info-at-a-glance’ view.
 
-There’s also a new video (produced by Alchemy Creative) featured directly in the client’s own ‘getting started’ page. The quality of animation preps the launch for prime time as well as provides super useful information to the new user.
+There’s also a <a href="http://vimeo.com/25214653">new video</a> (produced by <a href="http://alchemycreative.tv/">Alchemy Creative</a>) featured directly in the client’s own ‘getting started’ page. The quality of animation preps the launch for prime time as well as provides super useful information to the new user.
 
-With over 100M+ users in the BitTorrent ecosystem, there are bound to be many opinions about the new 3.0 µTorrent client. However, one thing is certain: many people worked toward the goal of making a product that is lightweight (still weighing in at only about 600K), efficient, and simple for the noob and expert alike! Get yours now!
+With over 100M+ users in the BitTorrent ecosystem, there are bound to be many opinions about the new 3.0 µTorrent client. However, one thing is certain: many people worked toward the goal of making a product that is lightweight (still weighing in at only about 600K), efficient, and simple for the noob and expert alike! Get <a href="http://www.utorrent.com">yours</a> now!

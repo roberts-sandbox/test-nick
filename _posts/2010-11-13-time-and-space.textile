@@ -9,18 +9,18 @@
 
 In a product company, an effective brand execution strategy involves the coordinated effort of the product, user-experience, engineering and marketing teams. With a non-linear relationship, the combined effort of these departments touches on each aspect of the user-experience. The overarching goal is to establish a brandspace that contains consistent visual and verbal content, providing the experiencee with usable products and useful information at appropriate times.
 
-<strong>Elements of the Brandspace</strong>
+<h3>Elements of the Brandspace</h3>
 
 The following is a list of elements that provide impressions. Consistency is paramount. Each item, or user touchpoint, should reinforce one another and should help define, and exist inside of, the brandspace. Elements and identifiers provide a consistent space for changeable, timely content. The goal of the brandspace is to preserve the integrity of information, keeping it useful and relevant.
 
 <ul>
-	<li>identifyers: logos, icons marks, names… think of these as equivilent to proper nouns.</li>
-	<li>language: visual/verbal tone, editorial style, color and type palettes, layout and graphic style, etc…. the flavor.</li>
-	<li>relevant information: product information, company information, up-to-date information. items that pull, instead of push…</li>
-	<li>promotional: product suggestions, new offers, calendar-related content, items that push….</li>
+	<li><strong>identifiers:</strong> logos, icons marks, names… think of these as equivalent to proper nouns.</li>
+	<li><strong>language:</strong> visual/verbal tone, editorial style, color and type palettes, layout and graphic style, etc…. the flavor.</li>
+	<li><strong>relevant information:</strong> product information, company information, up-to-date information. items that pull, instead of push…</li>
+	<li><strong>promotional:</strong> product suggestions, new offers, calendar-related content, items that push….</li>
 </ul>
 
-<strong>The Brandspace Dynamic</strong>
+<h3>The Brandspace Dynamic</h3>
 
 A successful brand execution involves an ecosystem that exists in the brandspace. The stage is set with identifiers in the right place.  Useful, relevant information is provided with a consistent visual/verbal language. Timely content is displayed in an appropriate, non-distracting way. The user is able to navigate through the brandspace, obtaining useful information and products along the way.
 
