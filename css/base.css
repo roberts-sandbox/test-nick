@@ -301,7 +301,7 @@ a:active.cta {
 	background-color:#999999;
 	}
 
-.low-ui {}
+.low-ui {height:100px;}
 
 .post_date {
 	font-family:helvetica, arial, sans-serif;
