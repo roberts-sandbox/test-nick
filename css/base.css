@@ -340,7 +340,7 @@ http://www.alistapart.com/articles/responsive-web-design/
                
 styles for 620px and up!
 ---------------------------------------------*/
-@media screen and (min-width: 620px),only print,projector {
+@media screen and (min-width: 800px),only print,projector {
 	
 	body {
 	width:80%;
@@ -446,7 +446,7 @@ styles for 620px and up!
 styles for 800px and up!
 ---------------------------------------------*/
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
 
 
 	nav ul {
