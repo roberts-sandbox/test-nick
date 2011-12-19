@@ -43,7 +43,7 @@ article {
 	margin-bottom:124px;
 	}
 
-nav {}
+nav {width:100%;}
 
 #twitter {
 	min-height:75px;
@@ -127,9 +127,10 @@ h3 {}
 ---------------------------------------------*/
 
 nav ul {
-	width:100%;
+	text-align:center;
+	width:92%;
 	height:56px;
-	margin-top:124px;
+	margin:124px 0 0 0;
 	position:absolute;
 	left:0;
 	-webkit-transition: all .2s ease-in-out;
@@ -150,9 +151,10 @@ nav ul {
 #nav1 a:active {color:#000;}
 
 #nav2 {
-	width:100%;
+	width:92%;
+	text-align:center;
 	height:56px;
-	margin-top:36px;
+	margin:36px 0 0 0;
 	position:absolute;
 	left:0;
 	-webkit-transition: all .2s ease-in-out;
@@ -374,6 +376,7 @@ styles for 620px and up!
 
 	
 	nav ul {
+	text-align:left;
 	width:25%; 
 	height:36px;
 	margin-top:24px;
@@ -408,6 +411,7 @@ styles for 620px and up!
 	}
 
 	#nav2 {
+	text-align:left;
 	width:70%; 
 	height:36px;
 	padding-right:0;
