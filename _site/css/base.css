@@ -325,6 +325,14 @@ a:active.cta {
 	float:right;
 	margin-top:32px;
 	}
+	
+.simplemodal-close {
+	cursor:pointer;
+	position:fixed;
+	z-index:9999;
+	left:48px;
+	top:130px;
+	}
 
 
 
