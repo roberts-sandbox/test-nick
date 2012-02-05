@@ -126,6 +126,7 @@ p {
 h3 {}
 
 
+
 /*navigation
 ---------------------------------------------*/
 
@@ -184,7 +185,6 @@ ul.posts {
 
 /*elements
 ---------------------------------------------*/
-
 #logo {
 	display:block;
 	background-color:#fff;
@@ -333,6 +333,10 @@ a:active.cta {
 	left:48px;
 	top:130px;
 	}
+	
+#contactMe {
+	display:none;
+	}
 
 
 
@@ -353,6 +357,46 @@ http://www.alistapart.com/articles/responsive-web-design/
  \__) /__ \__/ 
                
 styles for 620px and up!
+---------------------------------------------*/
+@media screen and (min-width: 620px),only print,projector {
+
+	#contactMe p {
+		margin:-20px 0 0px 0;
+	}
+	
+	#contactMe {
+	display:block;
+	width:300px;
+	height:55px;
+	margin-top:-105px;
+	margin-bottom:25px;
+	padding-top:30px;
+	padding-left:16%;
+	background-color:#ffffff;
+	-webkit-box-shadow: 0 0 8px  #999;
+	   -moz-box-shadow: 0 0 8px  #999;
+	        box-shadow: 0 0 8px  #999;
+	}
+
+	.slidestate1 {
+	margin-left:-500px;
+	}
+
+	.slidestate2 {
+	margin-left:-95px;
+ 	-webkit-transition-duration: 2s;
+	   -moz-transition-duration: 2s;
+	     -o-transition-duration: 2s;
+	}
+}
+
+
+/*
+  __   __   __  
+ (__) /  \ /  \ 
+ (__) \__/ \__/ 
+                
+styles for 800px and up!
 ---------------------------------------------*/
 @media screen and (min-width: 800px),only print,projector {
 	
@@ -447,21 +491,16 @@ styles for 620px and up!
 	max-width:1024%;
 	margin: 0 0 24px 0;
 	}
-
-
 }
 
 
-
-
 /*
-  __   __   __  
- (__) /  \ /  \ 
- (__) \__/ \__/ 
-                
-styles for 800px and up!
----------------------------------------------*/
+     __   __   __  
+ /| /  \ /  \ /  \ 
+  | \__/ \__/ \__/ 
 
+styles for 900px and up!
+---------------------------------------------*/
 @media screen and (min-width: 900px) {
 
 
@@ -474,14 +513,5 @@ styles for 800px and up!
 	}
 
 }
-
-/*
-     __   __   __  
- /| /  \ /  \ /  \ 
-  | \__/ \__/ \__/ 
-
-styles for 1000px and up!
----------------------------------------------*/
-
 
 	
