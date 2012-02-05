@@ -11,3 +11,10 @@
 <h2>Examples of successful Brand Experience Design can be found in companies such as <a href="http://en.wikipedia.org/wiki/Starbucks">Starbucks</a>, <a href="http://en.wikipedia.org/wiki/Apple_Inc.">Apple</a> and <a href="http://en.wikipedia.org/wiki/Skype">Skype</a>. I will attempt to define the practice and process of brand experience design here on this site.</h2>
 
 <div class="low-ui"><a class="cta" href="/articles/">Read Articles</a></div>
+
+<div id="contactMe" class="slidestate1">
+	<p>Latest article:</p>
+{% for post in site.posts limit:1 %}
+	<a href='/{{ post.url }}'>{{ post.title }}</a>
+{% endfor %}
+</div>
