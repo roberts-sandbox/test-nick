@@ -5,7 +5,7 @@
 
 <h2>The new µTorrent version 3.0 has been a long time in the making. In addition to streamlining the functional structure of the UI to provide more options to the user, careful attention was spent on adding an improved brand experience to the product, making it more consistent with the ecosystem from which it is discovered.</h2>
 
-<img src="/img/articles/utorrent-gets-a-makeover-1024x574.png" width="100%" /><br />
+<div class="img_wrap"><img src="/img/articles/utorrent-gets-a-makeover-1024x574.png" width="100%" /></div><br />
 
 <h3>Color</h3>
 

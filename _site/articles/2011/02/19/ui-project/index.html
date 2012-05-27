@@ -52,22 +52,10 @@ ___    _ _/_ _       __   // ___
            .-/                              .-/         
           (_/                              (_/
 -->
+<link href="/css/compiled/sassy.css" rel="stylesheet" type="text/css" />
 <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
-<link href="/css/base.css" rel="stylesheet" type="text/css" />
-<!--Modal Stuff -->
-<link type='text/css' href='/css/basic.css' rel='stylesheet' media='screen' />
-<link type='text/css' href='/css/social.css' rel='stylesheet' media='screen' />
-<!--[if IE]>
-<link type='text/css' href='/css/social_ie.css' rel='stylesheet' media='screen' />
-<![endif]-->
-<script type="text/javascript">
-function slideriffic() {
-    slide = document.querySelector("div.slidestate1");
-    slide.className = "slidestate2";
-	}
-</script>
-
 <!--[if lt IE 9]>
+<link type='text/css' href='/css/lt_ie9.css' rel='stylesheet' media='screen' />
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
@@ -85,8 +73,10 @@ function slideriffic() {
   })();
 
 </script>
+<!--google analytics-->
 </head>
-<body onload="slideriffic()">
+
+<body>
 <div id="wrapper">
 
 
@@ -126,7 +116,7 @@ __   _  _ _     _   _  _/_    _____
 				<h1>Multi-Device UI</h1>
 				<p class="post_date">February 19, 2011</p>
 <h2>Here’s a peak at one of my on-going projects. It’s a UI I’m designing to use for multi-device display. The goal is to develop a usable system that works for the web as well as tablets and mobiles. The general idea is along the lines of web design that feels more app-like and less like a “page.”</h2>
-<p><img src="/img/articles/ui-1024x574.png" width="100%" /><br /></p>
+<div class="img_wrap"><img src="/img/articles/ui-1024x574.png" width="100%" /></div><p><br /></p>
 <p>First step is to design it. Some of the behaviors are fantasies that I’m not quite sure how to build a la the ‘pullstretch’ menu. The idea is that it works like a window shade. The user pulls down on it to a certain point where it sticks and stays down. To return it back to it’s collapsed state, the user pulls on it further, which causes it to release and snap back into it’s original place. The function will work as a drag and drop feature on a desktop terminal and as a tap and slide feature on a touchscreen.</p>
 <p>Perhaps I will eventually use an existing <span class="caps">MVC</span> and add a modular set of UI elements that can act as a sort of widget system. I’d like it to be customizable with straight forward code that doesn’t get too complicated like many of these Javascript frameworks that are coming out every week. The goal will be for it to be simple enough for me to produce, while flexible enough for it to apply to many different projects.</p>
 			</article>

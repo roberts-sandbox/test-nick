@@ -5,7 +5,7 @@
 
 <h2>Different outputs on different devices with the same code? That’s the trend these days. No longer are we stuck to a particular view applied to many devices. Instead, devices interpret the layout in different ways depending on the context in which the information is viewed. Dedicated, separate mobile websites are a thing of the past. Buh-bye…</h2>
 
-<img src="/img/articles/snap-1024x574.png" width="100%" /><br />
+<div class="img_wrap"><img src="/img/articles/snap-1024x574.png" width="100%" /></div><br />
 
 
 <em>The <a href="http://nickcottrell.github.com/lab/templates/snap/">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em>
