@@ -92,8 +92,8 @@ nav {
 footer { 
 	min-height:100px;
 	width:100%;
-	height:100%;
-	margin-bottom:0;
+	height:200px;
+	margin:-30px 0 0 0;
 	background-color:#999;
 	}
 
@@ -135,6 +135,18 @@ p {
 	font-family:"Georgia", times, serif;		
 	line-height:30px;
 	color:#666;
+	}
+
+.copyright {
+	text-align:center;
+	margin:0;
+	}
+
+.copyright p {
+	font-family:"Helvetica", arial, sans-serif;
+	font-size:18px;
+	color: #ccc;
+	text-shadow: 0px -1px #666;
 	}
 
 #twitter h1 {
@@ -221,9 +233,7 @@ nav ul {
 	width:92%;
 	text-align:center;
 	height:56px;
-	margin:36px 0 0 0px;
-	position:absolute;
-	left:0;
+	padding:36px 0 0 0px;
 	
 	@include easing (.2s);
 	}
@@ -231,7 +241,7 @@ nav ul {
 #nav2 li {
 	display:inline;
 	list-style-type:none;
-	margin:10px;
+	margin:0 10px 0 10px;
 	line-height:32px;
 	}
 
@@ -267,8 +277,8 @@ ul.posts {
 	}
 #logo a:visited {background-image:url('../../img/nick_cottrell.png');background-position:0 0;}
 #logo a:hover {
-	@include shadow (0 0 16px, #999);
-	@include easing (.1s);		
+	@include shadow (0 0 32px, #ccc);
+	@include easing (.2s);		
 	}
 #logo a:active {}
 
@@ -339,7 +349,7 @@ a:link.cta {
 	-webkit-appearance:none;
 	text-decoration:none;
 	
-	@include easing (.2s);	
+	@include easing (.5s);	
 	@include gradient-top (#999, #666);
 	@include shadow (0 1px 4px, #999);
 	@include rounded (8px);
@@ -357,15 +367,14 @@ a:hover.cta {
 	color:#fff !important;
 	border:1px solid #666 !important;
 
-	@include gradient-top (#333, #000);
-	@include shadow (0 0 10px, #666);
-	@include easing (0s);	
+	@include shadow (0 0 32px, #999);
+	@include easing (.2s);	
 	}
 
 a:active.cta {
 	color:#fff !important;
 	border:1px solid #666 !important;
-	@include gradient-top (#999, #666);
+	@include gradient-top (#666, #999);
 	}
 
 .low-ui {
@@ -394,20 +403,25 @@ a.leave_comment:link{
 	padding:8px 20px 8px 20px;
 	color:#fff !important;
 	
-	@include easing (.2s);	
+	@include easing (.3s);	
 	@include gradient-top (#999, #666);
 	@include shadow (0 1px 4px, #999);
 	@include rounded (4px);
 }
 
-a.leave_comment:visited{}
+a.leave_comment:visited{
+	color:#fff !important;
+
+}
 a.leave_comment:hover{	
 	color:#fff !important;
-	@include easing (0s);	
-	@include gradient-top (#333, #000);
+	@include easing (.1s);	
 	@include shadow (0 1px 16px, #333);
 	}
-a.leave_comment:active{}
+a.leave_comment:active{
+	color:#fff !important;
+	@include gradient-top (#666, #999);
+	}
 
 
 #contactMe {
@@ -834,11 +848,11 @@ styles for 800px and up!
 
 	#nav2 {
 	text-align:left;
-	width:70%; 
+	width:48%; 
 	height:36px;
 	padding-right:0;
 	margin-top:24px;
-	right:50%;
+	margin-left:36px;
 	
 	@include easing (1s);
 	}
@@ -852,16 +866,21 @@ styles for 800px and up!
 	#nav2 a:hover {color:#000;text-shadow: 0px 0px #000;}
 	#nav2 a:active {color:#000;}
 
+
+	.img_wrap {
+	max-width:1024px;
+		}
+
 	#content img {
 	max-width:1024px;
 	margin: 0;
 	}
 	
-	a:link.cta {width:50%; float:right;}
+	a:link.cta {width:40%; float:right;}
 	a:visited.cta {}
 	a:hover.cta {}
 	a:active.cta {}
-	.caption {width:45%;text-align:left; margin-top:-20px; padding-top:0;padding-bottom:40px;float:left;}
+	.caption {width:50%;text-align:left; margin-top:-20px; padding-top:0;padding-bottom:40px;float:left;}
 
 	.img_wrap {
 	background-color:#eee;
@@ -896,6 +915,21 @@ styles for 800px and up!
 	float:right;
 	}
 
+	.copyright {
+	float:right;
+	text-align:right;
+	right:-50px;
+	width:100%;
+	margin:-64px 100px 0 0;
+	padding-left:70%; 
+	}
+
+	.copyright p {
+	font-family:"Helvetica", arial, sans-serif;
+	font-size:14px;
+	color: #ccc;
+	text-shadow: 0px -1px #666;
+	}
 
 }
 
