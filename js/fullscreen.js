@@ -2,7 +2,7 @@
 $(document).ready(function() {
 //make the image act like a background that resizes (similar to css3 "cover" attribute)
         var theWindow        = $(window),
-            $bg              = $(".bg_resize_JS img"),
+            $bg              = $(".BG_RESIZE_JS img"),
             aspectRatio      = $bg.width() / $bg.height();
 
         function resizeBg() {
@@ -84,36 +84,21 @@ $(document).ready(function() {
 	//if the params match, set the first slide of the slideshow
 	
 	if (new_value_match == true && keyword_match == true) {
-		if (new_this_matching_value == 'bittorrent') {
-			$first_slide = $('.slide_advance_JS img').eq(0);
+		//loop through each of the values in the VALUES array
+		for (var i=0; i<VALUES.length; i++){
+			//if the value is a match, 
+			if (new_this_matching_value == VALUES[i]) {
+			//set the corresponding slide to first
+			$first_slide = $('.SLIDE_ADVANCE_JS img').eq(i);
+			}
 		}
-		if (new_this_matching_value == 'thewhitepebble') {
-			$first_slide = $('.slide_advance_JS img').eq(1);
-		}
-		if (new_this_matching_value == 'stealthly') {
-			$first_slide = $('.slide_advance_JS img').eq(2);
-		}
-		if (new_this_matching_value == 'ncb') {
-			$first_slide = $('.slide_advance_JS img').eq(3);
-		}
-		if (new_this_matching_value == 'shottastic') {
-			$first_slide = $('.slide_advance_JS img').eq(4);
-		}
-		if (new_this_matching_value == 'seagraves') {
-			$first_slide = $('.slide_advance_JS img').eq(5);
-		}	
-		if (new_this_matching_value == 'snap') {
-			$first_slide = $('.slide_advance_JS img').eq(6);
-		}	
-		if (new_this_matching_value == 'waytoosick') {
-			$first_slide = $('.slide_advance_JS img').eq(7);
-		}
+
 	} else {		
 		//otherwise default to slide one
-		$first_slide = $('.slide_advance_JS img').eq(0);
+		$first_slide = $('.SLIDE_ADVANCE_JS img').eq(0);
 	}
 	//define the rest of the vars
-	var $boxes = $(".slide_advance_JS img"),
+	var $boxes = $(".SLIDE_ADVANCE_JS img"),
 	$currentBox = $first_slide.show();		
 	
 	//default slide rotation interval	
@@ -128,7 +113,7 @@ $(document).ready(function() {
 	}, 10000);
 
 	//click to next slide
-	$('.next_JS').click(function(){
+	$('.NEXT_JS').click(function(){
     	$currentBox.fadeOut(300, function() {
        		$currentBox = $currentBox.next();
        		if (!$currentBox.length) {
@@ -139,7 +124,7 @@ $(document).ready(function() {
 	});	
 
 	//click to previous slide
-	$('.prev_JS').click(function(){
+	$('.PREV_JS').click(function(){
    		$currentBox.fadeOut(300, function() {
        		$currentBox = $currentBox.prev();
        		if (!$currentBox.length) {
@@ -150,9 +135,12 @@ $(document).ready(function() {
 	});	
 	
 	//extra credit
-	$('#BACK_TO_SAMPLES').click(function(){
+	$('#BACK_TO_SAMPLES_JS').click(function(){
+		//loop through the values array
 		for (var i=0; i<VALUES.length; i++){
+			//for each matching value
 			if (new_this_matching_value == VALUES[i]) {
+				//set the back button url to the corresponding project
 				var back_url = '/index.html#' + VALUES[i];
 				$(this).attr('href', back_url);
 			}

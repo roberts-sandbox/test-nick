@@ -22,10 +22,36 @@ body {
 	position:relative
 	}
 
-.next_btn {
+.fullscreen_nav {
+	display:block; 
+	background-color:#000; 
+	width:100%; 
+	opacity:.8; 
+	padding:8px 30px 6px 30px; 
+	margin:4px 0 0 0;
+	}
+
+.btn {
+	font-size: 12px; 
+	text-decoration:none; 
+	color:#fff; 
+	font-family: helvetica, arial, sans-serif;	
+	}
+		
+.next {
 	float:right;
 	}
 
-.prev_btn {
-	float:left;
+.prev {
+	float:left;	
 	}
+	
+
+	
+.back {
+	background-color:#000; 
+	opacity:.8; 
+	width:70px; 
+	padding:11px 10px 7px 10px; 
+	margin-left: -135px; 
+}
