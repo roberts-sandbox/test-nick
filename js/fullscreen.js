@@ -148,7 +148,7 @@ $(document).ready(function() {
 	});
 
 
-
+//supposedly removes the url bar in iOS...
 window.addEventListener("load",function() {
   // Set a timeout...
   setTimeout(function(){
