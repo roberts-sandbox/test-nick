@@ -83,32 +83,29 @@ $(document).ready(function() {
 	//define vars for the slideshow
 	//if the params match, set the first slide of the slideshow
 	
-	//var VALUES = ['bittorrent', 'thewhitepebble', 'stealthly', 'ncb', 'shottastic', 'seagraves', 'snap', 'waytoosick'];
-	
-	alert(VALUES);
-	if (new_value_match == true && keyword_match = true) {
+	if (new_value_match == true && keyword_match == true) {
 		if (new_this_matching_value == 'bittorrent') {
 			$first_slide = $('.slide_advance_JS img').eq(0);
 		}
-		else if (new_this_matching_value == 'thewhitepebble') {
+		if (new_this_matching_value == 'thewhitepebble') {
 			$first_slide = $('.slide_advance_JS img').eq(1);
 		}
-		else if (new_this_matching_value == 'stealthly') {
+		if (new_this_matching_value == 'stealthly') {
 			$first_slide = $('.slide_advance_JS img').eq(2);
 		}
-		else if (new_this_matching_value == 'ncb') {
+		if (new_this_matching_value == 'ncb') {
 			$first_slide = $('.slide_advance_JS img').eq(3);
 		}
-		else if (new_this_matching_value == 'shottastic') {
+		if (new_this_matching_value == 'shottastic') {
 			$first_slide = $('.slide_advance_JS img').eq(4);
 		}
-		else if (new_this_matching_value == 'seagraves') {
+		if (new_this_matching_value == 'seagraves') {
 			$first_slide = $('.slide_advance_JS img').eq(5);
 		}	
-		else if (new_this_matching_value == 'snap') {
+		if (new_this_matching_value == 'snap') {
 			$first_slide = $('.slide_advance_JS img').eq(6);
 		}	
-		else if (new_this_matching_value == 'waytoosick') {
+		if (new_this_matching_value == 'waytoosick') {
 			$first_slide = $('.slide_advance_JS img').eq(7);
 		}
 	} else {		
@@ -152,9 +149,36 @@ $(document).ready(function() {
     	});
 	});	
 	
+	//extra credit
+	$('#BACK_TO_SAMPLES').click(function(){
+		if (new_this_matching_value == 'bittorrent') {
+			$(this).attr('href', "/index.html#bittorrent");
+		}
+		if (new_this_matching_value == 'thewhitepebble') {
+			$(this).attr('href', "/index.html#thewhitepebble");
+		}
+		if (new_this_matching_value == 'stealthly') {
+			$(this).attr('href', "/index.html#stealthly");
+		}
+		if (new_this_matching_value == 'ncb') {
+			$(this).attr('href', "/index.html#ncb");
+		}
+		if (new_this_matching_value == 'shottastic') {
+			$(this).attr('href', "/index.html#shottastic");
+		}
+		if (new_this_matching_value == 'seagraves') {
+			$(this).attr('href', "/index.html#seagraves");
+		}	
+		if (new_this_matching_value == 'snap') {
+			$(this).attr('href', "/index.html#snap");
+		}	
+		if (new_this_matching_value == 'waytoosick') {
+			$(this).attr('href', "/index.html#waytoosick");
+		}		
+	});
+	
 //end document ready script
-});	
-
+});
 
 
 
