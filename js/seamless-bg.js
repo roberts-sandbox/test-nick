@@ -45,13 +45,31 @@ $(document).ready(function() {
 
 //SLIDESHOW
 $(document).ready(function() {
-	
+
 	$('.slide_advance_JS img:not(:first)').hide();
 	
+	//$('.slide_advance_JS img:not(.slide_advance_JS img:nth-child(3))').hide();
+	
 	var $boxes = $(".slide_advance_JS img"),
-    	$currentBox = $boxes.first().show();
 
- 		setInterval(function(){
+    	$first_slide = $('.slide_advance_JS img').eq(1),
+
+		//$startBox = $(".slide_advance_JS img:nth-child(3)"),
+
+		$currentBox = $first_slide.show();
+		
+ 		/*setInterval(function(){
+			$currentBox.fadeOut(300, function(){
+				$currentBox = $currentBox.next();
+				if (!$currentBox.length) {
+            		$currentBox = $boxes.first();
+        		}
+				$currentBox.fadeIn(200);
+			});
+		}, 10000);
+		*/		
+		
+		 setInterval(function(){
 			$currentBox.fadeOut(300, function(){
 				$currentBox = $currentBox.next();
 				if (!$currentBox.length) {

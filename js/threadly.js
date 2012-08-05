@@ -19,8 +19,8 @@
 $(document).ready(function() {
 	
 	//list the valid values
-	var VALUES = ['threaded', 'pointy', 'inahaystack'];
-	var KEYWORD = 'needle';
+	var VALUES = ['slide02', 'slide02'];
+	var KEYWORD = 'sample';
 
 	//optional debug value
 	var DEBUG = 'debug';
