@@ -151,37 +151,16 @@ $(document).ready(function() {
 	
 	//extra credit
 	$('#BACK_TO_SAMPLES').click(function(){
-		if (new_this_matching_value == 'bittorrent') {
-			$(this).attr('href', "/index.html#bittorrent");
+		for (var i=0; i<VALUES.length; i++){
+			if (new_this_matching_value == VALUES[i]) {
+				var back_url = '/index.html#' + VALUES[i];
+				$(this).attr('href', back_url);
+			}
 		}
-		if (new_this_matching_value == 'thewhitepebble') {
-			$(this).attr('href', "/index.html#thewhitepebble");
-		}
-		if (new_this_matching_value == 'stealthly') {
-			$(this).attr('href', "/index.html#stealthly");
-		}
-		if (new_this_matching_value == 'ncb') {
-			$(this).attr('href', "/index.html#ncb");
-		}
-		if (new_this_matching_value == 'shottastic') {
-			$(this).attr('href', "/index.html#shottastic");
-		}
-		if (new_this_matching_value == 'seagraves') {
-			$(this).attr('href', "/index.html#seagraves");
-		}	
-		if (new_this_matching_value == 'snap') {
-			$(this).attr('href', "/index.html#snap");
-		}	
-		if (new_this_matching_value == 'waytoosick') {
-			$(this).attr('href', "/index.html#waytoosick");
-		}		
 	});
 	
 //end document ready script
 });
-
-
-
 
 
 
