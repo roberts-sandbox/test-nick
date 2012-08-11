@@ -141,7 +141,7 @@ $(document).ready(function() {
 			//for each matching value
 			if (new_this_matching_value == VALUES[i]) {
 				//set the back button url to the corresponding project
-				var back_url = '/index.html#' + VALUES[i];
+				var back_url = '/visual-samples/index.html#' + VALUES[i];
 				$(this).attr('href', back_url);
 			}
 		}
