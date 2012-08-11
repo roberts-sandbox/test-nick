@@ -1,5 +1,5 @@
-			<li><a href="/visual-samples/">Visual</a></li>
 			<li><a href="/user-experience-samples/">UX</a></li>
+			<li><a href="/visual-samples/">Visual</a></li>			
 			<li><a href="/code-samples/">Code</a></li>
 			<li><a href="/contact-nick-cottrell/">Contact</a></li>
 			<li><a href="/about-nick-cottrell">Cred</a></li>
