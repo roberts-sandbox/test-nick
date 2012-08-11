@@ -1,0 +1,26 @@
+---
+  layout: post
+  title: Save the small talk for cloud
+
+---
+
+Learning a lot from the Open Source
+- documentation
+- availability of assets
+- modularity
+- library management
+
+Organization
+- naming schemas
+- hierarchy
+- aesoteric names don't help anyone
+- designing things to be repurposed
+
+Pragmatic vs Semantic
+
+Lean UX principals
+
+
+
+
+

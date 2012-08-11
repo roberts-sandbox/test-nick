@@ -321,6 +321,58 @@ a:active#addme {
   box-shadow: 0px 0 6px #cccccc;
   margin: 0; }
 
+.img_wrap_home {
+  background-color: #eee;
+  display: block;
+  padding: 16px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0 0 8px 0; }
+
+.home_wrap {
+  max-width: 1024px;
+  padding: 1.5%; }
+
+.home_wrap .pos1 img {
+  width: 100%;
+  float: left; }
+
+.home_wrap .pos2 img {
+  width: 100%;
+  margin-left: -1.5% !important; }
+
+.home_wrap .pos3 img {
+  width: 100%;
+  margin-left: -1.5% !important; }
+
+.home_wrap .pos1 span {
+  display: none; }
+
+.home_wrap .pos2 span {
+  display: none; }
+
+.home_wrap .pos3 span {
+  display: none; }
+
+.home_caption {
+  display: none; }
+
+.home_caption_sm {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  color: #666;
+  font-weight: normal; }
+
+/*
+.home_wrap span img {width:100%;}
+.pos1 {margin-left:0; float:none;}
+.pos2 {margin-left:0;}
+.pos3 {margin-left:0;}
+*/
 a:link.cta {
   display: block;
   float: none;
@@ -977,6 +1029,69 @@ styles for 800px and up!
   #content img {
     max-width: 1024px;
     margin: 0; }
+
+  .img_wrap_home {
+    max-width: 1024px;
+    padding: 0; }
+
+  .home_wrap {
+    max-width: 1024px; }
+
+  .home_wrap .pos1 img {
+    width: 32%;
+    float: left; }
+
+  .home_wrap .pos2 img {
+    width: 32%;
+    margin-left: 0% !important; }
+
+  .home_wrap .pos3 img {
+    width: 32%;
+    margin-left: 0% !important; }
+
+  .home_caption_sm {
+    display: none; }
+
+  .home_wrap .pos1 span {
+    width: 100%;
+    margin-left: 1%;
+    width: 32%;
+    display: block;
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    float: left;
+    text-align: center; }
+
+  .home_wrap .pos2 span {
+    width: 100%;
+    margin-left: 1%;
+    width: 32%;
+    display: block;
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    float: left;
+    text-align: center; }
+
+  .home_wrap .pos3 span {
+    width: 100%;
+    margin-left: 1%;
+    width: 32%;
+    display: block;
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    float: left;
+    text-align: center; }
+
+  .home_caption {
+    display: block;
+    font-style: italic;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    margin-top: -26px; }
 
   a:link.cta {
     width: 40%;
