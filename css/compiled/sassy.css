@@ -1088,8 +1088,8 @@ styles for 800px and up!
   .home_caption {
     display: block;
     font-style: italic;
-    font-size: 14px;
-    color: #666;
+    font-size: 12px;
+    color: #999;
     font-weight: normal;
     margin-top: -26px; }
 
