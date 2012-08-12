@@ -29,7 +29,7 @@ $(document).ready(function() {
 //PARAM CONTROLLED SLIDESHOW
 $(document).ready(function() {
 	//define the values
-	var VALUES = ['bittorrent', 'thewhitepebble', 'stealthly', 'ncb', 'shottastic', 'seagraves', 'snap', 'waytoosick'];
+	var VALUES = ['bittorrent', 'thewhitepebble', 'thewhitepebble-02', 'thewhitepebble-03', 'thewhitepebble-04', 'thewhitepebble-05', 'stealthly', 'stealthly-02', 'stealthly-03', 'stealthly-04', 'stealthly-05', 'ncb', 'ncb-02', 'ncb-03', 'ncb-04', 'shottastic',  'shottastic-02', 'shottastic-03', 'shottastic-04', 'seagraves',  'seagraves-02', 'seagraves-03', 'seagraves-04', 'seagraves-05','snap', 'snap-02', 'snap-03', 'waytoosick'];
 	var KEYWORD = 'project';
 
 	//optional debug value
