@@ -1,6 +1,7 @@
 ---
   layout: post
   title: Naked Social Media
+  permalink: articles/2011/03/29/naked-social-media
 ---
 
 <h2>While companies like Facebook and Google actively try to enhance the social media space by adding more, a few of us are trying to figure out ways to simplify our on-line experience.</h2>

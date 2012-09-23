@@ -1,6 +1,7 @@
 ---
   layout: post
   title: Multi-Device UI
+  permalink: articles/2011/02/19/ui-project
 ---
 
 <h2>Here’s a peak at one of my on-going projects. It’s a UI I’m designing to use for multi-device display. The goal is to develop a usable system that works for the web as well as tablets and mobiles. The general idea is along the lines of web design that feels more app-like and less like a “page.”</h2>

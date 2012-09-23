@@ -1,0 +1,151 @@
+/*
+
+  /) ,           /)         ,    /)                                
+ /    __    _  _(/   _   _   _/_(/      _   _   _   _              
+(/__(_/ (__(/_(_(_   (_(/ _(_(__/ )_   /_)_(_(_/_)_/_)_ o   o   o  
+
+http://sass-lang.com/
+ 
+
+*/
+@media screen and (min-width: 770px) {
+  /*container (5-col liquid layout)
+  ----------------------------------*/
+  .container {
+    width: 80%;
+    display: block;
+    float: left; }
+    .container .group {
+      width: 100%;
+      margin: 0 auto; }
+      .container .group .item {
+        float: left;
+        height: 100%;
+        width: 100%; }
+
+  .container .group .span-1 {
+    width: 100%; }
+
+  .container .group .skip-1 {
+    margin-left: 100%; }
+
+  /*nameofliquid (5-col liquid layout)
+  ----------------------------------*/
+  .heading {
+    width: 100%;
+    display: block;
+    float: left; }
+    .heading .group {
+      width: 100%;
+      margin: 0 auto; }
+      .heading .group .item {
+        float: left;
+        height: 100%;
+        width: 16.667%; }
+
+  .heading .group .span-1 {
+    width: 16.667%; }
+  .heading .group .span-2 {
+    width: 33.333%; }
+  .heading .group .span-3 {
+    width: 50%; }
+  .heading .group .span-4 {
+    width: 66.667%; }
+  .heading .group .span-5 {
+    width: 83.333%; }
+  .heading .group .span-6 {
+    width: 100%; }
+
+  .heading .group .skip-1 {
+    margin-left: 16.667%; }
+  .heading .group .skip-2 {
+    margin-left: 33.333%; }
+  .heading .group .skip-3 {
+    margin-left: 50%; }
+  .heading .group .skip-4 {
+    margin-left: 66.667%; }
+  .heading .group .skip-5 {
+    margin-left: 83.333%; }
+  .heading .group .skip-6 {
+    margin-left: 100%; }
+
+  /*name (5-col fixed layout)
+  ----------------------------------*/
+  .content {
+    width: 100%;
+    display: block;
+    float: left; }
+    .content .group {
+      width: 100%;
+      margin: 0 auto; }
+      .content .group .item {
+        float: left;
+        height: 100%;
+        width: 16.667%; }
+
+  .content .group .span-1 {
+    width: 16.667%; }
+  .content .group .span-2 {
+    width: 33.333%; }
+  .content .group .span-3 {
+    width: 50%; }
+  .content .group .span-4 {
+    width: 66.667%; }
+  .content .group .span-5 {
+    width: 83.333%; }
+  .content .group .span-6 {
+    width: 100%; }
+
+  .content .group .skip-1 {
+    margin-left: 16.667%; }
+  .content .group .skip-2 {
+    margin-left: 33.333%; }
+  .content .group .skip-3 {
+    margin-left: 50%; }
+  .content .group .skip-4 {
+    margin-left: 66.667%; }
+  .content .group .skip-5 {
+    margin-left: 83.333%; }
+  .content .group .skip-6 {
+    margin-left: 100%; }
+
+  /*newgroup (3-col fixed layout)
+  ----------------------------------*/
+  .footing {
+    width: 100%;
+    display: block;
+    float: left; }
+    .footing .group {
+      width: 100%;
+      margin: 0 auto; }
+      .footing .group .item {
+        float: left;
+        height: 100%;
+        width: 16.667%; }
+
+  .footing .group .span-1 {
+    width: 16.667%; }
+  .footing .group .span-2 {
+    width: 33.333%; }
+  .footing .group .span-3 {
+    width: 50%; }
+  .footing .group .span-4 {
+    width: 66.667%; }
+  .footing .group .span-5 {
+    width: 83.333%; }
+  .footing .group .span-6 {
+    width: 100%; }
+
+  .footing .group .skip-1 {
+    margin-left: 16.667%; }
+  .footing .group .skip-2 {
+    margin-left: 33.333%; }
+  .footing .group .skip-3 {
+    margin-left: 50%; }
+  .footing .group .skip-4 {
+    margin-left: 66.667%; }
+  .footing .group .skip-5 {
+    margin-left: 83.333%; }
+  .footing .group .skip-6 {
+    margin-left: 100%; } }
+/*end of 770px*/

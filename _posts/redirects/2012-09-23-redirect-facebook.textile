@@ -1,0 +1,5 @@
+---
+  layout: redirect
+  redirecturl: http://www.facebook.com/people/Nick-Cottrell/1456282950
+  permalink: facebook/
+---

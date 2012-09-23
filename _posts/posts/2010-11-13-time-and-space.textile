@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Time &amp; Space
+  permalink: articles/2010/11/13/time-and-space
+
 ---
 
 <h2>A brand is not a logo, a visual style guide, a color palette, or a set of icons. A brand is a nebulous cloud that exists in time and space. It’s the set of feelings or impressions people have about an entity and its products or services. Therefore, it touches on everything that each department of that entity brings to the table.</h2>

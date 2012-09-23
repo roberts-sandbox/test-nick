@@ -1,0 +1,5 @@
+---
+  layout: redirect
+  redirecturl: http://issuu.com/dlbarringer/docs/whathappenedtous
+  permalink: book/
+---

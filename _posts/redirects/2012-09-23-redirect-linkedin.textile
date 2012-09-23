@@ -1,0 +1,5 @@
+---
+  layout: redirect
+  redirecturl: http://www.linkedin.com/in/nickcottrell
+  permalink: linkedin/
+---

@@ -1,6 +1,7 @@
 ---
   layout: post
   title: Less is More
+  permalink: articles/2011/07/11/less-is-more
 ---
 
 <h2>While many of the new features of Apple’s new Lion operating system (10.7) are a welcome addition, it seems like much was added and little taken away. I think we should expect more… or maybe actually less… from our friends in Cupertino.</h2>

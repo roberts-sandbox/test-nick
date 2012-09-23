@@ -1,6 +1,7 @@
 ---
   layout: post
   title: Snap! Rich, responsive, modern
+  permalink: articles/2011/09/12/snap-a-rich-responsive-and-modern-web-template
 ---
 
 <h2>Different outputs on different devices with the same code? That’s the trend these days. No longer are we stuck to a particular view applied to many devices. Instead, devices interpret the layout in different ways depending on the context in which the information is viewed. Dedicated, separate mobile websites are a thing of the past. Buh-bye…</h2>

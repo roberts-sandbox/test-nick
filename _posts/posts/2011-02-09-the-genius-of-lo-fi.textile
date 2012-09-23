@@ -1,6 +1,7 @@
 ---
   layout: post
   title: The Genius of Lo-fi
+  permalink: articles/2011/02/09/the-genius-of-lo-fi
 ---
 
 <h2>Lo-fi, garage, folk-tech–whatever. There’s an interesting brand of music that’s saturating scene.</h2>

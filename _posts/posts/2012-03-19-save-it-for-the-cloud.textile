@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Save the small talk for cloud
-
+  permalink: articles/2012/03/19/save-the-small-talk-for-cloud
 ---
 
 <h2>Now more than ever, devices are allowing people to link up in new ways. The common perception is that we are a disconnected generation, yet new technology is enabling us to keep up and stay connected with more people than ever before.</h2>

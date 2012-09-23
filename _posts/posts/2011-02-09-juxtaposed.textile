@@ -1,6 +1,8 @@
 ---
   layout: post
   title: Juxtaposed
+  permalink: articles/2011/02/09/juxtaposed
+
 ---
 
 <h2>Most of the time we find ourselves fighting against the many distractions that steal our attention during the work day. What if you could use distraction as a method to increase creativity and productivity? I tried just that in an experiment to combine multiple projects in one design session.</h2>
