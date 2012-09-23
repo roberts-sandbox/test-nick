@@ -764,59 +764,7 @@ http://www.alistapart.com/articles/responsive-web-design/
 
 
 /*
-  __  __   __  
- /__   _) /  \ 
- \__) /__ \__/ 
-               
-styles for 620px and up!
----------------------------------------------*/
-@media screen and (min-width: 620px),only print,projector {
 
-	#contactMe p {
-		margin:-20px 0 0px 0;
-	}
-	
-	#contactMe {
-	display:block;
-	width:300px;
-	height:55px;
-	margin-top:-105px;
-	margin-bottom:25px;
-	padding-top:30px;
-	padding-left:16%;
-	background-color:#ffffff;
-	
-	@include shadow (0 0 8px, #999);
-	}
-	
-	a:link.cta {width:80%;}
-	a:visited.cta {}
-	a:hover.cta {}
-	a:active.cta {}	
-
-	#socialwrapper {
-	width:650px;		
-	left:-400px;
-	}
-
-	form input.thename {
-	width:98%;
-	margin-right:1%;
-	}
-
-	form input.theemail {
-	width:95%;
-	margin-right:1%;
-	}
-
-	select{
-	width:100%;
-	}
-
-	.buttons {width:100%; float:none;}
-
-
-}
 
 
 /*
@@ -824,22 +772,13 @@ styles for 620px and up!
  (__) /  \ /  \ 
  (__) \__/ \__/ 
                 
-styles for 800px and up!
+styles for 770px and up!
 ---------------------------------------------*/
-@media screen and (min-width: 800px),only print,projector {
+@media screen and (min-width: 770px),only print,projector {
 	
-	body {
-	width:80%;
-	
-	@include easing (1s);
+	body {	
 	}
 	
-	#content {
-	margin-top:156px;
-	padding:0 10% 0 5%;
-	
-	@include easing (1s);
-	}
 	
 	#connect {
 	top:0;
@@ -987,59 +926,6 @@ styles for 800px and up!
 	color: #ccc;
 	text-shadow: 0px -1px #666;
 	}
-
-}
-
-/*
-     __   __   __  
- /| /  \ /  \ /  \ 
-  | \__/ \__/ \__/ 
-
-styles for 900px and up!
----------------------------------------------*/
-@media screen and (min-width: 900px) {
-	nav ul {
-	width:40%;
-	left:30%;
-	@include easing (1s);
-	}
-	a:link.cta {width:300px;}
-	a:visited.cta {}
-	a:hover.cta {}
-	a:active.cta {}
-
-	#socialwrapper {
-	left:-520px;
-	width:1000px;			
-	}
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1200px) {
-	#socialwrapper {
-	width:1200px;			
-	}
-
-
-}
-
-@media screen and (min-width: 1400px) {
-	#socialwrapper {
-	left:-700px;
-	width:1400px;			
-	}
-
 
 }
 

@@ -53,7 +53,8 @@ ___    _ _/_ _       __   // ___
            .-/                              .-/         
           (_/                              (_/
 -->
-<link href="/css/compiled/sassy.css" rel="stylesheet" type="text/css" />
+<link href="/css/lining-compiled.css" rel="stylesheet" type="text/css" />
+<link href="/css/NEW-sass.css" rel="stylesheet" type="text/css" />
 <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
 <script src="/js/wufoo.js"></script>
 <!--[if lt IE 9]>
@@ -79,7 +80,7 @@ ___    _ _/_ _       __   // ___
 </head>
 
 <body>
-<div id="wrapper">
+<!--start wrapper--><div class="container"><div class="group"><div class="item">
 
 
 <!--
@@ -89,10 +90,23 @@ ___    _ _/_ _       __   // ___
 / )__(/_(_(_(_(__(/_/ (_
 
 -->
-	<header>
-		<div id="logo"><a href="/"></a></div>
-		<div id="connect"><div id='basic-modal'><a id="addme" class="basic" href="#"></a></div></div>
-	</header>
+<div class="heading">
+	<div class="group">
+		<div class="item span-2"><div id="logo"><a href="/"></a></div></div>
+		<div class="item span-4">
+				<nav>
+				<ul id="nav1">
+			<li><a href="/user-experience-samples/">UX</a></li>
+			<li><a href="/visual-samples/">Visual</a></li>			
+			<li><a href="/code-samples/">Code</a></li>
+			<li><a href="/contact-nick-cottrell/">Contact</a></li>
+			<li><a href="/about-nick-cottrell">Cred</a></li>
+			<li><a href="/articles/">Articles</a></li>
+				</ul>
+				</nav>	
+		</div>
+	</div>
+</div>		
 
 <!--
               ,             ,        
@@ -101,19 +115,12 @@ __   _  _ _     _   _  _/_    _____
               .-/                    
              (_/                     
 -->
-	<nav>
-		<ul id="nav1">
-			<li><a href="/user-experience-samples/">UX</a></li>
-			<li><a href="/visual-samples/">Visual</a></li>			
-			<li><a href="/code-samples/">Code</a></li>
-			<li><a href="/contact-nick-cottrell/">Contact</a></li>
-			<li><a href="/about-nick-cottrell">Cred</a></li>
-			<li><a href="/articles/">Articles</a></li>
-		</ul>	
-	</nav>
 
-	<div id="content">
-		
+
+	<div class="content">
+		<div class="group">
+			<div class="item span-6">
+
 			<article>
 				<h1>Snap! Rich, responsive, modern</h1>
 				<p class="post_date">September 12, 2011</p>
@@ -181,37 +188,11 @@ __   _  _ _     _   _  _/_    _____
     		</ul>
 
 
-
-
-<!--                   
-            ,      /) 
- _   ____     _   //  
-/_)_(_)(___(_(_(_(/_  
-                      
-
--->		
-
-<!-- modal content -->
-<div id="basic-modal-content">
-	<div id="socialwrapper">
-		<div id="social">	
-			<a class="simplemodal-close" id="closemodal" href="##">Close</a>
-			<ul id="socialcloud"> 
-				<li><a class="gotobttn linkedin" id="socialnet" href="http://www.nickcottrell.info/linkedin"><span class="desc">Linkedin</span><img src="/img/social/block_hack.gif" alt="Linkedin" /></a></li> 
-				<li><a class="gotobttn twitter" href="http://www.nickcottrell.info/twitter"><span class="desc">Twitter</span><img src="/img/social/block_hack.gif" alt="Twitter"/></a></li>
-				<li><a class="gotobttn github" href="https://github.com/nickcottrell"><span class="desc">Github</span><img src="/img/social/block_hack.gif" alt="Github" /></a></li>
-				<li><a class="gotobttn facebook" href="http://www.nickcottrell.info/facebook"><span class="desc">Facebook</span><img src="/img/social/block_hack.gif" alt="Facebook" /></a></li> 
-				<li><a class="gotobttn flickr" id="pictures" href="http://www.flickr.com/photos/27495102@N05/"><span class="desc">Flickr</span><img src="/img/social/block_hack.gif" alt="Flickr" /></a></li> 
-				<li><a class="gotobttn published" id="special" href="http://www.nickcottrell.info/book"><span class="desc">Story</span><img src="/img/social/block_hack.gif" alt="Short Story" /></a></li> 
-				<li><a class="gotobttn music" href="http://www.nickcottrell.info/music"><span class="desc">Music</span><img src="/img/social/block_hack.gif" alt="Music" /></a></li>
-			</ul>
-		</div><!--end #social-->
-	</div><!--end #socialwrapper-->
-</div><!--end modal content-->
-
+			
+			</div>
+		</div>
 	</div><!--end #content-->
 
-	<div id="twitter"></div><!--end #twitter-->
 
 <!--
     /)                 
@@ -222,17 +203,28 @@ __   _  _ _     _   _  _/_    _____
  
 -->
 
-	<footer>
-		<ul id="nav2">
+
+
+<div class="footing">
+	<div class="group">
+
+		<div class="item span-2">
+			<p class="copyright">&copy;2012 Nick Cottrell, All Rights Reserved</p>
+		</div>
+		
+		<div class="item span-4">
+			<ul id="nav2">
 			<li><a href="/user-experience-samples/">UX</a></li>
 			<li><a href="/visual-samples/">Visual</a></li>			
 			<li><a href="/code-samples/">Code</a></li>
 			<li><a href="/contact-nick-cottrell/">Contact</a></li>
 			<li><a href="/about-nick-cottrell">Cred</a></li>
-			<li><a href="/articles/">Articles</a></li>			
-		</ul>
-		<div class="copyright"><p>&copy;2012 Nick Cottrell, All Rights Reserved</p></div>
-	</footer>
+			<li><a href="/articles/">Articles</a></li>		
+			</ul>
+		</div>
+	</div>
+</div>
+
 
 <!--
     /)                  /) 
@@ -240,10 +232,8 @@ _/_(/    _     _ __   _(/
 (__/ )__(/_  _(/_/ (_(_(_  
  
 -->
-</div><!--end #wrapper-->
 
-<script type='text/javascript' src='/js/jquery.js'></script>
-<script type='text/javascript' src='/js/jquery.simplemodal.js'></script>
-<script type='text/javascript' src='/js/basic.js'></script>
+</div></div></div><!--end wrapper-->
+
 </body>
 </html>
