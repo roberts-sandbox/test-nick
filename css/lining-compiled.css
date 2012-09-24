@@ -9,7 +9,7 @@ http://sass-lang.com/
 
 */
 @media screen and (min-width: 770px) {
-  /*container (5-col liquid layout)
+  /*container (1-col liquid container)
   ----------------------------------*/
   .container {
     width: 80%;
@@ -29,7 +29,7 @@ http://sass-lang.com/
   .container .group .skip-1 {
     margin-left: 100%; }
 
-  /*nameofliquid (5-col liquid layout)
+  /*heading (6-col liquid layout)
   ----------------------------------*/
   .heading {
     width: 100%;
@@ -69,47 +69,127 @@ http://sass-lang.com/
   .heading .group .skip-6 {
     margin-left: 100%; }
 
-  /*name (5-col fixed layout)
+  /*content (6-col liquid layout)
   ----------------------------------*/
-  .content {
+  .page-content {
     width: 100%;
     display: block;
     float: left; }
-    .content .group {
+    .page-content .group {
       width: 100%;
       margin: 0 auto; }
-      .content .group .item {
+      .page-content .group .item {
         float: left;
         height: 100%;
         width: 16.667%; }
 
-  .content .group .span-1 {
+  .page-content .group .span-1 {
     width: 16.667%; }
-  .content .group .span-2 {
+  .page-content .group .span-2 {
     width: 33.333%; }
-  .content .group .span-3 {
+  .page-content .group .span-3 {
     width: 50%; }
-  .content .group .span-4 {
+  .page-content .group .span-4 {
     width: 66.667%; }
-  .content .group .span-5 {
+  .page-content .group .span-5 {
     width: 83.333%; }
-  .content .group .span-6 {
+  .page-content .group .span-6 {
     width: 100%; }
 
-  .content .group .skip-1 {
+  .page-content .group .skip-1 {
     margin-left: 16.667%; }
-  .content .group .skip-2 {
+  .page-content .group .skip-2 {
     margin-left: 33.333%; }
-  .content .group .skip-3 {
+  .page-content .group .skip-3 {
     margin-left: 50%; }
-  .content .group .skip-4 {
+  .page-content .group .skip-4 {
     margin-left: 66.667%; }
-  .content .group .skip-5 {
+  .page-content .group .skip-5 {
     margin-left: 83.333%; }
-  .content .group .skip-6 {
+  .page-content .group .skip-6 {
     margin-left: 100%; }
 
-  /*newgroup (3-col fixed layout)
+  /*page-block (6-col liquid layout)
+  ----------------------------------*/
+  .page-block {
+    width: 100%;
+    display: block;
+    float: left; }
+    .page-block .group {
+      width: 100%;
+      margin: 0 auto; }
+      .page-block .group .item {
+        float: left;
+        height: 100%;
+        width: 16.667%; }
+
+  .page-block .group .span-1 {
+    width: 16.667%; }
+  .page-block .group .span-2 {
+    width: 33.333%; }
+  .page-block .group .span-3 {
+    width: 50%; }
+  .page-block .group .span-4 {
+    width: 66.667%; }
+  .page-block .group .span-5 {
+    width: 83.333%; }
+  .page-block .group .span-6 {
+    width: 100%; }
+
+  .page-block .group .skip-1 {
+    margin-left: 16.667%; }
+  .page-block .group .skip-2 {
+    margin-left: 33.333%; }
+  .page-block .group .skip-3 {
+    margin-left: 50%; }
+  .page-block .group .skip-4 {
+    margin-left: 66.667%; }
+  .page-block .group .skip-5 {
+    margin-left: 83.333%; }
+  .page-block .group .skip-6 {
+    margin-left: 100%; }
+
+  /*form-block (6-col liquid layout)
+  ----------------------------------*/
+  .form-block {
+    width: 100%;
+    display: block;
+    float: left; }
+    .form-block .group {
+      width: 100%;
+      margin: 0 auto; }
+      .form-block .group .item {
+        float: left;
+        height: 100%;
+        width: 16.667%; }
+
+  .form-block .group .span-1 {
+    width: 16.667%; }
+  .form-block .group .span-2 {
+    width: 33.333%; }
+  .form-block .group .span-3 {
+    width: 50%; }
+  .form-block .group .span-4 {
+    width: 66.667%; }
+  .form-block .group .span-5 {
+    width: 83.333%; }
+  .form-block .group .span-6 {
+    width: 100%; }
+
+  .form-block .group .skip-1 {
+    margin-left: 16.667%; }
+  .form-block .group .skip-2 {
+    margin-left: 33.333%; }
+  .form-block .group .skip-3 {
+    margin-left: 50%; }
+  .form-block .group .skip-4 {
+    margin-left: 66.667%; }
+  .form-block .group .skip-5 {
+    margin-left: 83.333%; }
+  .form-block .group .skip-6 {
+    margin-left: 100%; }
+
+  /*footing (6-col liquid layout)
   ----------------------------------*/
   .footing {
     width: 100%;

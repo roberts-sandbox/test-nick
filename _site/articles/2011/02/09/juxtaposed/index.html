@@ -2,8 +2,6 @@
 <html>
 <head>
 <meta charset="utf-8" />
-
-
 <!--
  __  __  ____    __       __       _____      
 /\ \/\ \/\  _`\ /\ \     /\ \     /\  __`\    
@@ -26,9 +24,8 @@ _   _  _  // _  ______    _    _/_ ___  ___          _     _/_  _
                                             .-/                   
                                            (_/
 -->
-
 <title>Juxtaposed : Nick Cottrell of San Francisco : Brand Experience Design</title>
-<link rel="shortcut icon" href="/img/favicon.ico">
+<link rel="shortcut icon" href="/img/interface/favicon.ico">
 
 <!--
                     ,      /)   
@@ -44,8 +41,7 @@ ___    _ _/_ _       __   // ___
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-
+<link rel="apple-touch-icon" href="/img/interface/apple-touch-icon.png"/>
 <!--
              ,                    /)               /)   
  _   _  __    __  _/_   _  __   _(/    _  _/_     //  _ 
@@ -53,15 +49,16 @@ ___    _ _/_ _       __   // ___
            .-/                              .-/         
           (_/                              (_/
 -->
-<link href="/css/lining-compiled.css" rel="stylesheet" type="text/css" />
-<link href="/css/NEW-sass.css" rel="stylesheet" type="text/css" />
 <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+<link href="/css/lining-compiled.css" rel="stylesheet" type="text/css" />
+<link href="/css/style-compiled.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="/js/wufoo.js"></script>
-<!--[if lt IE 9]>
-<link type='text/css' href='/css/lt_ie9.css' rel='stylesheet' media='screen' />
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="/js/respond.min.js"></script>
+<![endif]-->
 <!--google analytics-->
 <script type="text/javascript">
 
@@ -78,9 +75,23 @@ ___    _ _/_ _       __   // ___
 </script>
 <!--google analytics-->
 </head>
-
 <body>
-<!--start wrapper--><div class="container"><div class="group"><div class="item">
+
+
+
+
+
+<!--
+
+ _  _/_ _   __ _/_ 
+/_)_(__(_(_/ (_(__ 
+
+
+-->
+<div class="container"><div class="group"><div class="item">
+
+
+
 
 
 <!--
@@ -89,12 +100,17 @@ ___    _ _/_ _       __   // ___
 (/    _  _   _(/  _  __ 
 / )__(/_(_(_(_(__(/_/ (_
 
+
 -->
 <div class="heading">
 	<div class="group">
-		<div class="item span-2"><div id="logo"><a href="/"></a></div></div>
+		<div class="item span-2">
+			<div id="logo">
+				<a href="/"></a>
+			</div>
+		</div><!--.item-->	
 		<div class="item span-4">
-				<nav>
+			<nav>
 				<ul id="nav1">
 			<li><a href="/user-experience-samples/">UX</a></li>
 			<li><a href="/visual-samples/">Visual</a></li>			
@@ -103,27 +119,37 @@ ___    _ _/_ _       __   // ___
 			<li><a href="/about-nick-cottrell">Cred</a></li>
 			<li><a href="/articles/">Articles</a></li>
 				</ul>
-				</nav>	
-		</div>
-	</div>
-</div>		
+			</nav>	
+		</div><!--.item-->
+	</div><!--.group-->
+</div><!--.heading-->	
 
-<!--
-              ,             ,        
-__   _  _ _     _   _  _/_    _____  
-/ (_(_(_(/___(_(_/_(_(_(___(_(_) / (_
-              .-/                    
-             (_/                     
+
+
+
+
+<!--                          
+                          
+ _  _____  _/_  _ __  _/_ 
+(__(_) / (_(___(/_/ (_(__ 
+
+                          
 -->
+<div class="page-content">
+	<div class="group">
+		<div class="item span-6">
 
+<!--                        
+             ,     /)   
+ _   __ _/_    _  //  _ 
+(_(_/ (_(___(_(__(/__(/_
+                        
+                        
+-->
+<article>
+	<h1>Juxtaposed</h1>
+	<p class="post_date">February 09, 2011</p>
 
-	<div class="content">
-		<div class="group">
-			<div class="item span-6">
-
-			<article>
-				<h1>Juxtaposed</h1>
-				<p class="post_date">February 09, 2011</p>
 <h2>Most of the time we find ourselves fighting against the many distractions that steal our attention during the work day. What if you could use distraction as a method to increase creativity and productivity? I tried just that in an experiment to combine multiple projects in one design session.</h2>
 <div class="img_wrap"><img src="/img/articles/juxtopposed-1024x574.png" width="100%" /></div><p><br /></p>
 <p>I recently did an experiment on juxtaposition. It involved working simultaneously on multiple projects. At the time, I was doing UI work on a couple of different projects, while taking photos and writing this. I had my desktop, laptop and iPad set-up. The main project was on the desktop and the minor project on the laptop. Notes and blog, writing took place on the iPad.</p>
@@ -133,11 +159,12 @@ __   _  _ _     _   _  _/_    _____
 <p>Combined efforts turned out to be productive. I made progress on 2 projects, wrote 2 blog articles and felt good about the general direction on all. The process helped me maintain a liquid approach to all the ideas therein. What would have been considered a set of peripheral concepts turned out to help shape and hone, indirectly, informing and reflecting. It might not work for every situation, but sometimes working on items side-by-side, in a controlled environment, with an organized work-flow can help stimulate the creative process for each one and for the session as a whole.</p>
 <p>The seamless UI and integrated systems that exist in today’s workspaces and software allow for an unprecedented workflow to occur. The idea is to set the stage for the creative project. Items must be put in place to establish a good workflow. A person must move efficiently through the space, building, transferring, documenting, sharing. As the level of workflow efficiency increases, systems can operate in the background, allowing for the zen of problem solving. Why waste time figuring out how to transfer a file between machines, or fiddle around with some application update when the flow is at its peak?</p>
 <p>Lessons learned: Don’t waste time thinking about workflow during a creative session. Try to get that part out of the way ahead of time. Front-ending the time and energy to set up a good workflow will allow you to focus more on creativity, switching between projects to clear you mind from one as you approach the other. Sometimes, the only way to find focus is to distract yourself!</p>
-			</article>
-		
-		
-<!--
-                       
+
+
+
+
+
+<!--                       
    /) ,                
  _(/    _   _       _  
 (_(__(_/_)_(_/_(_(_/_)_
@@ -163,69 +190,57 @@ __   _  _ _     _   _  _/_    _____
 			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		
 			<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-		
 
 
+
+
+
+<!--                       
+
+___   _____   _ 
+// (_(_)/ (__(/_
+
+                        
+-->
 			<h3>More Articles</h3>
-			<ul class="posts">
-
-    			<li><a href='/what-is-intro/'>Intro</a></li>
-
-    			<li><a href='/nick-cottrell-skills/'>What I do</a></li>
-
-    			<li><a href='/visual-samples-fullscreen/'>Visual Design Samples - Fullscreen</a></li>
-
-    			<li><a href='/visual-samples/'>Visual Design Samples</a></li>
-
-    			<li><a href='/user-experience-samples/'>UX Samples</a></li>
-
-    			<li><a href='/twitter/'>Redirect Twitter</a></li>
-
-    			<li><a href='/music/'>Redirect Music</a></li>
-
-    			<li><a href='/linkedin/'>Redirect Linkedin</a></li>
-
-    			<li><a href='/facebook/'>Redirect Facebook</a></li>
-
-    			<li><a href='/charity/'>Redirect Charity</a></li>
-
-    			<li><a href='/book/'>Redirect Book</a></li>
-
-    			<li><a href='/blog/'>Redirect Blog</a></li>
-
-    			<li><a href='//'>Visual Design Samples</a></li>
-
-    			<li><a href='/contact-nick-cottrell/'>Let's Connect</a></li>
-
-    			<li><a href='/code-samples/'>Code Samples</a></li>
-
-    			<li><a href='/about-nick-cottrell/'>Why Read?</a></li>
-
-    			<li><a href='/articles/2012/03/19/save-the-small-talk-for-cloud'>Save the small talk for cloud</a></li>
-
+			<ul>
+ 
+        
+    			<li><a href='/articles/2012/03/19/save-it-for-the-cloud'>Save the small talk for cloud</a></li>
+         
     			<li><a href='/articles/2011/09/12/snap-a-rich-responsive-and-modern-web-template'>Snap! Rich, responsive, modern</a></li>
-
+         
     			<li><a href='/articles/2011/07/11/less-is-more'>Less is More</a></li>
-
+         
     			<li><a href='/articles/2011/06/27/utorrent-3-0-gets-a-new-ui'>µTorrent gets a makeover</a></li>
-
+         
     			<li><a href='/articles/2011/03/29/naked-social-media'>Naked Social Media</a></li>
-
+         
     			<li><a href='/articles/2011/02/19/ui-project'>Multi-Device UI</a></li>
-
+         
     			<li><a href='/articles/2011/02/09/the-genius-of-lo-fi'>The Genius of Lo-fi</a></li>
-
+         
     			<li><a href='/articles/2011/02/09/juxtaposed'>Juxtaposed</a></li>
-
+         
     			<li><a href='/articles/2010/11/13/time-and-space'>Time &amp; Space</a></li>
-
+         
+ 
     		</ul>
+</article>
 
+
+
+                
+
+             
 
 			
-			</div>
-		</div>
-	</div><!--end #content-->
+		</div><!--.item-->
+	</div><!--.group-->
+</div><!--.content-->
+
+
+
 
 
 <!--
@@ -234,17 +249,12 @@ __   _  _ _     _   _  _/_    _____
   /(_(_)(_) (___(/_/ (_
  /)                    
 (/                     
- 
 -->
-
-
-
 <div class="footing">
 	<div class="group">
-
 		<div class="item span-2">
 			<p class="copyright">&copy;2012 Nick Cottrell, All Rights Reserved</p>
-		</div>
+		</div><!--.item-->
 		
 		<div class="item span-4">
 			<ul id="nav2">
@@ -255,9 +265,12 @@ __   _  _ _     _   _  _/_    _____
 			<li><a href="/about-nick-cottrell">Cred</a></li>
 			<li><a href="/articles/">Articles</a></li>		
 			</ul>
-		</div>
-	</div>
-</div>
+		</div><!--.item-->
+	</div><!--.group-->
+</div><!--.footing-->
+
+
+
 
 
 <!--
@@ -266,7 +279,6 @@ _/_(/    _     _ __   _(/
 (__/ )__(/_  _(/_/ (_(_(_  
  
 -->
-
 </div></div></div><!--end wrapper-->
 
 </body>

@@ -43,6 +43,7 @@ http://sass-lang.com/
 			}
 		}	
 	}
+
 	
 
 @mixin lining-liquid($col_num, $width, $name) {	
@@ -81,17 +82,23 @@ http://sass-lang.com/
 	}	
 
 @media screen and (min-width: 770px) {
-/*container (5-col liquid layout)
+/*container (1-col liquid container)
 ----------------------------------*/
 @include lining-liquid(1, 80%, container);
 
-/*nameofliquid (5-col liquid layout)
+/*heading (6-col liquid layout)
 ----------------------------------*/
 @include lining-liquid(6, 100%, heading);
-/*name (5-col fixed layout)
+/*content (6-col liquid layout)
 ----------------------------------*/
-@include lining-liquid(6, 100%, content);
-/*newgroup (3-col fixed layout)
+@include lining-liquid(6, 100%, page-content);
+/*page-block (6-col liquid layout)
+----------------------------------*/
+@include lining-liquid(6, 100%, page-block);
+/*form-block (6-col liquid layout)
+----------------------------------*/
+@include lining-liquid(6, 100%, form-block);
+/*footing (6-col liquid layout)
 ----------------------------------*/
 @include lining-liquid(6, 100%, footing);
 } /*end of 770px*/
