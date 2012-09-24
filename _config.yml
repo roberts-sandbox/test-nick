@@ -1,5 +1,0 @@
-server: true
-permalink: articles/:year/:month/:day/:title/
-auto: true
-server_port: 4000
-baseurl: /
