@@ -1,0 +1,24 @@
+---
+  layout: post
+  title: Juxtaposed
+  permalink: articles/2011/02/09/juxtaposed
+  categories: [articles]
+---
+
+<h2>Most of the time we find ourselves fighting against the many distractions that steal our attention during the work day. What if you could use distraction as a method to increase creativity and productivity? I tried just that in an experiment to combine multiple projects in one design session.</h2>
+
+<div class="img_wrap"><img src="/img/articles/juxtopposed-1024x574.png" width="100%" /></div><br />
+
+I recently did an experiment on juxtaposition. It involved working simultaneously on multiple projects. At the time, I was doing UI work on a couple of different projects, while taking photos and writing this. I had my desktop, laptop and iPad set-up. The main project was on the desktop and the minor project on the laptop. Notes and blog, writing took place on the iPad.
+
+The session went interestingly. The process allowed me to develop very specific items for one project while focusing more strategically on the other. Switching between the 2 allowed me to shift gears, in an efficient manner, so thought was devoted appropriately to each. (I remember seeing Art Chantry speak on the subject of ‘distraction as a method’ in which he claimed to work with the TV on as a way to keep his himself from focusing too much on a single task at hand.) It’s a double rev of sorts.
+
+Setting up an efficient workspace/workflow ahead of time is key for the rest to take place. The key is to take a look at the projects you are working on and to think about the moving parts ahead of time. What directories will I be accessing? What is the file naming system I intend to use? Am I going to need to transfer files between machines? Which device should I use to access the internet? Where am I taking notes? Which project will require my creative expansive thinking? Which project will require my precision and technical skills? Will I be tweeting ideas as I’m working? Establishing some ground rules ahead of time is important.
+
+For example, during the session, I made some tactical progress in the strategic process, by learning about and generating a custom jquery theme to start implementing on a website while I worked on a layered photoshop file for some polished UI elements. I also wrote the ‘lo-fi’ article on this blog while listening to some music.
+
+Combined efforts turned out to be productive. I made progress on 2 projects, wrote 2 blog articles and felt good about the general direction on all. The process helped me maintain a liquid approach to all the ideas therein. What would have been considered a set of peripheral concepts turned out to help shape and hone, indirectly, informing and reflecting. It might not work for every situation, but sometimes working on items side-by-side, in a controlled environment, with an organized work-flow can help stimulate the creative process for each one and for the session as a whole.
+
+The seamless UI and integrated systems that exist in today’s workspaces and software allow for an unprecedented workflow to occur. The idea is to set the stage for the creative project. Items must be put in place to establish a good workflow. A person must move efficiently through the space, building, transferring, documenting, sharing. As the level of workflow efficiency increases, systems can operate in the background, allowing for the zen of problem solving. Why waste time figuring out how to transfer a file between machines, or fiddle around with some application update when the flow is at its peak?
+
+Lessons learned: Don’t waste time thinking about workflow during a creative session. Try to get that part out of the way ahead of time. Front-ending the time and energy to set up a good workflow will allow you to focus more on creativity, switching between projects to clear you mind from one as you approach the other. Sometimes, the only way to find focus is to distract yourself!

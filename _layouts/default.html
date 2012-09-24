@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+{% include hello.html %}
+{% include meta.html %}
+{% include links.html %}
+{% include google.html %}
+</head>
+<body>
+
+
+
+
+
+<!--
+
+ _  _/_ _   __ _/_ 
+/_)_(__(_(_/ (_(__ 
+
+
+-->
+<div class="container"><div class="group"><div class="item">
+
+
+
+
+
+<!--
+
+ /)            /)       
+(/    _  _   _(/  _  __ 
+/ )__(/_(_(_(_(__(/_/ (_
+
+
+-->
+<div class="heading">
+	<div class="group">
+		<div class="item span-2">
+			<div id="logo">
+				<a href="/"></a>
+			</div>
+		</div><!--.item-->	
+		<div class="item span-4">
+			<nav>
+				<ul id="nav1">
+{% include nav1.html %}
+				</ul>
+			</nav>	
+		</div><!--.item-->
+	</div><!--.group-->
+</div><!--.heading-->	
+
+
+
+
+
+<!--                          
+                          
+ _  _____  _/_  _ __  _/_ 
+(__(_) / (_(___(/_/ (_(__ 
+
+                          
+-->
+<div class="page-content">
+	<div class="group">
+		<div class="item span-6">
+
+{{ content }}
+			
+		</div><!--.item-->
+	</div><!--.group-->
+</div><!--.content-->
+
+
+
+
+
+<!--
+    /)                 
+   // _______/_  _  __ 
+  /(_(_)(_) (___(/_/ (_
+ /)                    
+(/                     
+-->
+<div class="footing">
+	<div class="group">
+		<div class="item span-2">
+			<p class="copyright">&copy;2012 Nick Cottrell, All Rights Reserved</p>
+		</div><!--.item-->
+		
+		<div class="item span-4">
+			<ul id="nav2">
+{% include nav1.html %}		
+			</ul>
+		</div><!--.item-->
+	</div><!--.group-->
+</div><!--.footing-->
+
+
+
+
+
+<!--
+    /)                  /) 
+_/_(/    _     _ __   _(/  
+(__/ )__(/_  _(/_/ (_(_(_  
+ 
+-->
+</div></div></div><!--end wrapper-->
+
+</body>
+</html>
