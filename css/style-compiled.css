@@ -513,9 +513,18 @@ select {
 
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
+  #nav1 a:link {
+    font-size: 16px !important; }
+
+  #nav2 a:link {
+    font-size: 16px !important; }
+
   nav ul {
     padding: 36px 0 36px 100px; }
 
   form input[type="submit"] {
-    margin-top: 42px; } }
+    margin-top: 42px; }
+
+  .copyright {
+    font-size: 16px; } }
 /*end 770px*/
