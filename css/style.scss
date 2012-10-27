@@ -157,6 +157,11 @@ article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12
 	@include rounded (4px);
 	@include shadow (0px 0 6px, #ccc);
 	}
+.img_wrap img {margin: 0; padding:0;
+	@include rounded (4px);
+	@include shadow (0px 0 6px, #ccc);
+	}
+.page-bottom {border-top:1px solid #ccc; margin-top:56px; padding-top:35px;}
 
 
 

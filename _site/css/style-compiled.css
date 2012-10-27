@@ -368,6 +368,22 @@ article li {
   -moz-box-shadow: 0px 0 6px #cccccc;
   box-shadow: 0px 0 6px #cccccc; }
 
+.img_wrap img {
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0 6px #cccccc;
+  -moz-box-shadow: 0px 0 6px #cccccc;
+  box-shadow: 0px 0 6px #cccccc; }
+
+.page-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 56px;
+  padding-top: 35px; }
+
 /*contact form*/
 #form1 {
   margin-bottom: 36px; }
