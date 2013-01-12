@@ -1,0 +1,39 @@
+---
+  layout: post
+  title: Intra-Source
+  permalink: articles/2013/01/12/intra-source
+  categories: [articles]
+---
+
+<h2>"Open source" is great. But what if you're in a situation where you aren't able to share your ideas publicly? There are still many lessons we can learn from the projects that are free to the world, even if your project isn't.</h2>
+
+<div class="img_wrap"><img src="/img/articles/layered_intra-source-1024x574.png" width="100%" /></div>
+
+<h3>"Intra-source" your project</h3>
+
+"Open source" is great. Why? Because approaching problems with openness and freedom is a great way to foster creativity and collaboration. That's why. Open source projects teach us valuable lessons about how to arrange projects, how to communicate with others, how to access resources.
+
+But what happens if you can't open your project up to the greater community? That's fine. Sometimes projects can't be open to the public. There might be legal or organizational reasons, technical limitations, etc. Most companies that are working on proprietary projects (you mean, like, <em>all</em> companies?) can't open their project to the world. But they can still abide by the rules of open source.
+
+
+<h3>Documentation</h3>
+
+One of the most important tools for collaboration is simple communication. You could have the best tools, the best approach and the best ideas. But if you don't tell anyone about it, you're probably going to have a hard time getting anyone to help you with your idea.
+
+Documentation is everything. It sets the baseline of how a project is run and reflects the clarity of thought and approach. Written instructions that can help an outside stakeholder or new team member understand the pieces and parts of a project increase efficiency and productivity.
+
+However, despite this obvious fact, in an in-house scenario, it's rare to actually come across decent documentation. People either don't have the time, think it's unnecessary or might even deliberately guard certain info to ensure that their domain knowledge and expertise remain valuable. If only people would realize that the value of communicating a task effectively outweighs the value of performing the task alone. 
+
+
+<h3>Accessibility</h3>
+
+The next most important thing is to to provide access to the pieces and parts of the project. This means making things like source code, required pieces of software, components and assets available. Keeping resources in a central location allows members to streamline the workflow and stay on the same page. Tools such as GitHub or Basecamp help to provide frameworks for this kind of collaboration, but any tool that maintains a single source for project resources should do the trick.
+
+
+<h3>Ownership?</h3>
+Once a project is documented and accessible, the final aspect to an open-source-inspired project is (ironically) ownership. This doesn't refer to the type of ownership that involves excluding people from sharing or copying something. It refers to the initiative required to tend to the garden a person has just planted. A project that isn't maintained loses context and becomes less relevant. It can become incompatible with the pieces and parts that hook into it. When an individual is trusted to maintain a project, it is important that they feel a sense of ownership so they can commit themselves to the growth of the project. If done successfully, this will transcend to the greater community or organization because the contributor will have what they need as well as information and context about how things fit into the bigger picture.
+
+
+
+
+
