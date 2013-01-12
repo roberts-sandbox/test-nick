@@ -3,7 +3,6 @@ permalink: /
 auto: true
 server_port: 4000
 baseurl: /
-plugins:./_plugins/
 asset_bundler:
   compress:
     js: true
