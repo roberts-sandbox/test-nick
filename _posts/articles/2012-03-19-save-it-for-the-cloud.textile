@@ -6,7 +6,7 @@
 ---
 
 <h2>Now more than ever, devices are allowing people to link up in new ways. The common perception is that we are a disconnected generation, yet new technology is enabling us to keep up and stay connected with more people than ever before.</h2>
-<div class="img_wrap"><img src="/img/articles/smalltalk-1024x574.png" width="100%" /></div><br />
+<div class="img_wrap"><img src="/img/articles/smalltalk-1024x574.jpg" width="100%" /></div><br />
 
 The Interactive portion of South-By-Southwest (SXSW) has helped bring to light the notion that we're creating a "disconnectedly connected" society. But if you have a conversation with the folks who are innovating new ways to communicate, you'll understand that there exists a scheme to eventually connect us all, effortlessly and endlessly, to everything and anything (i.e. the "Mind Meld"). And we're actually further along than you might think.
 

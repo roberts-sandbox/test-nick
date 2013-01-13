@@ -7,7 +7,7 @@
 
 <h2>A brand is not a logo, a visual style guide, a color palette, or a set of icons. A brand is a nebulous cloud that exists in time and space. It’s the set of feelings or impressions people have about an entity and its products or services. Therefore, it touches on everything that each department of that entity brings to the table.</h2>
 
-<div class="img_wrap"><img src="/img/articles/brandspace-1024x574.png" width="100%" /></div><br />
+<div class="img_wrap"><img src="/img/articles/brandspace-1024x574.jpg" width="100%" /></div><br />
 
 In a product company, an effective brand execution strategy involves the coordinated effort of the product, user-experience, engineering and marketing teams. With a non-linear relationship, the combined effort of these departments touches on each aspect of the user-experience. The overarching goal is to establish a brandspace that contains consistent visual and verbal content, providing the experiencee with usable products and useful information at appropriate times.
 

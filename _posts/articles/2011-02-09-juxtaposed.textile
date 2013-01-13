@@ -7,7 +7,7 @@
 
 <h2>Most of the time we find ourselves fighting against the many distractions that steal our attention during the work day. What if you could use distraction as a method to increase creativity and productivity? I tried just that in an experiment to combine multiple projects in one design session.</h2>
 
-<div class="img_wrap"><img src="/img/articles/juxtopposed-1024x574.png" width="100%" /></div><br />
+<div class="img_wrap"><img src="/img/articles/juxtopposed-1024x574.jpg" width="100%" /></div><br />
 
 I recently did an experiment on juxtaposition. It involved working simultaneously on multiple projects. At the time, I was doing UI work on a couple of different projects, while taking photos and writing this. I had my desktop, laptop and iPad set-up. The main project was on the desktop and the minor project on the laptop. Notes and blog, writing took place on the iPad.
 

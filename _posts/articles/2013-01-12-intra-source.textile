@@ -7,7 +7,7 @@
 
 <h2>"Open source" is great. But what if you're in a situation where you aren't able to share your ideas publicly? There are still many lessons we can learn from the projects that are free to the world, even if your project isn't.</h2>
 
-<div class="img_wrap"><img src="/img/articles/layered_intra-source-1024x574.png" width="100%" /></div>
+<div class="img_wrap"><img src="/img/articles/layered_intra-source-1024x574.jpg" width="100%" /></div>
 
 <h3>"Intra-source" your project</h3>
 
