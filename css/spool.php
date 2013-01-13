@@ -1,5 +1,5 @@
 <?
-$targetdir = "min/"; //this is hardcoded for now
+$targetdir = "spooled/"; //this is hardcoded for now
 
 echo "What file do you want to minify:\n";
 
