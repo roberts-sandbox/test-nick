@@ -112,10 +112,10 @@ p {
 
 a:link {
   text-decoration: none;
-  color: #ccc !important; }
+  color: #999 !important; }
 
 a:visited {
-  color: #ccc !important; }
+  color: #999 !important; }
 
 a:hover {
   color: #000 !important; }
@@ -159,6 +159,7 @@ a:link.cta {
   border-radius: 8px; }
 
 a:visited.cta {
+  background-color: #999;
   color: #fff !important;
   border: 1px solid #666 !important;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999999), to(#666666));
@@ -168,6 +169,7 @@ a:visited.cta {
   background-image: -o-linear-gradient(top, #999999, #666666); }
 
 a:hover.cta {
+  background-color: #999;
   color: #fff !important;
   border: 1px solid #666 !important;
   -webkit-box-shadow: 0 0 32px #999999;
@@ -178,6 +180,7 @@ a:hover.cta {
   -o-transition: all 0.2s ease-in-out; }
 
 a:active.cta {
+  background-color: #999;
   color: #fff !important;
   border: 1px solid #666 !important;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#999999));
@@ -185,6 +188,48 @@ a:active.cta {
   background-image: -moz-linear-gradient(top, #666666, #999999);
   background-image: -ms-linear-gradient(top, #666666, #999999);
   background-image: -o-linear-gradient(top, #666666, #999999); }
+
+a:link.cta2 {
+  display: block;
+  float: none;
+  z-index: 99999;
+  height: 28px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 8px;
+  text-decoration: none;
+  background-color: #999;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff !important;
+  border: 1px solid #666 !important;
+  text-align: center;
+  -webkit-appearance: none;
+  text-decoration: none;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 1px 4px #999999;
+  -moz-box-shadow: 0 1px 4px #999999;
+  box-shadow: 0 1px 4px #999999;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px; }
+
+a:visited.cta2 {
+  color: #fff !important;
+  border: 1px solid #666 !important;
+  background-color: #666; }
+
+a:hover.cta2 {
+  color: #fff !important;
+  border: 1px solid #666 !important;
+  background-color: #666 !important; }
+
+a:active.cta2 {
+  color: #fff !important;
+  border: 1px solid #666 !important;
+  background-color: #666 !important; }
 
 /*navigation*/
 ul {
@@ -272,6 +317,26 @@ nav ul {
 #nav2 a:active {
   color: #000 !important; }
 
+.flag {
+  position: fixed;
+  right: 7%;
+  top: -120px !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+a.twitter:link {
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block;
+  width: 81px;
+  height: 116px;
+  background-image: url("/img/interface/twitter.png");
+  background-position: 0 0px; }
+
+a.twitter:hover {
+  background-position: 81px 0px; }
+
 /*elements*/
 #logo {
   display: block;
@@ -335,6 +400,32 @@ article li {
   font-family: helvetica, arial, sans-serif;
   color: #666; }
 
+.morelinks {
+  max-width: 1024px;
+  padding: 0;
+  margin: 0; }
+
+.morelinks ul {
+  line-height: 24px;
+  margin: 0;
+  padding: 24px 18px 18px 0;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 0 0 8px #999999;
+  -moz-box-shadow: 0 0 8px #999999;
+  box-shadow: 0 0 8px #999999;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px; }
+
+.morelinks li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 12px 24px;
+  font-family: helvetica, arial, sans-serif;
+  color: #666; }
+
 .post_date {
   font-family: helvetica, arial, sans-serif;
   font-size: 12px;
@@ -388,6 +479,9 @@ article li {
   font-size: 12px;
   margin: -24px 0 20px 20px;
   color: #999; }
+
+.nav-icon {
+  color: #ccc !important; }
 
 /*contact form*/
 #form1 {
@@ -547,5 +641,16 @@ select {
     margin-top: 42px; }
 
   .copyright {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .flag {
+    position: fixed;
+    right: 7%;
+    top: 0px !important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out; }
+
+  .follow-me-mobile {
+    display: none; } }
 /*end 770px*/

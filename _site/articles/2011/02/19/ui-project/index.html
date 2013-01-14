@@ -50,10 +50,9 @@ ___    _ _/_ _       __   // ___
           (_/                              (_/
 -->
 
-<!--minified-->
-<link href="/css/spooled/normalize-min.css" rel="stylesheet" type="text/css" />
-<link href="/css/spooled/lining-compiled-min.css" rel="stylesheet" type="text/css" />
-<link href="/css/spooled/style-compiled-min.css" rel="stylesheet" type="text/css" />
+<link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+<link href="/css/lining-compiled.css" rel="stylesheet" type="text/css" />
+<link href="/css/style-compiled.css" rel="stylesheet" type="text/css" />
 <script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="/js/wufoo.js"></script>
 
@@ -91,6 +90,8 @@ ___    _ _/_ _       __   // ___
 
 
 -->
+<div class="flag"><a href="http://twitter.com/istitch" target="_blank" class="twitter">@istitch</a></div>
+
 <div class="container"><div class="group"><div class="item">
 
 
@@ -119,7 +120,7 @@ ___    _ _/_ _       __   // ___
 			<li><a href="/user-experience-samples/">UX</a></li>
 			<li><a href="/code-samples/">Code</a></li>
 			<li><a href="/articles/">Ideas</a></li>
-			<li><a href="/contact-nick-cottrell/">&#10145; Connect</a></li>
+			<li><a href="/contact-nick-cottrell/"><span class="nav-icon">&#10145;</span> Connect</a></li>
 			
 				</ul>
 			</nav>	
@@ -158,6 +159,7 @@ ___    _ _/_ _       __   // ___
 <p>First step is to design it. Some of the behaviors are fantasies that I’m not quite sure how to build a la the ‘pullstretch’ menu. The idea is that it works like a window shade. The user pulls down on it to a certain point where it sticks and stays down. To return it back to it’s collapsed state, the user pulls on it further, which causes it to release and snap back into it’s original place. The function will work as a drag and drop feature on a desktop terminal and as a tap and slide feature on a touchscreen.</p>
 <p>Perhaps I will eventually use an existing <span class="caps">MVC</span> and add a modular set of UI elements that can act as a sort of widget system. I’d like it to be customizable with straight forward code that doesn’t get too complicated like many of these Javascript frameworks that are coming out every week. The goal will be for it to be simple enough for me to produce, while flexible enough for it to apply to many different projects.</p>
 
+</article>
 
 
 
@@ -191,8 +193,6 @@ ___    _ _/_ _       __   // ___
 
 
 
-
-
 <!--                       
 
 ___   _____   _ 
@@ -200,11 +200,17 @@ ___   _____   _
 
                         
 -->
+
+<div class="page-block">
+	<div class="group">
+		<div class="item span-6 morelinks">
 			<h3>More Articles</h3>
 			<ul>
  
         
     			<li><a href='/articles/2013/01/12/intra-source'>Intra-Source</a></li>
+         
+    			<li><a href='/articles/2012/08/29/what-is-istitch'>What is istitch?</a></li>
          
     			<li><a href='/articles/2012/03/19/save-it-for-the-cloud'>Save the small talk for cloud</a></li>
          
@@ -224,7 +230,20 @@ ___   _____   _
          
  
     		</ul>
-</article>
+		</div><!--.item-->
+	</div><!--.group-->	
+</div><!--.page-block-->
+
+
+
+
+<div class="page-block follow-me-mobile">
+	<div class="group">
+		<div class="item skip-4 span-2">
+			<a class="cta2" href="http://twitter.com/istitch">Follow Me (@istitch)</a>
+		</div><!--.item-->
+	</div><!--.group-->	
+</div><!--.page-block-->
 
 
 
@@ -236,7 +255,6 @@ ___   _____   _
 		</div><!--.item-->
 	</div><!--.group-->
 </div><!--.content-->
-
 
 
 
@@ -260,7 +278,7 @@ ___   _____   _
 			<li><a href="/user-experience-samples/">UX</a></li>
 			<li><a href="/code-samples/">Code</a></li>
 			<li><a href="/articles/">Ideas</a></li>
-			<li><a href="/contact-nick-cottrell/">&#10145; Connect</a></li>
+			<li><a href="/contact-nick-cottrell/"><span class="nav-icon">&#10145;</span> Connect</a></li>
 					
 			</ul>
 		</div><!--.item-->
@@ -278,6 +296,7 @@ _/_(/    _     _ __   _(/
  
 -->
 </div></div></div><!--end wrapper-->
+
 
 </body>
 </html>

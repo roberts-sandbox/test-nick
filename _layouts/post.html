@@ -19,6 +19,7 @@ layout: default
 
 {{ content }}
 
+</article>
 
 
 
@@ -52,8 +53,6 @@ layout: default
 
 
 
-
-
 <!--                       
 
 ___   _____   _ 
@@ -61,6 +60,10 @@ ___   _____   _
 
                         
 -->
+
+<div class="page-block">
+	<div class="group">
+		<div class="item span-6 morelinks">
 			<h3>More Articles</h3>
 			<ul>
 {% for category in site.categories %} 
@@ -69,7 +72,20 @@ ___   _____   _
         {% endfor %} 
 {% endfor %} 
     		</ul>
-</article>
+		</div><!--.item-->
+	</div><!--.group-->	
+</div><!--.page-block-->
+
+
+
+
+<div class="page-block follow-me-mobile">
+	<div class="group">
+		<div class="item skip-4 span-2">
+			<a class="cta2" href="http://twitter.com/istitch">Follow Me (@istitch)</a>
+		</div><!--.item-->
+	</div><!--.group-->	
+</div><!--.page-block-->
 
 
 

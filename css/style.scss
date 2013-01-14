@@ -70,8 +70,8 @@ p {font-family:"Georgia", times, serif;	line-height:30px;color:#666; margin:0 0 
 .caption-img {text-align:center; margin-top:8px; margin-bottom:0;}
 .copyright {padding:20px 0 0 0; text-align:center;font-family:"Helvetica", arial, sans-serif;font-size:18px;color: #ccc;text-shadow: 0px -1px #666;}
 
-a:link {text-decoration:none; color:#ccc !important;}
-a:visited {color:#ccc !important;}
+a:link {text-decoration:none; color:#999 !important;}
+a:visited {color:#999 !important;}
 a:hover {color:#000 !important;}
 a:active {color:#000 !important;}
 
@@ -81,18 +81,23 @@ a:link.cta {display:block;float:none;z-index:99999;height:38px;width:100%;margin
 	@include shadow (0 1px 4px, #999);
 	@include rounded (8px);
 	}
-a:visited.cta {color:#fff !important;	border:1px solid #666 !important;
+a:visited.cta {background-color:#999; color:#fff !important;	border:1px solid #666 !important;
 	@include gradient-top (#999, #666);
 	}
-a:hover.cta {color:#fff !important;border:1px solid #666 !important;
+a:hover.cta {background-color:#999; color:#fff !important;border:1px solid #666 !important;
 	@include shadow (0 0 32px, #999);
 	@include easing (.2s);	
 	}
-a:active.cta {color:#fff !important;border:1px solid #666 !important;
+a:active.cta {background-color:#999; color:#fff !important;border:1px solid #666 !important;
 	@include gradient-top (#666, #999);
 	}
-
-
+a:link.cta2 {display:block;float:none;z-index:99999;height:28px;width:100%;margin:0 auto;padding-top:8px;text-decoration:none;background-color:#999;font-family:helvetica, arial, sans-serif;font-size:18px;font-weight:normal;color:#fff !important;border:1px solid #666 !important; text-align:center;-webkit-appearance:none;text-decoration:none; margin-top:20px;
+	@include shadow (0 1px 4px, #999);
+	@include rounded (8px);
+	}
+a:visited.cta2 {color:#fff !important;	border:1px solid #666 !important;background-color:#666;}
+a:hover.cta2 {color:#fff !important;border:1px solid #666 !important; background-color:#666 !important;}
+a:active.cta2 {color:#fff !important;border:1px solid #666 !important; background-color:#666 !important;}
 
 
 
@@ -124,7 +129,13 @@ nav ul {text-align:center;height:56px;padding:36px 0 36px 0; margin:0;
 	@include easing (.2s);
 	}
 #nav2 a:active {color:#000 !important;}
-
+.flag {position:fixed; right:7%; top:-120px !important;
+	@include easing (.2s);	
+	}
+a.twitter:link {text-indent:-9999px;overflow:hidden; display:block; width:81px; height:116px; background-image:url("/img/interface/twitter.png"); background-position:0 0px;}
+a.twitter:visited {}
+a.twitter:hover {background-position:81px 0px;}
+a.twitter:active {}
 
 
 
@@ -149,6 +160,13 @@ article ul {line-height:24px; margin:0 0 24px 0; padding:24px 18px 18px 0; backg
 	@include rounded(8px);	
 	}
 article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12px 24px; font-family:helvetica, arial, sans-serif;color: #666;}		
+
+.morelinks {max-width: 1024px; padding:0; margin:0;}
+.morelinks ul {line-height:24px; margin:0; padding:24px 18px 18px 0; background-color:#eeeeee;
+	@include shadow (0 0 8px, #999);
+	@include rounded(8px);	
+	}
+.morelinks li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12px 24px; font-family:helvetica, arial, sans-serif;color: #666;}		
 .post_date {font-family:helvetica, arial, sans-serif;font-size:12px;color:#a2a3a6;height:22px;width:200px;background-image:url('/img/interface/time.jpg');background-position:0 6px;background-repeat:no-repeat;padding:0 0 0 22px;}
 .img_wrap {max-width: 1024px;background-color:#eee;display:block;padding:16px;margin: 0 4px 24px 4px;
 	@include rounded (4px);
@@ -163,7 +181,7 @@ article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12
 	}
 .page-bottom {border-top:1px solid #ccc; margin-top:56px; padding-top:35px;}
 .sm_caption {font-size:12px; margin:-24px 0 20px 20px; color:#999;}
-
+.nav-icon {color:#ccc !important;}
 
 
 
@@ -209,8 +227,6 @@ select{-moz-appearance:none;-webkit-appearance:none;padding-left:18px;border:1px
 	}
 
 
-
-
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
 	#nav1 a:link {font-size:16px !important;}
@@ -218,5 +234,8 @@ select{-moz-appearance:none;-webkit-appearance:none;padding-left:18px;border:1px
 	nav ul {padding:36px 0 36px 100px;}
 	form input[type="submit"]{margin-top:42px;}
 	.copyright {font-size:14px;}
+	.flag {position:fixed; right:7%; top:0px !important;@include easing (.4s);}
+	.follow-me-mobile {display:none;}
+
 }/*end 770px*/
 
