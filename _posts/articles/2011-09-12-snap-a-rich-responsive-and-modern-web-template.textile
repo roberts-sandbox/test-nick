@@ -10,7 +10,7 @@
 <div class="img_wrap"><img src="/img/articles/snap-1024x574.jpg" width="100%" /></div><br />
 
 
-<em>The <a href="https://github.com/nickcottrell/Snap">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em>
+<em>The <a href="http://istitch.net/snap/">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em>
 
 Good design is supposed to be flexible. You can’t force-fit a single design into a variety of formats. For too long, web design has been an extension of print design, hence antiquated terms we use every day such as ‘web page.’ At this point, the web is ready for a better design. Something that snaps into place depending on its context.
 
