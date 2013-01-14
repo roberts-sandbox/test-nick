@@ -10,12 +10,10 @@
 <div class="img_wrap"><img src="/img/articles/snap-1024x574.jpg" width="100%" /></div><br />
 
 
-<em>The <a href="http://nickcottrell.github.com/lab/templates/snap/">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em>
+<em>The <a href="https://github.com/nickcottrell/Snap">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em>
 
 Good design is supposed to be flexible. You can’t force-fit a single design into a variety of formats. For too long, web design has been an extension of print design, hence antiquated terms we use every day such as ‘web page.’ At this point, the web is ready for a better design. Something that snaps into place depending on its context.
 
 Until now, many designs started off with constrained proportions… with a designer laying out a page, as though it was going to be printed and cut to a particular size. For the web, that’s the wrong approach. Designs should be gooey forms that melt into whichever format they are viewed. They should be thought of as a moldable cluster of information, with variables and tolerances built to mesh with different formats and devices.
 
-This layout is an example of such a form. <a href="http://nickcottrell.github.com/lab/templates/snap/">Snap!</a> is a template, designed to demonstrate how layouts can transform depending on the format, size and device type. Hopefully you can imagine how this type of layout can work its way into many different applications. Please take look. Re-size it. Stretch it. View the source. Kick the tires…
-
-View the source for the project <a href="https://github.com/nickcottrell/nickcottrell.github.com/tree/master/lab/templates/snap">here</a>. View the demo <a href="http://nickcottrell.github.com/lab/templates/snap/">here</a>.
+This layout is an example of such a form. <a href="https://github.com/nickcottrell/Snap">Snap!</a> is a template, designed to demonstrate how layouts can transform depending on the format, size and device type. Hopefully you can imagine how this type of layout can work its way into many different applications. Please take look.
