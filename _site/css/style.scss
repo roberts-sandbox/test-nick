@@ -38,7 +38,9 @@
 /*page structure*/
 body {background-image:url('/img/interface/bg.jpg')}
 
-.container {box-shadow: 0 0 24px #999; padding:0;margin:0}
+.container {padding:0;margin:0;
+	@include shadow (0 0 6px, #999);
+}
 
 .heading {background-color:#fff; min-height:170px; margin:0; padding:0; }
 .heading .group {width:80%; padding:0 10% 0 10%;}
@@ -67,8 +69,8 @@ ul {line-height:32px;}
 li {font-family:helvetica, arial, sans-serif;color: #666;}		
 p {font-family:"Georgia", times, serif;	line-height:30px;color:#666; margin:0 0 10px 0; padding:0}
 
-.caption-img {text-align:center; margin-top:8px; margin-bottom:0;}
-.copyright {padding:20px 0 0 0; text-align:center;font-family:"Helvetica", arial, sans-serif;font-size:18px;color: #ccc;text-shadow: 0px -1px #666;}
+.caption {text-align:center; margin-top:0; margin-bottom:20px;}
+.copyright {padding:10px 0 0 0 !important; line-height:50px; text-align:center;font-family:"Helvetica", arial, sans-serif;font-size:14px;color: #ccc;}
 
 a:link {text-decoration:none; color:#999 !important;}
 a:visited {color:#999 !important;}
@@ -78,22 +80,22 @@ a:active {color:#000 !important;}
 a:link.cta {display:block;float:none;z-index:99999;height:38px;width:100%;margin:0 auto;padding-top:14px;text-decoration:none;background-color:#999;font-family:helvetica, arial, sans-serif;font-size:18px;font-weight:bold;color:#fff !important;border:1px solid #666 !important;text-shadow: 0px -1px #333;text-align:center;-webkit-appearance:none;text-decoration:none;
 	@include easing (.5s);	
 	@include gradient-top (#999, #666);
-	@include shadow (0 1px 4px, #999);
-	@include rounded (8px);
+	@include shadow (0 1px 2px, #999);
+	@include rounded (4px);
 	}
 a:visited.cta {background-color:#999; color:#fff !important;	border:1px solid #666 !important;
 	@include gradient-top (#999, #666);
 	}
 a:hover.cta {background-color:#999; color:#fff !important;border:1px solid #666 !important;
-	@include shadow (0 0 32px, #999);
+	@include shadow (0 0 12px, #666);
 	@include easing (.2s);	
 	}
 a:active.cta {background-color:#999; color:#fff !important;border:1px solid #666 !important;
-	@include gradient-top (#666, #999);
+	@include gradient-top (#666, #666);
 	}
 a:link.cta2 {display:block;float:none;z-index:99999;height:28px;width:100%;margin:0 auto;padding-top:8px;text-decoration:none;background-color:#999;font-family:helvetica, arial, sans-serif;font-size:18px;font-weight:normal;color:#fff !important;border:1px solid #666 !important; text-align:center;-webkit-appearance:none;text-decoration:none; margin-top:20px;
-	@include shadow (0 1px 4px, #999);
-	@include rounded (8px);
+	@include shadow (0 1px 2px, #999);
+	@include rounded (4px);
 	}
 a:visited.cta2 {color:#fff !important;	border:1px solid #666 !important;background-color:#666;}
 a:hover.cta2 {color:#fff !important;border:1px solid #666 !important; background-color:#666 !important;}
@@ -113,7 +115,7 @@ nav ul {text-align:center;height:56px;padding:36px 0 36px 0; margin:0;
 #nav1 a {}
 #nav1 a:link {text-decoration:none;font-size:20px; color:#999 !important; display:inline-block; background-color:none; padding:4px 12px 4px 12px;-webkit-appearance: none;	
 	@include easing (.5s);
-	@include rounded(8px);
+	@include rounded(3px);
 	}
 #nav1 a:visited {color:#999 !important;}
 #nav1 a:hover {background-color:#eee;
@@ -124,7 +126,7 @@ nav ul {text-align:center;height:56px;padding:36px 0 36px 0; margin:0;
 	@include easing (.2s);
 	}
 #nav2 li {display:inline;list-style-type:none;margin:0 10px 0 10px; line-height:32px;}
-#nav2 a:link {text-decoration:none; font-size:20px; color:#ccc !important;	text-shadow: 0px -1px #666;}
+#nav2 a:link {text-decoration:none; font-size:20px; color:#ccc !important;}
 #nav2 a:visited {color:#ccc !important;}
 #nav2 a:hover {color:#000 !important;text-shadow: none;
 	@include easing (.2s);
@@ -147,38 +149,38 @@ a.twitter:active {}
 	}
 #logo a:link {width:259px; height:68px; display:block; background-image:url('/img/interface/nick_cottrell.jpg');background-position:0 0;
 	@include easing (.5s);		
-	@include shadow (0 0 8px, #999);
+	@include shadow (0 0 4px, #999);
 	}
 #logo a:visited {background-image:url('/img/interface/nick_cottrell.jpg');background-position:0 0;}
 #logo a:hover {
-	@include shadow (0 0 32px, #ccc);
+	@include shadow (0 0 12px, #999);
 	@include easing (.2s);		
 	}
 #logo a:active {}
 article {max-width: 1024px; padding:0 0 78px 0; margin:0;}
 article ul {line-height:24px; margin:0 0 24px 0; padding:24px 18px 18px 0; background-color:#eeeeee;
-	@include shadow (0 0 8px, #999);
-	@include rounded(8px);	
+	@include shadow (0 0 3px, #999);
+	@include rounded(3px);	
 	}
 article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12px 24px; font-family:helvetica, arial, sans-serif;color: #666;}		
 
 .morelinks {max-width: 1024px; padding:0; margin:0;}
 .morelinks ul {line-height:24px; margin:0; padding:24px 18px 18px 0; background-color:#eeeeee;
-	@include shadow (0 0 8px, #999);
-	@include rounded(8px);	
+	@include shadow (0 0 3px, #999);
+	@include rounded(3px);	
 	}
 .morelinks li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12px 24px; font-family:helvetica, arial, sans-serif;color: #666;}		
 .post_date {font-family:helvetica, arial, sans-serif;font-size:12px;color:#a2a3a6;height:22px;width:200px;background-image:url('/img/interface/time.jpg');background-position:0 6px;background-repeat:no-repeat;padding:0 0 0 22px;}
-.img_wrap {max-width: 1024px;background-color:#eee;display:block;padding:16px;margin: 0 4px 24px 4px;
+.img_wrap {max-width: 1024px;background-color:#eee;display:block;padding:8px 8px 6px 8px;margin: 0 4px 24px 4px;
 	@include rounded (4px);
 	}	
 .content img {max-width: 1024px; margin: 0;
-	@include rounded (4px);
-	@include shadow (0px 0 6px, #ccc);
+	@include rounded (3px);
+	@include shadow (0px 0 3px, #ccc);
 	}
 .img_wrap img {margin: 0; padding:0;
-	@include rounded (4px);
-	@include shadow (0px 0 6px, #ccc);
+	@include rounded (3px);
+	@include shadow (0px 0 3px, #ccc);
 	}
 .page-bottom {border-top:1px solid #ccc; margin-top:56px; padding-top:35px;}
 .sm_caption {font-size:12px; margin:-24px 0 20px 20px; color:#999;}
@@ -189,38 +191,38 @@ article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12
 /*contact form*/
 #form1 {margin-bottom:36px;}
 form {display:block;text-align:center; background-color:#eee;padding:24px; float:left;
-	@include rounded (8px);
+	@include rounded (3px);
 	}
-form h3 {text-align:left;margin:10px 0 10px 0;padding:0;text-shadow: 0px -1px #fff;}
+form h3 {text-align:left;margin:10px 0 10px 0;padding:0;text-shadow: 0px -1px #efefef;color: #999;}
 input:focus, textarea:focus {
     outline: none;
 	}
 form textarea {
 	border:1px solid #e0e0e0;font-size:24px;color:#666;height:200px;background-color: #F9F9F9;padding:18px; width:100%;	
 	box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;
-	@include shadow (inset 0 0 8px, #e0e0e0);
-	@include rounded (8px);
+	@include shadow (inset 0 0 3px, #e0e0e0);
+	@include rounded (3px);
 	}
 form input {
 	padding-left:18px;border:1px solid #e0e0e0;width:100%;height:42px;margin-bottom:20px;font-size:24px;color:#666;background-color: #F9F9F9;	
 	box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;		
-	@include shadow (inset 0 0 8px, #e0e0e0);
-	@include rounded (8px);
+	@include shadow (inset 0 0 3px, #e0e0e0);
+	@include rounded (3px);
 	}
 form .hide {display:none;}
 form input[type="submit"]{cursor: pointer;	display:block;float:none;z-index:99999;height:38px;width:100%;margin:25px 0 25px 0;padding:14px 0 36px 0;text-decoration:none;background-color:#999;font-family:helvetica, arial, sans-serif;font-size:18px;font-weight:bold;color:#fff !important;border:1px solid #666 !important;text-shadow: 0px -1px #333;text-align:center;-webkit-appearance:none;text-decoration:none;
 	@include easing (.2s);	
 	@include gradient-top (#999, #666);
-	@include shadow (0 1px 4px, #999);
-	@include rounded (8px);
+	@include shadow (0 1px 3px, #999);
+	@include rounded (3px);
 	}
 input::-webkit-input-placeholder {color:#eee;}
 input:-moz-placeholder {color:#eee;}
 ::-webkit-input-placeholder {color:#eee;}
 :-moz-placeholder {color:#eee;}
 select{-moz-appearance:none;-webkit-appearance:none;padding-left:18px;border:1px solid #e0e0e0;width:100%;height:42px;margin:0 0 20px0;background-color: #F9F9F9;
-	@include shadow (inset 0 0 8px, #e0e0e0);
-	@include rounded (8px);
+	@include shadow (inset 0 0 3px, #e0e0e0);
+	@include rounded (3px);
 	}
 .buttons {width:100%; float:none;}
 .form-block .item {display:block;float:left;padding:0 10px 0 0;
@@ -231,12 +233,14 @@ select{-moz-appearance:none;-webkit-appearance:none;padding-left:18px;border:1px
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
 	#nav1 a:link {font-size:16px !important;}
+	#nav2 {float:right;}
 	#nav2 a:link {font-size:14px !important;}
 	nav ul {padding:36px 0 36px 100px;}
 	form input[type="submit"]{margin-top:42px;}
-	.copyright {font-size:14px;}
+	.copyright {font-size:12px; line-height:16px; margin-top:18px;}
 	.flag {position:fixed; right:7%; top:0px !important;@include easing (.4s);}
 	.follow-me-mobile {display:none;}
+	.caption {text-align:left;}
 
 }/*end 770px*/
 

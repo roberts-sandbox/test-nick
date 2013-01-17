@@ -177,69 +177,6 @@ ___    _ _/_ _       __   // ___
 </article>
          
 <article>
-	<h1><a href='/articles/2012/09/23/my-jekyll-site'>Jekyllicious</a></h1>
-	<p class="post_date">September 23, 2012</p>	
-	<h2>I recently made a couple of changes to my <a href="https://github.com/mojombo/jekyll/wiki/install">Jekyll</a> site in order to streamline its organization. To learn about how it works, click <a href="https://github.com/mojombo/jekyll/wiki/install">here</a>.</h2>
-<div class="img_wrap"><img src="/img/articles/jekyll-1024x574.jpg" width="100%" /></div>
-<h3>Not the same ol&#8217; loop</h3>
-<p>Since each implementation is slightly different, I thought I could just focus on what makes this implementation special. This one takes special advantage of the &#8220;permalink&#8221; feature so there is no need to have the &#8220;static&#8221; non-post pages in the root directory&#8230; which can get kind of messy when you have a lot of pages.</p>
-<p>Jekyll allows you to loop through posts, because a) it&#8217;s awesome to be able to loop through things, and b) because that&#8217;s how you set up a home page to a blog&#8212;you loop through each entry with some kind of number limit so the most recent posts are always on your home page. OK cool. So in many of the standard tutorials, they just teach you the regular generic loop through all posts.</p>
-<pre>
-{ % for post in site.posts % }
-   ARTICLE
-{ % endfor % }
-</pre>
-<p>Instead, I use two loops. First, I loop through the categories, then for each category I loop through the post in a particular defined category. Voila! This way, looping through categories means that I&#8217;m now able to create other &#8220;posts&#8221; that are not articles that I want to display as a blog entry.</p>
-<pre>
-{ % for category in site.categories % } 
-	{ % for post in site.categories['articles'] % }
-	ARTICLE
-	{ % endfor % }
-{ % endfor % }
-</pre>
-<p><em>Note: There are extra spaces in the liquid tags&#8230; so jekyll doesn&#8217;t actually create a loop on this page.</em></p>
-<h3>No pages, only posts</h3>
-<p>Now that we can loop through whichever category we want, we can put all pages in the _posts directory&#8230;and even put them in subdirectories so they can be neat and tidy. I have it set up like so:</p>
-<pre>
-_includes
-_layouts
-_posts	
-  articles
-    2013-01-07-article-name.html
-  pages
-    3000-01-01-redirect-sample.html
-  redirects
-	3000-01-01-redirect-sample.html
-_site
-css
-js
-img
-</pre>
-<p>This way, every item is set up as a post, the directory structure is cleaner and nicer to deal with. There is no particular reason that I named the pages and redirects 3000-01-01&#8230; other than to give the non-blog posts a date that falls well outside of the range. For each non-blog page, I configure the permalink so it will map to whatever I tell it when jekyll builds the static site. For &#8220;code samples&#8221;, it looks like below and will take the user to &#8220;/code-samples/&#8221;.</p>
-<pre>
----
-  layout: default
-  title: Code Samples
-  permalink: code-samples/
----
-</pre>
-<p>So that&#8217;s the gist of my Jekyll implementation. Basically, I&#8217;ve done a couple of things differently in order to end up with a much cleaner site organization. Check out the repo <a href="https://github.com/nickcottrell/nickcottrell.github.com">here</a>.</p>
-	
-	<div class="page-block">
-	<div class="group">
-		<div class="item skip-4 span-2">
-			<a class="cta" href="/articles/2012/09/23/my-jekyll-site/#comment">Leave a comment</a>
-		</div><!--.item-->
-	</div><!--.group-->
-	<div class="group follow-me-mobile">
-		<div class="item skip-4 span-2">
-			<a class="cta2" href="http://twitter.com/istitch">Follow Me (@istitch)</a>
-		</div><!--.item-->
-	</div><!--.group-->		
-</div><!--.page-block-->
-</article>
-         
-<article>
 	<h1><a href='/articles/2012/08/29/what-is-istitch'>What is istitch?</a></h1>
 	<p class="post_date">August 29, 2012</p>	
 	<h2>So what&#8217;s with the &#8220;stitch&#8221; theme? It&#8217;s something I&#8217;ve been playing around with for years. The concept has proven to be reasonable and durable. Welcome to the manifesto.</h2>
@@ -483,7 +420,7 @@ img
 <div class="footing">
 	<div class="group">
 		<div class="item span-2">
-			<p class="copyright">&copy;2012 Nick Cottrell, All Rights Reserved</p>
+			<p class="copyright">&copy;2013 Nick Cottrell, All Rights Reserved</p>
 		</div><!--.item-->
 		
 		<div class="item span-4">
