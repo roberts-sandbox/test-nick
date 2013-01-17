@@ -177,6 +177,69 @@ ___    _ _/_ _       __   // ___
 </article>
          
 <article>
+	<h1><a href='/articles/2012/09/23/my-jekyll-site'>Jekyllicious</a></h1>
+	<p class="post_date">September 23, 2012</p>	
+	<h2>I recently made a couple of changes to my <a href="https://github.com/mojombo/jekyll/wiki/install">Jekyll</a> site in order to streamline its organization. To learn about how it works, click <a href="https://github.com/mojombo/jekyll/wiki/install">here</a>.</h2>
+<div class="img_wrap"><img src="/img/articles/jekyll-1024x574.jpg" width="100%" /></div>
+<h3>Not the same ol&#8217; loop</h3>
+<p>Since each implementation is slightly different, I thought I could just focus on what makes this implementation special. This one takes special advantage of the &#8220;permalink&#8221; feature so there is no need to have the &#8220;static&#8221; non-post pages in the root directory&#8230; which can get kind of messy when you have a lot of pages.</p>
+<p>Jekyll allows you to loop through posts, because a) it&#8217;s awesome to be able to loop through things, and b) because that&#8217;s how you set up a home page to a blog&#8212;you loop through each entry with some kind of number limit so the most recent posts are always on your home page. OK cool. So in many of the standard tutorials, they just teach you the regular generic loop through all posts.</p>
+<pre>
+{ % for post in site.posts % }
+   ARTICLE
+{ % endfor % }
+</pre>
+<p>Instead, I use two loops. First, I loop through the categories, then for each category I loop through the post in a particular defined category. Voila! This way, looping through categories means that I&#8217;m now able to create other &#8220;posts&#8221; that are not articles that I want to display as a blog entry.</p>
+<pre>
+{ % for category in site.categories % } 
+	{ % for post in site.categories['articles'] % }
+	ARTICLE
+	{ % endfor % }
+{ % endfor % }
+</pre>
+<p><em>Note: There are extra spaces in the liquid tags&#8230; so jekyll doesn&#8217;t actually create a loop on this page.</em></p>
+<h3>No pages, only posts</h3>
+<p>Now that we can loop through whichever category we want, we can put all pages in the _posts directory&#8230;and even put them in subdirectories so they can be neat and tidy. I have it set up like so:</p>
+<pre>
+_includes
+_layouts
+_posts	
+  articles
+    2013-01-07-article-name.html
+  pages
+    3000-01-01-redirect-sample.html
+  redirects
+	3000-01-01-redirect-sample.html
+_site
+css
+js
+img
+</pre>
+<p>This way, every item is set up as a post, the directory structure is cleaner and nicer to deal with. There is no particular reason that I named the pages and redirects 3000-01-01&#8230; other than to give the non-blog posts a date that falls well outside of the range. For each non-blog page, I configure the permalink so it will map to whatever I tell it when jekyll builds the static site. For &#8220;code samples&#8221;, it looks like below and will take the user to &#8220;/code-samples/&#8221;.</p>
+<pre>
+---
+  layout: default
+  title: Code Samples
+  permalink: code-samples/
+---
+</pre>
+<p>So that&#8217;s the gist of my Jekyll implementation. Basically, I&#8217;ve done a couple of things differently in order to end up with a much cleaner site organization. Check out the repo <a href="https://github.com/nickcottrell/nickcottrell.github.com">here</a>.</p>
+	
+	<div class="page-block">
+	<div class="group">
+		<div class="item skip-4 span-2">
+			<a class="cta" href="/articles/2012/09/23/my-jekyll-site/#comment">Leave a comment</a>
+		</div><!--.item-->
+	</div><!--.group-->
+	<div class="group follow-me-mobile">
+		<div class="item skip-4 span-2">
+			<a class="cta2" href="http://twitter.com/istitch">Follow Me (@istitch)</a>
+		</div><!--.item-->
+	</div><!--.group-->		
+</div><!--.page-block-->
+</article>
+         
+<article>
 	<h1><a href='/articles/2012/08/29/what-is-istitch'>What is istitch?</a></h1>
 	<p class="post_date">August 29, 2012</p>	
 	<h2>So what&#8217;s with the &#8220;stitch&#8221; theme? It&#8217;s something I&#8217;ve been playing around with for years. The concept has proven to be reasonable and durable. Welcome to the manifesto.</h2>
@@ -246,11 +309,10 @@ ___    _ _/_ _       __   // ___
 	<p class="post_date">September 12, 2011</p>	
 	<h2>Different outputs on different devices with the same code? That’s the trend these days. No longer are we stuck to a particular view applied to many devices. Instead, devices interpret the layout in different ways depending on the context in which the information is viewed. Dedicated, separate mobile websites are a thing of the past. Buh-bye…</h2>
 <div class="img_wrap"><img src="/img/articles/snap-1024x574.jpg" width="100%" /></div><p><br /></p>
-<p><em>The <a href="http://nickcottrell.github.com/lab/templates/snap/">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em></p>
+<p><em>The <a href="http://istitch.net/snap/">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em></p>
 <p>Good design is supposed to be flexible. You can’t force-fit a single design into a variety of formats. For too long, web design has been an extension of print design, hence antiquated terms we use every day such as ‘web page.’ At this point, the web is ready for a better design. Something that snaps into place depending on its context.</p>
 <p>Until now, many designs started off with constrained proportions… with a designer laying out a page, as though it was going to be printed and cut to a particular size. For the web, that’s the wrong approach. Designs should be gooey forms that melt into whichever format they are viewed. They should be thought of as a moldable cluster of information, with variables and tolerances built to mesh with different formats and devices.</p>
-<p>This layout is an example of such a form. <a href="http://nickcottrell.github.com/lab/templates/snap/">Snap!</a> is a template, designed to demonstrate how layouts can transform depending on the format, size and device type. Hopefully you can imagine how this type of layout can work its way into many different applications. Please take look. Re-size it. Stretch it. View the source. Kick the tires…</p>
-<p>View the source for the project <a href="https://github.com/nickcottrell/nickcottrell.github.com/tree/master/lab/templates/snap">here</a>. View the demo <a href="http://nickcottrell.github.com/lab/templates/snap/">here</a>.</p>
+<p>This layout is an example of such a form. <a href="https://github.com/nickcottrell/Snap">Snap!</a> is a template, designed to demonstrate how layouts can transform depending on the format, size and device type. Hopefully you can imagine how this type of layout can work its way into many different applications. Please take look.</p>
 	
 	<div class="page-block">
 	<div class="group">
@@ -358,33 +420,6 @@ ___    _ _/_ _       __   // ___
 	<div class="group">
 		<div class="item skip-4 span-2">
 			<a class="cta" href="/articles/2011/02/09/the-genius-of-lo-fi/#comment">Leave a comment</a>
-		</div><!--.item-->
-	</div><!--.group-->
-	<div class="group follow-me-mobile">
-		<div class="item skip-4 span-2">
-			<a class="cta2" href="http://twitter.com/istitch">Follow Me (@istitch)</a>
-		</div><!--.item-->
-	</div><!--.group-->		
-</div><!--.page-block-->
-</article>
-         
-<article>
-	<h1><a href='/articles/2011/02/09/juxtaposed'>Juxtaposed</a></h1>
-	<p class="post_date">February 09, 2011</p>	
-	<h2>Most of the time we find ourselves fighting against the many distractions that steal our attention during the work day. What if you could use distraction as a method to increase creativity and productivity? I tried just that in an experiment to combine multiple projects in one design session.</h2>
-<div class="img_wrap"><img src="/img/articles/juxtopposed-1024x574.jpg" width="100%" /></div><p><br /></p>
-<p>I recently did an experiment on juxtaposition. It involved working simultaneously on multiple projects. At the time, I was doing UI work on a couple of different projects, while taking photos and writing this. I had my desktop, laptop and iPad set-up. The main project was on the desktop and the minor project on the laptop. Notes and blog, writing took place on the iPad.</p>
-<p>The session went interestingly. The process allowed me to develop very specific items for one project while focusing more strategically on the other. Switching between the 2 allowed me to shift gears, in an efficient manner, so thought was devoted appropriately to each. (I remember seeing Art Chantry speak on the subject of ‘distraction as a method’ in which he claimed to work with the TV on as a way to keep his himself from focusing too much on a single task at hand.) It’s a double rev of sorts.</p>
-<p>Setting up an efficient workspace/workflow ahead of time is key for the rest to take place. The key is to take a look at the projects you are working on and to think about the moving parts ahead of time. What directories will I be accessing? What is the file naming system I intend to use? Am I going to need to transfer files between machines? Which device should I use to access the internet? Where am I taking notes? Which project will require my creative expansive thinking? Which project will require my precision and technical skills? Will I be tweeting ideas as I’m working? Establishing some ground rules ahead of time is important.</p>
-<p>For example, during the session, I made some tactical progress in the strategic process, by learning about and generating a custom jquery theme to start implementing on a website while I worked on a layered photoshop file for some polished UI elements. I also wrote the ‘lo-fi’ article on this blog while listening to some music.</p>
-<p>Combined efforts turned out to be productive. I made progress on 2 projects, wrote 2 blog articles and felt good about the general direction on all. The process helped me maintain a liquid approach to all the ideas therein. What would have been considered a set of peripheral concepts turned out to help shape and hone, indirectly, informing and reflecting. It might not work for every situation, but sometimes working on items side-by-side, in a controlled environment, with an organized work-flow can help stimulate the creative process for each one and for the session as a whole.</p>
-<p>The seamless UI and integrated systems that exist in today’s workspaces and software allow for an unprecedented workflow to occur. The idea is to set the stage for the creative project. Items must be put in place to establish a good workflow. A person must move efficiently through the space, building, transferring, documenting, sharing. As the level of workflow efficiency increases, systems can operate in the background, allowing for the zen of problem solving. Why waste time figuring out how to transfer a file between machines, or fiddle around with some application update when the flow is at its peak?</p>
-<p>Lessons learned: Don’t waste time thinking about workflow during a creative session. Try to get that part out of the way ahead of time. Front-ending the time and energy to set up a good workflow will allow you to focus more on creativity, switching between projects to clear you mind from one as you approach the other. Sometimes, the only way to find focus is to distract yourself!</p>
-	
-	<div class="page-block">
-	<div class="group">
-		<div class="item skip-4 span-2">
-			<a class="cta" href="/articles/2011/02/09/juxtaposed/#comment">Leave a comment</a>
 		</div><!--.item-->
 	</div><!--.group-->
 	<div class="group follow-me-mobile">

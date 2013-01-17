@@ -231,6 +231,15 @@ a:active.cta2 {
   border: 1px solid #666 !important;
   background-color: #666 !important; }
 
+pre {
+  border-radius: 4px;
+  background-color: #666;
+  /*color:#8bb381 !important;*/
+  color: #ccc;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 30px; }
+
 /*navigation*/
 ul {
   margin: 0;
