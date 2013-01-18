@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: It's <em>Your</em> Walled Garden
+  title: It's *Your* Walled Garden
   permalink: articles/2013/01/12/intra-source
   categories: [articles]
 ---
