@@ -36,19 +36,19 @@
 
 
 /*page structure*/
-body {background-image:url('/img/interface/bg.jpg')}
+body {background-image:url('/img/interface/bg_flat_adaptive_diffusion.gif'); background-color:#fff;}
 
-.container {padding:0;margin:0;
+.container {padding:0;margin:0; background-color:#fff; background-image:url('/img/interface/stitching.gif');background-repeat:repeat-y; background-position:right;
 	@include shadow (0 0 6px, #999);
 }
 
-.heading {background-color:#fff; min-height:170px; margin:0; padding:0; }
+.heading {min-height:170px; margin:0; padding:0; background-color:#fff;}
 .heading .group {width:80%; padding:0 10% 0 10%;}
 
-.page-content {float:left; width:100%; background-color:#fff; min-height:500px; padding:0; margin:0;}
+.page-content {float:left; width:100%;min-height:500px; padding:0; margin:0;background-color:#fff;}
 .page-content .group {width:80%; padding:0 10% 0 10%;}
 
-.page-block {width:100%; background-color:#fff; padding:0 0 36px 0; margin:0;}
+.page-block {width:100%; padding:0 0 36px 0; margin:0;background-color:#fff;}
 .page-block .group {width:100%; padding:0;}
 
 .form-block {background-color:#eee; padding:0 0 0 0; margin:0;}
@@ -56,6 +56,9 @@ body {background-image:url('/img/interface/bg.jpg')}
 
 .footing {background-color:#999; min-height:100px; padding:0; margin:0;}
 .footing .group {width:80%; padding:0 10% 0 10%;}
+	
+
+
 
 
 
@@ -147,11 +150,11 @@ a.twitter:active {}
 #logo {display:block;background-color:#fff;width:259px;height:68px; margin:0 auto; padding-top:36px;
 	@include easing (1s);	
 	}
-#logo a:link {width:259px; height:68px; display:block; background-image:url('/img/interface/nick_cottrell.jpg');background-position:0 0;
+#logo a:link {width:259px; height:68px; display:block; background-image:url('/img/interface/nick_cottrell.gif');background-position:0 0;
 	@include easing (.5s);		
 	@include shadow (0 0 4px, #999);
 	}
-#logo a:visited {background-image:url('/img/interface/nick_cottrell.jpg');background-position:0 0;}
+#logo a:visited {background-image:url('/img/interface/nick_cottrell.gif');background-position:0 0;}
 #logo a:hover {
 	@include shadow (0 0 12px, #999);
 	@include easing (.2s);		
@@ -170,7 +173,7 @@ article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12
 	@include rounded(3px);	
 	}
 .morelinks li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12px 24px; font-family:helvetica, arial, sans-serif;color: #666;}		
-.post_date {font-family:helvetica, arial, sans-serif;font-size:12px;color:#a2a3a6;height:22px;width:200px;background-image:url('/img/interface/time.jpg');background-position:0 6px;background-repeat:no-repeat;padding:0 0 0 22px;}
+.post_date {font-family:helvetica, arial, sans-serif;font-size:12px;color:#a2a3a6;height:22px;width:200px;background-image:url('/img/interface/time.gif');background-position:0 6px;background-repeat:no-repeat;padding:0 0 0 22px;}
 .img_wrap {max-width: 1024px;background-color:#eee;display:block;padding:8px 8px 6px 8px;margin: 0 4px 24px 4px;
 	@include rounded (4px);
 	}	
@@ -182,7 +185,7 @@ article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12
 	@include rounded (3px);
 	@include shadow (0px 0 3px, #ccc);
 	}
-.page-bottom {border-top:1px solid #ccc; margin-top:56px; padding-top:35px;}
+.page-bottom {border-top:1px dashed #ccc; margin-top:56px; padding-top:35px;}
 .sm_caption {font-size:12px; margin:-24px 0 20px 20px; color:#999;}
 .nav-icon {color:#ccc !important;}
 
@@ -232,6 +235,9 @@ select{-moz-appearance:none;-webkit-appearance:none;padding-left:18px;border:1px
 
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
+.heading {background-color:transparent;}
+.page-content {background-color:transparent;}
+.page-block {background-color:transparent;}
 	#nav1 a:link {font-size:16px !important;}
 	#nav2 {float:right;}
 	#nav2 a:link {font-size:14px !important;}

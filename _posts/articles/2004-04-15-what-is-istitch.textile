@@ -24,5 +24,7 @@ Stitch represents the pragmatic process of design for usable, durable, interwove
 * Connections are everywhere
 * Durability is stylish
 
+Also, for those of you who knew me way back in the day, I have a complete archive of the <a href="https://github.com/nickcottrell/istitch.net-complete-archive">istitch.net</a> website.
+
 
 

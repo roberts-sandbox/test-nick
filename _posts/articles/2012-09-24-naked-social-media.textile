@@ -1,0 +1,36 @@
+---
+  layout: post
+  title: The Social Funnel 
+  permalink: articles/2012/09/23/the-social-funnel
+  categories: [articles]
+---
+
+<h2>Back in the day, the only online presence I had was a website, which was much simpler. Now-a-days, we all have countless profiles to manage which can be a bit of a pain with so much of our info floating around in the ether. With clear design thinking, it is possible, however, to get a grip on this and filter the traffic to the right place.</h2>
+
+<div class="img_wrap"><img src="/img/articles/hello-world-1024x574.jpg" width="100%" /></div>
+
+<h3>Old School...ish</h3>
+I'm not trying to say I'm old school (...like 1997 old school), but I have been maintaining an online presence since around 2004. This was the time just before social media (if you don't count hipsters on Friendster...) so it's been interesting to see things develop over the last few years as everyone gets on-board. The next 5 steps should be helpful for anyone looking to maintain a firmer hold on the gangliest of gangly on-line identities.
+
+<h3>Step #1: Define a goal.</h3>
+This seems obvious, but it's seldom something we actually do. Most of us are struggling to keep up with every social network that pops up: Facebook, Instagram, Twitter, LinkedIn, Google+, Pinterest, Foursquare, Path, even Myspace is making a comeback! The only thing you can do is figure out how you can leverage these networks for your own benefit. The way to achieve this is to have a particular goal. 
+
+For example, let's say you want to reach 500+ connections on LinkedIn. That's a clear, quantifiable goal. It'd much different than the goal of setting up 50 social network accounts because, well... just because! What you want to do is have a goal that is reachable so you can measure your progress.
+
+<h3>Step #2: Curate your content.</h3> 
+With your new goal in place, you'll have to do some pruning. If the LinkedIn profile is the focus, then make sure it's up-to-date and contains information and content relevant to whatever it is your trying to get going. This is the end point, so make it worth the journey.
+
+To create a consistent appearance choose a good photo of yourself and use it on all your profiles. That might seem a little boring and its ultimately up to you, but for the sake of simplicity, the idea is that you want to present a consistent brand identity across the board, and if you are going to be asking people to jump from one profile to the next, a consistent appearance will reduce the friction. Your profile picture is the one and only item that you will almost always have control over when setting up an online profile, therefore you should use it to your advantage!
+
+<h3>Step #3: Funnel the traffic.</h3>
+Your consolidation strategy involves essentially catching the interest of people in your network as you funnel them into a pathway to the final destination you've set up, which in this example is your public LinkedIn profile. The main thing that you'll need to do is to set up referring links to your LinkedIn profile throughout your network. It's important to for sure put a referring link on any of your public "profile" page(s) of your various online networks. For example, on your Twitter, you'll want to have your referring link under your profile description.
+
+Link shortening tools like bitly are great for creating these referring links. They are useful for keeping your link short, and also come with tracking features that allow you to track which links are being clicked and which ones don't. But, use good judgement about whether it looks spammy to have a shortened, cryptic link on one of your profiles.
+
+<h3>Step #4 (the hard part): Say interesting stuff.</h3>
+Do you. Do whatever it is you do and keep in mind that as you engage with people from your network. This subject, however, is too big to discuss in just this post. Whether you're posting a funny cat picture on Facebook, making a snarky observation on Twitter, or pinning your favorite new recipe on Pinterest, remember your original goal and keep that in mind as you engage with each network. Keep in mind how the audience differs, per network and provide ideas and interaction you think is relevant each one. When an interested potential connection sees your public activity, and then makes it to your LinkedIn page, you want it to all make sense to them. It's just helps to approach this stuff with honesty.
+
+<h3>Step #5: Track and tweak.</h3>
+So now that you have set up the machine, you'll want to monitor your progress. Since you might not have very much at your disposal in terms of cutting-edge analytics software, you'll want to use tools such as bitly to track clicks on your shortened links. Sites like Kred and Klout are great about providing you a dashboard of activity from multiple networks and providing you ratings on interactions that occur in each respective network.
+ 
+Although, like everything that is easier said than done, the 5 steps I've outlined here should provide you with the basic idea of how to set up any acquisition funnel. It just gets more and more complicated the more layers that are added, the more specific the info required, and the more money that depends on reaching your specific goal. The example provided will hopefully get you on your way to establishing your own personal media empire.... muuahahahaahhhhhh.

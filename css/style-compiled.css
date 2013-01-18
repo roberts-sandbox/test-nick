@@ -1,19 +1,24 @@
 /*page structure*/
 body {
-  background-image: url("/img/interface/bg.jpg"); }
+  background-image: url("/img/interface/bg_flat_adaptive_diffusion.gif");
+  background-color: #fff; }
 
 .container {
   padding: 0;
   margin: 0;
+  background-color: #fff;
+  background-image: url("/img/interface/stitching.gif");
+  background-repeat: repeat-y;
+  background-position: right;
   -webkit-box-shadow: 0 0 6px #999999;
   -moz-box-shadow: 0 0 6px #999999;
   box-shadow: 0 0 6px #999999; }
 
 .heading {
-  background-color: #fff;
   min-height: 170px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #fff; }
 
 .heading .group {
   width: 80%;
@@ -22,10 +27,10 @@ body {
 .page-content {
   float: left;
   width: 100%;
-  background-color: #fff;
   min-height: 500px;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background-color: #fff; }
 
 .page-content .group {
   width: 80%;
@@ -33,9 +38,9 @@ body {
 
 .page-block {
   width: 100%;
-  background-color: #fff;
   padding: 0 0 36px 0;
-  margin: 0; }
+  margin: 0;
+  background-color: #fff; }
 
 .page-block .group {
   width: 100%;
@@ -363,7 +368,7 @@ a.twitter:hover {
   width: 259px;
   height: 68px;
   display: block;
-  background-image: url("/img/interface/nick_cottrell.jpg");
+  background-image: url("/img/interface/nick_cottrell.gif");
   background-position: 0 0;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -373,7 +378,7 @@ a.twitter:hover {
   box-shadow: 0 0 4px #999999; }
 
 #logo a:visited {
-  background-image: url("/img/interface/nick_cottrell.jpg");
+  background-image: url("/img/interface/nick_cottrell.gif");
   background-position: 0 0; }
 
 #logo a:hover {
@@ -442,7 +447,7 @@ article li {
   color: #a2a3a6;
   height: 22px;
   width: 200px;
-  background-image: url("/img/interface/time.jpg");
+  background-image: url("/img/interface/time.gif");
   background-position: 0 6px;
   background-repeat: no-repeat;
   padding: 0 0 0 22px; }
@@ -481,7 +486,7 @@ article li {
   box-shadow: 0px 0 3px #cccccc; }
 
 .page-bottom {
-  border-top: 1px solid #ccc;
+  border-top: 1px dashed #ccc;
   margin-top: 56px;
   padding-top: 35px; }
 
@@ -639,6 +644,15 @@ select {
 
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
+  .heading {
+    background-color: transparent; }
+
+  .page-content {
+    background-color: transparent; }
+
+  .page-block {
+    background-color: transparent; }
+
   #nav1 a:link {
     font-size: 16px !important; }
 

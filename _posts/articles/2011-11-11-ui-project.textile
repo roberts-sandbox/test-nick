@@ -1,0 +1,20 @@
+---
+  layout: post
+  title: Multi-Device UI
+  permalink: articles/2011/11/11/ui-project
+  categories: [articles]
+---
+
+<h2>Here’s one of my on-going projects. It’s a multi-device UI. The goal is to develop a usable system that works for the web as well as tablets and mobiles. The general idea originated along the lines of web design that feels more "app-like" and less like a "page."</h2>
+
+<div class="img_wrap"><img src="/img/articles/ui-1024x574.jpg" width="100%" /></div><br />
+
+First step was to design it. Some of the behaviors were fantasies that I’m wasn't quite sure how to build such as the ‘pullstretch’ menu. The idea is that it works like a window shade. The user pulls down on it to a certain point where it sticks and stays down. To return it back to it’s collapsed state, the user pulls on it further, which causes it to release and snap back into it’s original place. The function will work as a drag and drop feature on a desktop and as a tap and slide feature on a touchscreen. 
+
+Other than the special features, two important tools that I have developed to support this are "Lining" and "Haberdash."
+
+<h3>Lining</h3>
+I developed a scaffolding system that uses a dynamic CSS language called SASS (I believe that's short for Semantically Awesome Style Sheets). The basic idea that makes this scaffolding system different is the ability to customize the grid system at any time during the process. Another important aspect of this is that it doesn't have a bunch of extra css you don't need or want. Should be pretty cool. More on this repo <a href="#">here</a>.
+
+<h3>Haberdash</h3>
+The idea here is to develop a layer where the buttons and other UI features are kept separate from the rest of the stylesheets. When done nicely, you can re-use or point to the same style sheets from multiple projects with a similar UI.
