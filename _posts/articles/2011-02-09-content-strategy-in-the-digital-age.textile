@@ -1,7 +1,7 @@
 ---
   layout: post
   title: The Genius of Lo-fi
-  permalink: articles/2011/02/09/the-genius-of-lo-fi
+  permalink: ideas/the-genius-of-lo-fi
   categories: [articles]
 ---
 

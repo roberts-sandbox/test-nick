@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Snap! Rich, responsive, modern
-  permalink: articles/2011/09/12/snap-a-rich-responsive-and-modern-web-template
+  permalink: ideas/snap-a-rich-responsive-and-modern-web-template
   categories: [articles]
 ---
 

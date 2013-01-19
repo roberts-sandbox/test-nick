@@ -1,7 +1,7 @@
 ---
   layout: post
   title: The Social Funnel 
-  permalink: articles/2012/09/23/the-social-funnel
+  permalink: ideas/the-social-funnel
   categories: [articles]
 ---
 

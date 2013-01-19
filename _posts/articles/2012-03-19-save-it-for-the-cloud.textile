@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Save the small talk for cloud
-  permalink: articles/2012/03/19/save-it-for-the-cloud
+  permalink: ideas/save-it-for-the-cloud
   categories: [articles]
 ---
 

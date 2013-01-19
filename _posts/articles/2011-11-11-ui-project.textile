@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Multi-Device UI
-  permalink: articles/2011/11/11/ui-project
+  permalink: ideas/ui-project
   categories: [articles]
 ---
 

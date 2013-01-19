@@ -1,7 +1,7 @@
 ---
   layout: post
   title: It's *Your* Walled Garden
-  permalink: articles/2013/01/12/intra-source
+  permalink: ideas/intra-source
   categories: [articles]
 ---
 

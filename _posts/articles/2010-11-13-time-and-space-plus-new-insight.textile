@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Time &amp; Space
-  permalink: articles/2010/11/13/time-and-space
+  permalink: ideas/time-and-space
   categories: [articles]
 ---
 

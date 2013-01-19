@@ -1,7 +1,7 @@
 ---
   layout: post
   title: My diggs
-  permalink: articles/2012/09/23/my-jekyll-site
+  permalink: ideas/my-jekyll-site
   categories: [articles]
 ---
 
