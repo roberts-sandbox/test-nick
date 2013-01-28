@@ -1,0 +1,30 @@
+---
+  layout: post
+  title: Designing Places
+  permalink: ideas/what-i-learned-from-urban-design
+  categories: [articles]
+---
+
+<h2>When I worked at an urban design firm, we worked on big scale projects, building many bridges and connections. Now, in technology, I'm doing the same stuff, just much faster.</h2>
+
+<div class="img_wrap"><img src="/img/articles/urban-design-1024x574.jpg" width="100%" /></div>
+
+<h3>Urban design is good</h3>
+First thing's first, urban design rules. Like many other fields of design such as typography and font design, the artifacts are everywhere, but so frequently unnoticed. Any stroll through the city (suburb too), you'll find the effects of the zoning and design guidelines that dictate and shape the environment. The general density, number of floors in the buildings, space between the buildings, size of the sidewalk and streets, types of trees, brand of streetlight, you name it. It's all been spec'd out by someone, probably an architect. These guidelines are where the "design" of "urban design" comes from.
+
+For example, the suburb feels different than the city. Why? Because the density pattern is set up so that a percentage of a parcel of land is used for parking, and that the specific parking-to-building ratio is maintained. In the city, because there is better access to public transit, the guidelines are set up so that less parking is required per parcel, which allows buildings to be built closer to the property line, which makes pedestrian routes feel less spread out (because there's less space between buildings in this configuration), contributing to a high "walkability" rating. High walkability ratings attract businesses and residents and helps a community feel like one. Of course, all this is based on "good design" principals that are known in the industry, promoted by community groups and advocated by local politicians. 
+
+<h3>The complexity of engineering</h3>
+It's not always favored by real estate developers who intend to set everything up to attract local business and would prefer not to play the "chicken and egg" walkability game, asking the question "why would people walk around in an area that has no business yet." If you've ever nerded out playing Sim City, you'll have a basic understanding of some of the complexity and compromises that are made over time as land parcels are subdivided and developed. This is the very basic gist of urban planning and design. Due to the complexity of projects, high cost, and long-lasting impacts, firms are contracted to create design guidelines, get buy in and political support from the community, ensure the guidelines are met when developers go into construction, provide community outreach during construction, and so on. Transportation planning is similar, but usually focuses on efficiency and productivity as attributes of desirability.
+
+The process of urban and transportation planning involve the very public process of getting real input from real people, who are familiar with, and are users of, the features of their environment. The process is intense, contentious, and sometimes futile, but the stakes are very high, as most projects consist of multi-million (and for some transportation projects, multi-billion) dollar budgets. For example, the engineers that are responsible for developing highway corridor improvements deal with a menagerie of complex data analysis, real time usage patterns and complex computer modeling of projected population information.
+
+Needless to say, there is a ton of demand for technical design and user experience engineering. Much of what I was involved with had to do with the communication process between the community and government. The firm I worked at created public notifications about information and impacts of projects, as well as inter-agency documents that were used to communicate with state, federal and other government officials. We produced documents, built websites, developed strategies. It was in this space, that I learned about data visualization, the importance of user input, management of complex systems, and what it means to take iterative, evolutionary steps toward a directional goal. The only problem is that, as you can imagine, engineering projects at this scale was a slow moving process.
+
+<h3>Urban design is slow...</h3>
+
+Many factors contribute to the snails pace. It's similar to the difference between a small company and large corporation. The legal liability alone requires every move or suggestion that each party makes to be vetted and heavily scrutinized. Most projects are part of some multi-year and multi-phased huge plan. And with such large projects, each future step needs to be revised at each increment for each of the pieces to remain relevant. Therefore, although the process is highly dynamic and responsive to the changing environment, the "on-the-ground" feel can be very prescriptive as each step of the process is clearly defined and revised from step to subsequent step.
+
+For me, I suppose it was a logical, incremental step in the directional evolution of my career path. The firm gave me the opportunity to be on a multi-dimensional team and deal with a lot of interesting challenges. I was able to contribute to projects that served important purposes and community needs. 
+
+Working with engineers on complex systems provided a lot of interesting insight about iterative design process. In technology, many of the same methodologies apply, but at a rate that is much more satisfying. I may return to the public sector at some point, when agencies and process have caught up with the faster pace of technology, but for now, my place is where I know I can make a difference. Like, now...

@@ -1,0 +1,30 @@
+---
+  layout: post
+  title: 99 Problems
+  permalink: ideas/what-i-learned-when-i-ran-my-own-business
+  categories: [articles]
+---
+
+<h2>Many people dream of being their own boss. It's not always what it's made out to be, but there are many lessons I learned when running my own business.</h2>
+
+<div class="img_wrap"><img src="/img/articles/office-1024x574.jpg" width="100%" /></div>
+
+<h3>It's not about being your own boss</h3>
+It's more about having more than one boss. If you don't want to work for just one person, this will give you an opportunity to work for many different people. The more projects you have, the more people you work with. So it's still important that you maintain your presentability and "people skills." Just making the point that while running your own business allows you to set your own schedule (most of the time), it does not free you from any and all obligation. Clients, projects, deadlines are all part of getting people to pay you money to do projects. If you're doing a good job managing your projects, it's awesome because you've got clients' demands under control, but it requires a lot of work to make a bunch of different people happy!
+
+I love working with different personalities and thrive on talking with people. It was a fun time for me because I would set aside days to stack multiple meetings so that I could take advantage of an extrovert energy boost, which could then be followed by a day of quiet work in my studio.
+
+
+<h3>It's not always about the craft</h3>
+If you thought it was about working and doing the stuff that you wanted to do all day, you might be a little off. Running a business requires you to hustle your services everywhere you go. Until you get things going, you have to constantly take meetings and keep multiple deals going at one time. It's a constant juggle. When you're finished with meetings, you'll need to deal with accounting and bills. When you're finished with that stuff, you'll need to go to the bank and the PO box. When all that stuff is done, then, in the wee hours of the night, when you have some peace and quiet, you'll focus on your craft. But, with all that said, when you're doing what you love to do, it's an awesome feeling to keeping such a machine running.
+
+For me, this was a time that I took advantage of practical applications of stuff that I had been experimenting with. And because I had designers and interns working with me, I made a point to focus on the engineering side of things when I did my tinkering. It was during this time that I taught myself web standards and learned basic PHP. But, since time and money were tight, I would try to experiment with items that had some sort of direct impact on the client work I was doing.
+
+<h3>Your livelihood is to stay organized</h3>
+As a small business owner, running a small business in your home, it's a good idea to keep your life separate from your job. It's important to maintain somewhat regular business hours (like, take weekends off), maintain dedicated space for your business, and to stay as organized as possible. The confidence that you must project to your clients will make the difference between getting paid and not getting paid. 
+
+In my business, I set up a small but fully functional design studio. There were two work stations, a cutting/craft table, swatch and paper sample libraries, art supplies, office supplies, it was all there. There was a job ticket system that filtered jobs into three categories, prospective, current and closed. The queue was efficient and streamlined, which meant that each job was tracked and managed using a similar process.
+
+<h3>Know when to hold 'em, know when to fold 'em</h3>
+I enjoyed my business. It allowed me to take responsibility and grow beyond being a junior member of a team. It gave me the opportunity to take leadership, own the solutions to the problems and pursue projects of interest and value. When I reached a certain point, I decided to bring those skills and lessons back to someone elses business, and eventually decided to relocate to a more established technology marketplace. I'm happy with what I've found in the Bay Area and feel very fortunate to be on a path that allows me to pursue great projects and challenges.
+

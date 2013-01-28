@@ -1,0 +1,31 @@
+---
+  layout: post
+  title: Ink on Paper
+  permalink: ideas/what-i-learned-from-print
+  categories: [articles]
+---
+
+<h2>While elements like A/B testing, funnel marketing, and product development are essential, I'm thankful I had a chance to spend time focusing on a core design skill set while developing an appreciation for well crafted handiwork.</h2>
+
+<div class="img_wrap"><img src="/img/articles/print-design-1024x574.jpg" width="100%" /></div>
+
+<h3>Solid foundation</h3>
+My first job was at a newspaper. I worked in the "back shop" at <em>The Daily Aztec</em>, the bustling place where designers would typeset each page and work with writers on headlines that fit the designated space on each layout. The freely distributed college newspaper provided a new issue, every Monday through Friday, and was the cornerstone of sports news, political discussions and gossip, in a time before the ubiquity of smartphones and trending reddit threads. 
+
+My naïveté prevented me from recognizing this. I was too busy dreaming of working in a high-end studio, where designers would work on mood boards and color swatches. I eventually landed the job in the studio, but much like the newspaper provided the much needed practical application of layout and typesetting, my experience with print in general has provided solid foundation in design and technology.
+
+
+<h3>The studio</h3>
+Flash-forward past <em>The Daily Aztec</em>, graduation, freelance work, and living sporadic-paycheck-to-sporadic-paycheck. I finally got the job I wanted at a high-end design studio, Buchanan Design. It was awesome. At the time, it was a small studio, with about 5 people, focusing on branding and corporate communications. The quality of design and clients was high, and the studio ambiance was right up my ally... They even had a special signature Orange, that they used for house-branded campaigns and materials, and had the walls painted to exactly match the pantone color. Working for the studio, my former boss taught be about layout and typography, color, design precision, how to manage my OCD, among many other things. It was an awesome experience.
+
+Working at such a place provided many lessons about the principals of design as well as the craft of design itself. Principals such as color and typography in-and-of-themselves take years to master. They are difficult to pin down and almost impossible to quantify, but they can and often do make the difference between good design and great design. Because it is difficult to measure and quantify these attributes, the one thing that it requires to get better at is practice and mentorship. These are two things that I had plenty of when working day-in and day-out in the studio.
+
+<h3>Extra curricular activities</h3>
+Due to the fact that it was a "real job," I didn't feel the need to take on a bunch of extra freelance work, and instead focused on my passion for typography in my spare time. When I think back on this time, I remember it as though I was completing an extended independent study. After working at the studio, I'd come home to my studio and burn the midnight oil on font designs, lettering projects and required reading from masters such as Robert Bringhurst, Walter Tracy and Gerrit Noordzij. The work that I produced was moderate, but more important was the understanding and appreciation for good design.
+
+Back at my day job, my work consisted of print production, color matching, typesetting, layout, sketching, brainstorming, critiques, photography, client and vendor coordination, office tasks, and learning. On a daily basis, we dealt with technical issues related to offset, digital and large-scale printing. Sometimes we even got to deal with letterpress. We troubleshot IT issues and developed web pages. There were major deadlines and production schedules to stay caught up on, as well as staying current on design trends and looking out into the world for inspiration. And during the whole time, we maintained a spotless office, complete with a project management and archival system that frankly just doesn't exist in the DIY culture of tech. 
+
+<h3>Principals are universal</h3>
+Anyone who has ever been fortunate enough to open a brand new Apple product would agree the care that goes into designing the printed packaging materials is a reflection of a superior brand experience. In my print work, I was always particularly interested in creating three-dimensional experiences, each fold and flap an opportunity for subtle storytelling. In the fast-paced, ever-changing field of technology, the same universal design principals are applied to create effective user-experiences. The benefit of digital technology is that for many projects, results and and usage patterns of the designs can be instantly monitored, changed and progress measured. Unfortunately, for print projects, there isn't the same level of feedback, which requires the designer to rely heavy on intuition and less on data. I guess that's why I ultimately gravitated toward the web and technology.
+
+It's funny, because these days, when I tell people about my "background in print," I don't always think about the fact that the details may or may not be universally understood (which is what lead to me writing this post). It was hard work, but the vigor and pace was matched by the satisfaction of having created experiences that were real and tangible. Each time the box of samples came back from the printer, we would crowd around as we opened it up, just to catch a whiff of the freshly printed pages that lay inside.
