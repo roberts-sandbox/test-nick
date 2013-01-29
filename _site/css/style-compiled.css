@@ -642,6 +642,25 @@ select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box; }
 
+#dsq-sort-by select {
+  -moz-appearance: normal;
+  -webkit-appearance: normal;
+  padding-left: 0;
+  border: none;
+  width: auto;
+  height: auto;
+  color: #999;
+  cursor: pointer;
+  margin: 0 0 0 -20px;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0 #e0e0e0;
+  -moz-box-shadow: inset 0 0 0 #e0e0e0;
+  box-shadow: inset 0 0 0 #e0e0e0;
+  -webkit-border-radius: 0;
+  -khtml-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
   .heading {
