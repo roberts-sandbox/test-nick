@@ -24,6 +24,8 @@ Stitch represents the pragmatic process of design for usable, durable, interwove
 * Connections are everywhere
 * Durability is stylish
 
+Currently, I'm the Web UX Lead at BitTorrent, Inc. It's a lot of interesting projects for a brand that scales to over 100 million. We were recently featured as one of Fast Company's "50 Most Innovative" Companies. Check out the <a href="http://www.fastcompany.com/most-innovative-companies/2013/bittorrent">profile</a>.
+
 Also, for those of you who knew me way back in the day, I have a complete archive of the <a href="https://github.com/nickcottrell/istitch.net-complete-archive">istitch.net</a> website.
 
 
