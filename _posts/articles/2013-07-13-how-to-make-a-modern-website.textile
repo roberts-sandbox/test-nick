@@ -1,0 +1,40 @@
+---
+  layout: post
+  title: Built for change
+  permalink: ideas/how-to-make-a-modern-website
+  categories: [articles]
+---
+
+<h2>A website is not a precious artifact. It's a tool. In the post-web-standards era, techniques used to build websites have evolved. Here are 5 key tips to building a modern website.</h2>
+
+<div class="img_wrap"><img src="/img/articles/ui-1024x574.jpg" width="100%" /></div>
+
+A good site is built to change. It should be a framework that serves to encourage action and engagement. Variations in user behavior and strategy require new user flows to be tested and vetted. That means sites must be built with pieces that can be set up and rearrange rapidly. These pieces include responsive grid systems, modular, interchangeable, UI elements, platform detection and event tracking. When combined effectively, project teams can spend less time cobbling together updates and more time focusing on designing and improving how a user effectively moves through a site.
+
+<h3>1. Define the layout globally</h3>
+
+It's easy to make a mistake or even to justify deviation when everything is built piece-by-piece. By defining the page structure globally, there's less of an opportunity for <em>rogue layouts</em> to get added to a site as in cases where everything is built from scratch.  Modular code, based on a grid system helps ensure the end result will be consistent and easier to rearrange when the time comes.
+
+Sometimes called <em>scaffolding</em>, a grid system is very helpful in developing a consistent layout. Instead of hard-coding the varying widths of each of the items and laying them out individually from scratch, the code should establish the basic column structure and define each element in relation to what's been defined globally.
+
+<h3>2. Use modular interface elements</h3>
+Don't design a website. Design a UI. The most important problem to solve when designing a website is coming up with a system of components and templates that can be mixed, matched and re-arranged at any given time in order to affect tactical change. The most crippling issue faced with those tasked to manage a website is an inability to make rapid changes. An approach to this issue is to specifically design a system of modular components.
+
+Components are the nuts and bolts of the system. They are the buttons, form elements, images and headline treatments that are used throughout the user-interface. It's important that the UI components are durable and fit nicely into the space provided for them in the scaffolding. For example, since you've already established a grid, each button element should be built so that it will take up 100% of the width of it's containing area. That way the width is determined by the scaffolding and can be used interchangeably in whatever layout is needed, without the need for custom code or hacks.
+
+<h3>3. Design for action, not demographic</h3>
+
+Many times, discussions about <em>users</em> will circle back to demographics. "Fun-loving, cat owners, aged 24-38" might very well move through a site differently than "sour-faced, porcelain collectors, aged 67-88" but their demographic is not the factor that should be considered. The reason why those folks move through sites differently is because they have different motivations and priorities and therefore take different actions. 
+
+A more action-based way of looking one of these profiles might be "Person, looking for cat toys, while sitting in public transit." The fact that they are on public transit means they are likely to be accessing the site from a mobile device, so the layout must work at a small screen size, while the task at hand, "looking for cat toys" provides more clear information about what the design needs to do. It doesn't really matter that they are cat lovers. What matters is that they are looking for cat toys. While demographics might provide some insight about how or why, the action-based profile is more directly related to a user's actual needs. 
+ 
+<h3>4. Make the site responsive and adaptive</h3>
+Responsive web site design is the latest craze, but with good reason. With the multiplicity of screens we can expect in normal user work flow patterns, we can expect that content of a particular site will be viewed on many different screen sizes. So, basing the features of a particular layout on screen size is a pretty good idea. The simplest way to make a site responsive is to use a single breakpoint. If you're above a certain screen size, show the whole layout. If you're below that screen size, stack everything.
+
+An adaptive site is a site that contains logic to detect specific platforms and devices. Upon detection, messaging or features might change depending on which platform or device the user is viewing the content. There are many places where this is useful. Screenshots and product imagery can then be tailored to match with various platforms and devices while specific messaging can be provided to a subset of users. If the adaptive logic is coded in a modular way, it can be even more useful for managing user flow patterns.
+
+
+<h3>5. Track events and test out ideas</h3>
+Events are basically the trackable actions that occur on a web page such as clicks, hovers, form submissions and more. Tools like Google Analytics allow you to set up custom events in addition to other various handy metrics. By tagging custom events while following a consistent naming schema, event information can be organized and used efficiently in analysis and comparisons. Each design or conversion strategy should include a discussion about what events will be tracked to measure the success of the initiative.
+
+

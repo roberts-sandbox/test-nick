@@ -1,0 +1,34 @@
+---
+  layout: post
+  title: Snap! Rich, responsive, modern
+  permalink: ideas/snap-a-rich-responsive-and-modern-web-template
+  categories: [articles]
+---
+
+<h2>Different outputs on different devices with the same code? That’s the trend these days. No longer are we stuck to a particular view applied to many devices. Instead, devices interpret the layout in different ways depending on the context in which the information is viewed. Dedicated, separate mobile websites are a thing of the past. Buh-bye…</h2>
+
+<div class="img_wrap"><img src="/img/articles/snap-1024x574.jpg" width="100%" /></div><br />
+
+
+<em>The <a href="http://istitch.net/snap/">sample above</a> displays a style of website layout design that responds to the device by snapping into various views depending the device’s screen size, providing the user with a more seamless experience from mobile to desktop.</em>
+
+Good design is supposed to be flexible. You can’t force-fit a single design into a variety of formats. For too long, web design has been an extension of print design, hence antiquated terms we use every day such as ‘web page.’ At this point, the web is ready for a better design. Something that snaps into place depending on its context.
+
+Until now, many designs started off with constrained proportions… with a designer laying out a page, as though it was going to be printed and cut to a particular size. For the web, that’s the wrong approach. Designs should be gooey forms that melt into whichever format they are viewed. They should be thought of as a moldable cluster of information, with variables and tolerances built to mesh with different formats and devices.
+
+This layout is an example of such a form. <a href="https://github.com/nickcottrell/Snap">Snap!</a> is a template, designed to demonstrate how layouts can transform depending on the format, size and device type. Hopefully you can imagine how this type of layout can work its way into many different applications. Please take look.
+
+
+
+
+
+
+Responsive web site design is the latest craze, but with good reason. With the multiplicity of screens we can expect in normal user work flow patterns, we can expect that content of a particular site will be viewed on many different screen size. So, basing the features of a particular layout on screen size is a pretty good idea. 
+
+The trick with responsive design is to keep it simple. I'd say, 1 or 2 breakpoints tops. A breakpoint is a threshold, usually a particular point in the width of a layout. For example at the largest size, all of the elements on the page show up like any other page, with items arranged in columns on a grid. When the window is re-sized below a certain point, like let's say, below 580px wide, all of the elements stack up and down, and buttons become larger, so if someone is looking at the page on a cell phone, it would be easier for them to read and interact with the content on the page. I've noticed that many of the layout frameworks out there contain multiple breakpoints for different devices and versions. I say that's too complicated. Just pick one break point, such as the 580px, and go with it. It's much simpler and cleaner that way. If you're above this threshold, show the whole layout, otherwise stack everything...
+
+An adaptive site is a site that contains logic to detect specific platforms and devices. Upon detection, messaging or features might change depending on which platform or device the user is viewing the content. For example, in an adaptive website, you might detect if someone is on Android, and redirect Android users to a page that specifically contains information for Android users. 
+
+There are many places where this is useful. Screenshots and product imagery can then be tailored to match with various platforms and devices while specific messaging can be provided to a subset of users. If the detection system is coded in a modular way, it can be even more useful for managing user flow patterns. Let's say you have a primary conversion funnel to get people to download a PC-based product that will soon be available on Mac. If an adaptive system is available to the website team, an alternative flow can easily be provided, perhaps re-directing the user to a sign up page for the Mac version. 
+
+Adaptive detection help round out the modular system. A useful tool, like plumbers puddy. Because the site is and should be in a constant state of flux, it's ever important to develop techniques to easily select out specific user profiles and provide them with tailored content. Coupling adaptive selectors with modal dialogs can be a great way to cobble together alternative flows for specific platforms or devices. With all this flux, the it is of utmost importance to establish a systematic way to track user activity among the various configurations.
