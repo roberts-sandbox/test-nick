@@ -9,15 +9,9 @@
 
 <div class="img_wrap"><img src="/img/articles/jekyll-1024x574.jpg" width="100%" /></div>
 
-intro
-- consolodation
-- referring links
-- catch all 404 funnel
-
-basic structure
-- jekyll/github
-- scaffolding
-
-content and maintenence
-- light and specific
-- more like a garden
+article about live data
+	- set an objective
+	- design a test
+	- organize your data
+	- build and run the test
+	- tell the truth
