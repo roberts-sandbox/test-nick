@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Save it for the cloud
+  title: Save It for the Cloud
   permalink: ideas/save-it-for-the-cloud
   categories: [articles]
 ---

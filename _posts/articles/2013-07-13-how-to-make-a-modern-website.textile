@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Built for change
+  title: Built for Change
   permalink: ideas/how-to-make-a-modern-website
   categories: [articles]
 ---
