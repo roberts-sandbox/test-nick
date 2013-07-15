@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Save the small talk for cloud
+  title: Save it for the cloud
   permalink: ideas/save-it-for-the-cloud
   categories: [articles]
 ---
