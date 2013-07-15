@@ -5,15 +5,15 @@
   categories: [articles]
 ---
 
-<h2>A brand is not a logo, a visual style guide, a color palette, or a set of icons. A brand is a nebulous cloud that exists in time and space. It’s the set of feelings or impressions people have about an entity and its products or services. Therefore, it touches on everything that each department of that entity brings to the table.</h2>
+<h2>A brand is not a logo, a visual style guide, a color palette, or a set of icons. It’s a set of feelings or impressions people have about an entity and its products or services. A brand is a nebula that exists in time and space.</h2>
 
 <div class="img_wrap"><img src="/img/articles/brandspace_galaxy-1024x574.jpg" width="100%" /></div><br />
 
-In a product company, an effective brand execution strategy involves the coordinated effort of the product, user-experience, engineering and marketing teams. With a non-linear relationship, the combined effort of these departments touches on each aspect of the user-experience. The overarching goal is to establish a brandspace that contains consistent visual and verbal content, providing the experiencee with usable products and useful information at appropriate times.
+In a product company, an effective brand execution strategy involves the coordinated effort of the product, user-experience, engineering and marketing teams. With a non-linear relationship, the combined effort of these departments touches on each aspect of the user-experience. The overarching goal is to establish a <em>brandspace</em> that contains consistent visual and verbal content, providing an experiencee with usable features and useful information at appropriate times.
 
 <h3>Elements of the Brandspace</h3>
 
-The following is a list of elements that provide impressions. Consistency is paramount. Each item, or user touchpoint, should reinforce one another and should help define, and exist inside of, the brandspace. Elements and identifiers provide a consistent space for changeable, timely content. The goal of the brandspace is to preserve the integrity of information, keeping it useful and relevant.
+The following is a list of elements that provide impressions. Consistency is paramount. Each item, or user touchpoint, should reinforce one another and should help define, and exist inside the brandspace. Elements and identifiers provide a consistent space for changeable, timely content. The goal of the brandspace is to preserve the integrity of information, keeping it useful and relevant.
 
 * <strong>identifiers:</strong> logos, icons marks, names… think of these as equivalent to proper nouns.
 * <strong>language:</strong> visual/verbal tone, editorial style, color and type palettes, layout and graphic style, etc…. the flavor.

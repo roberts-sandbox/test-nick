@@ -38,3 +38,7 @@ An adaptive site is a site that contains logic to detect specific platforms and 
 Events are basically the trackable actions that occur on a web page such as clicks, hovers, form submissions and more. Tools like Google Analytics allow you to set up custom events in addition to other various handy metrics. By tagging custom events while following a consistent naming schema, event information can be organized and used efficiently in analysis and comparisons. Each design or conversion strategy should include a discussion about what events will be tracked to measure the success of the initiative.
 
 
+<br />
+<h2>Listen to this article:</h2>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F101112577"></iframe>

@@ -27,3 +27,7 @@ For more on this subject, check out:
 Also, check out <a href="http://www.flickr.com/photos/27495102@N05/sets/72157629617773141/"> photos</a> of my trip to SXSW.
 
 
+<br />
+<h2>Listen to this article:</h2>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F101113113"></iframe>
