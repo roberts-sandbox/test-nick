@@ -5,28 +5,35 @@
   categories: [articles]
 ---
 
-<h2>A brand is not a logo, a visual style guide, a color palette, or a set of icons. It’s a set of feelings or impressions people have about an entity and its products or services. A brand is a nebula that exists in time and space.</h2>
+<h2>A brand is not a logo, a visual style guide, a color palette, or a set of icons. It’s a set of feelings or impressions people have about a company and its products or services. A solid brand experience is achieved using a set of messages that exist in time and space.</h2>
 
 <div class="img_wrap"><img src="/img/articles/brandspace_galaxy-1024x574.jpg" width="100%" /></div><br />
 
-In a product company, an effective brand execution strategy involves the coordinated effort of the product, user-experience, engineering and marketing teams. With a non-linear relationship, the combined effort of these departments touches on each aspect of the user-experience. The overarching goal is to establish a <em>brandspace</em> that contains consistent visual and verbal content, providing an experiencee with usable features and useful information at appropriate times.
+In a product company, an effective brand execution strategy involves the coordinated effort of the product, user-experience, engineering and marketing teams. With a non-linear relationship, the combined effort of these departments touches on each aspect of the user-experience. The overarching goal is to establish a <em>brand space</em> that contains consistent visual and verbal content, providing users with useful features and relevant information.
 
-<h3>Elements of the Brandspace</h3>
+<h3>The final frontier</h3>
 
-The following is a list of elements that provide impressions. Consistency is paramount. Each item, or user touchpoint, should reinforce one another and should help define, and exist inside the brandspace. Elements and identifiers provide a consistent space for changeable, timely content. The goal of the brandspace is to preserve the integrity of information, keeping it useful and relevant.
+Space plays a valuable role in this process. It's the area that's defined for the messaging to take place. Each web property, UI element, image, copy line, tweet, notification, advertisement, business card, profile is an opportunity to provide a message that is consistent with the vision or essence of the company, and tailored for a particular audience (or better yet, <a href="{{ site.baseurl }}ideas/how-to-make-a-modern-website" target="_blank">action profile</a>).
 
-* <strong>identifiers:</strong> logos, icons marks, names… think of these as equivalent to proper nouns.
-* <strong>language:</strong> visual/verbal tone, editorial style, color and type palettes, layout and graphic style, etc…. the flavor.
-* <strong>relevant information:</strong> product information, company information, up-to-date information. items that pull, instead of push…
-* <strong>promotional:</strong> product suggestions, new offers, calendar-related content, items that push….
+Successful brand execution involves elements that exist in the right place. Useful, relevant information is provided with a consistent visual/verbal language. Timely content is displayed in an appropriate, non-distracting way. The user is able to navigate through the space, obtaining useful information and features along the way.
 
-<h3>The Brandspace Dynamic</h3>
+<h3>Gestalt much?</h3>
 
-A successful brand execution involves an ecosystem that exists in the brandspace. The stage is set with identifiers in the right place.  Useful, relevant information is provided with a consistent visual/verbal language. Timely content is displayed in an appropriate, non-distracting way. The user is able to navigate through the brandspace, obtaining useful information and products along the way.
+A brand is greater than the sum of it's parts. Here are a few key elements that create the space for a brand to exist:
 
-Through this process, a story unfolds with elements that each have a unique lifespan. This is the basis for a cascade to occur in the brandspace.  The longer the lifespan of an element, the simpler the element should be. For example, the logo of a company should hold it’s structure and relevance over time, while timely, calendar-driven, promotional content can take the form of the latest visual/verbal trends.
+* <strong>Identifiers:</strong> logos, icons marks, names. Think of these as equivalent to proper nouns.
+* <strong>Language:</strong> visual/verbal tone, editorial style, color and type palettes, layout and visual design, etc.
+* <strong>Relevant information:</strong> call to action hierarchy, product information, company information, up-to-date information. items that pull, instead of push.
+* <strong>Promotional:</strong> product marketing, suggestions, offers, calendar-related content, items that push.
 
+<h3>A time and place</h3>
 
-Another layer of communication in the brandspace is the aspect of self-identity and reputation management. Woven into each message is a secondary message that always provides the user with an idea of who or what the entity is. Aside from an “about us” page on an entity’s website, the process is frequently subtle and subconscious. An additional element of this layer has to do with objective-based messaging–the element of the message that identifies what the entity is attempting to achieve. An example of this layer could be in the form of a tag line. The most successful jaunt by a user through a entity’s brandspace will involve them being able to intuitively determine who the branded entity is, and what they are doing.
+Time is the primary factor in determining the relevance of information or messaging. Each of the items listed above have specific times in which they are most relevant. Therefore, the timing of each message provides an opportunity to create a message that is on-brand, and most importantly, on-point.
 
-If an entity can be aware of how messages are affected by time and space, they are in a much better position to create consistent messaging without having to re-invent the wheel by producing countless revisions to their brand experience. A well thought-out approach will provide a set of conventions that become scalable as new elements are added, removed and or products combined.
+Through the process, a story unfolds via elements that each have a unique shelf life. The longer the shelf life, the longer it will need to maintain its place in the system. Therefore it's best for elements with a longer shelf life to contain features that are more timeless and less likely to be dated. For example, the logo of a company should hold it’s structure and relevance over time, while timely, calendar-driven, promotional content can take the form of the latest visual and verbal trends.
+
+Regarding a company's voice, the devil is in the details. While overarching elements such as the company name or tagline might be equivalent to something like a logo or type treatment, more granular items such as notifications or error messages represent an opportunity for the personality of a brand to shine. Each detail is a space to reinforce the tone and feel of an overarching message. For example, a security company whose app is designed to filter out viruses on your PC might have a more serious and reassuring tone in the error messaging. A social app designed to play games with friends might deliver the same type of error message in a more playful, casual tone. Regardless of what type of voice a company is going for, it's important that it maps out the verbal messaging in the same way it maps out its visual design and promotional initiatives.
+
+<h3>Keep it real</h3>
+
+If a company or organization is aware of how messages are affected by time and space, it will be in a much better position to create consistent messaging without having to re-invent the wheel each time. A tiered messaging and touchpoint structure, based on the shelf life of each item, is useful in understanding how elements work together to reinforce the essence of a company's brand. A well thought-out approach will provide a scalable system as new ideas are added, removed and launched.
