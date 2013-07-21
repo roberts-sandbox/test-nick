@@ -1,0 +1,46 @@
+---
+  layout: post
+  title: Weird Science
+  permalink: ideas/live-data-rules/
+  categories: [articles]
+---
+
+<h2>Simply put: we argue a lot. Live data tests provide data we can use to move forward, incrementally and objectively--so we can argue less.</h2>
+
+<div class="img_wrap"><img src="/img/articles/live_data-1024x574.jpg" width="100%" /></div>
+
+<h3>Step #1. Set an objective</h3>
+First things first: establish a goal. This seems obvious but it's not. Most of the time we drive initiatives forward based on complex plans to achieve a variety of goals. Sometimes (eh, maybe a lot of the time), those goals might even compete with each other. So when you are trying to drive change on a particular initiative, it's important to be super clear about what it is you're trying to achieve.
+
+In order to understand how to establish a goal, you should understand how progress is tracked. Each initiative starts off with a high level goal, which will trickle down to specific event metrics that are collected and tracked in the wild. While a goal is overarching, an objective is specific. For example, if the goal is to <em>get more customers</em>, the objective is to <em>increase daily users of the store site by 8% by Q2</em>. To measure store users, a <em>key performance indicator</em> (or KPI) is established, in this case, <em>daily shopping cart entries</em>, which is determined by a metric of <em>users who successfully add an item to the cart</em>. This is determined by a set of events such as clicking the "add to cart" button, or visits to a "step 2" checkout page, etc.
+
+Though it may seem like a pain at the beginning of the design process to think this through, it is a good idea. If you can't break down some kind of quantifiable goal at the beginning of the process, you might want to question the initiative. It's surprising how much this actually occurs, so make sure to take the time and establish the metric that you will use to determine whether something is a success or failure.
+
+
+<h3>Step #2. Design a test</h3>
+
+When dealing with live data tests, the finished product should be a decently fleshed out version but it's still a prototype so don't go overboard. The main purpose of the test is to try out different ideas that might drive conversions for the objective you've established (ahem, see the previous step...). Once again, it's important to be super specific. What do you want the user to click? What does success look like? Is it an email, is it a download, is it a location you want the user to reach? How can you give the user queues to complete the target action? What different options can you run against each other to test a theory about how something might perform?
+
+When you've figured out what it is you want to achieve and test out with the design, you'll need to figure out how to test it. Tools such as <a href="http://optimizely.com" target="_blank">Optimizely</a> will actually facilitate your tests, and re-route traffic to different options and will provide real-time stats about the performance of each option. There are a few different test options you can choose from when using this kind of tool.
+
+<em>A/B Split</em> tests (or usually just called <em>A/B tests</em>) are when you test one design against another, such as the same layout and different button color. It's best to keep variations to a minimum with A/B splits in order to hone in on what works and what doesn't. Another type of test is called a <em>multi-variate</em> test. That means you can test a few different variables, that the tool will put them together automatically, in different combinations, and let you know which was the winning combination. That helps if you have several interchangeable variables that just need to be set up in the right combination. The final is a multi-paged test which is when you test one set of pages against another set. That means that you can test funnel vs funnel, each with its own unique flow, tracking common goals between multiple pages.
+
+
+<h3>Step #3. Organize your data</h3>
+
+It's super important that before you jump in and build the prototype, you've got a clear and streamlined event tracking plan. You will probably want to use tools such as Google Analytics or optimizely. Those tools are great, and do a fine job an in most cases are a requirement, but don't underestimate the power of a simple, well organized spreadsheet that can be used to map and track variations and the data that goes along with each one.
+
+You're prototype is basically going to be an event tracking machine. The main thing is that you have an established schema. Shorthand codes should be established for Page Name, Content Area, and Action Type should be tracked in each single event tag. That way, event information is condensed into a single tag, and other tags such as category and label can be used to help catalog and archive multiple experiments.
+
+
+<h3>Step #4. Build and run the test</h3>
+
+Your test prototype might looked polished, but it's main purpose is not to be perfect, it's to track events. Your prototype is an event tracking machine. That means, that it should be built in a way that is both easy to spin off new versions and new updates, as well as embedded with custom event tracking scripts that will provide specific data about each of the events being used to track the performance of the success metrics. Methods like modular grid systems and UI components are useful tools in designing a prototype for rapid iteration. Also it might help to use variables on event tracking scripts so that you can reuse the same code snippets and not have to update each one by hand. The main thing is that while a casual user might not notice its a prototype, this is something that is never suppose to be released to production and should be something that you are using temporarily to collect data about what works and what doesn't. When it comes time to build the final production version, much more attention should be given to the performance and production scalability.
+
+
+<h3>Step #5. Tell the truth</h3>
+Once you've run your test and have data to review, you'll want to check and review the data. If you were able to collect event information with more than one tool, you can compare the redundant information to make sure everything is consistent. Next, you'll want to make sure the data is organized coherently in a format that can be shared. Statistical analysis is great if it's an option for you or your team. Basically, testing is risk management so you want to make sure that any results you share have been vetted by appropriate individuals using appropriate methods. Statistical pitfalls and common mistakes include: too many variations, timing and duration of test, scaling to production, test/production data mismatch.
+
+Just remember, data collected in a live data test is directional. It helps provide insight about how things <em>might</em> perform in production. Live data tests are a best thought of as risk management tools and not representative of the finished project. Each live data test should be based on clear objective that is aligned with any overarching goals that exist. Hopefully live data tests can be useful in settling debates, understanding users, and getting a sense of what works and what doesn't. Progress, not perfection, folks.
+
+
