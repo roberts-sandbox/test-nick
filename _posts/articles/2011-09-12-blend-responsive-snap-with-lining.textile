@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: It's not a *page*
+  title: It's Not a *Page*
   permalink: ideas/its-not-a-page
   categories: [articles]
 ---
