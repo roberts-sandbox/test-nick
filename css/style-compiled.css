@@ -682,7 +682,7 @@ select {
     font-size: 14px !important; }
 
   nav ul {
-    padding: 36px 0 36px 100px; }
+    padding: 36px 0 36px 0; }
 
   form input[type="submit"] {
     margin-top: 42px; }

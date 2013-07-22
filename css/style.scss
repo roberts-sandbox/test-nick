@@ -255,7 +255,7 @@ background-color: transparent;
 	#nav1 a:link {font-size:16px !important;}
 	#nav2 {float:right;}
 	#nav2 a:link {font-size:14px !important;}
-	nav ul {padding:36px 0 36px 100px;}
+	nav ul {padding:36px 0 36px 0;}
 	form input[type="submit"]{margin-top:42px;}
 	.copyright {font-size:12px; line-height:16px; margin-top:18px;}
 	.flag {position:fixed; right:7%; top:0px !important;@include easing (.4s);}

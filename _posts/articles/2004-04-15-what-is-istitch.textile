@@ -15,7 +15,7 @@ The term "stitching" something together can apply to a variety of tasks such as 
 Stitch represents the pragmatic process of design for usable, durable, interwoven systems. 
 
 
-<h3>A Few Principals</h3>
+<h3>A few principals</h3>
 
 * User-driven technology feels good and fits right
 * Experiences are tailored for each user
@@ -26,7 +26,7 @@ Stitch represents the pragmatic process of design for usable, durable, interwove
 * Durability is stylish
 
 
-<h3>About Me, Nick Cottrell.</h3>
+<h3>About me, Nick Cottrell.</h3>
 
 Currently, I'm the Web UX Lead at <a href="http://www.bittorrent.com">BitTorrent, Inc.</a> It's a lot of interesting projects for a brand that scales to over 100 million. We were recently featured as one of Fast Company's "50 Most Innovative" Companies. Check out the <a href="http://www.fastcompany.com/most-innovative-companies/2013/bittorrent">profile</a>.
 
