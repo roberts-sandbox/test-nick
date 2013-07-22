@@ -1,153 +1,7 @@
 // SIMPLE TWEETS
 
 
-A website is not a precious artifact. It’s a tool. #realness
-
-Welcome to the post-web-standards era. #iJustSaidThat
-
-Variations in user behavior and strategy require new user flows to be tested and vetted.
-
-Responsive grid systems, modular UI elements, platform detection and event tracking #dopeness
-
-Make interchangeable shit.
-
-A grid system is very helpful in developing a consistent layout #indeed
-
-Define the layout globally #css
-
-define each element in relation to what’s been defined globally #css #grid
-
-Use modular interface elements #UI
-
-Don’t design a website. Design a UI. 
-
-Templates can be mixed, matched and re-arranged
-
-Affect tactical change #makeithappen
-
-The most crippling issue faced with those tasked to manage a website is an inability to make rapid changes.
-
-Design modular components #UI
-
-Components are the nuts and bolts of the interface #UI
-
-Durable components fit nicely into the space provided for them 
-
-100% width as default #yesplease
-
-Design for action, not demographic.
-
-Many times, discussions about *users* will circle back to demographics. #dontdoit
-
-Demographic is not the only factor that should be considered. #UserAction
-
-Different motivations and priorities result in different actions #UserAction
-
-Optimize for *action profiles* instead of demographics #UserAction
-
-“Looking for cat toys” is much different than "loves cats" #UserAction
-
-An action-based profile is more directly related to a user’s actual needs.
-
-Make sites responsive and adaptive #bestcomboever
-
-Multiplicity of screens #noun
-
-Basing the features of a particular layout on screen size is a pretty good idea #yup #sureis
-
-Start with a single breakpoint #css #simple
-
-If you’re below a certain screen size, stack everything.
-
-Detect for platforms and devices #justdoit
-
-Code adaptive logic in a modular way 
-
-Tailor content to various platforms and devices 
-
-Track events and test out ideas
-
-Events are trackable actions #GoodData
-
-Follow a consistent naming schema when setting up custom events #GoodData
-
-Organize event information for analysis and comparisons #GoodData
-
-Every design should include a discussion about what events will be tracked #GoodData
-
-Measure success.
-
-Collect data and insight from real users 
-
-User tests fall into two categories: qualitative and quantitative #GoodData
-
-Qualitative testing involves a small group of users #GoodData
-
-Quantitative testing involves a statistically significant sample of users #GoodData
-
-Set an objective #GoodData
-
-Goals seem obvious but they're not #vaguebook
-
-Most of the time we deal with complex plans to achieve a variety of goals. 
-
-Goals usually compete with each other
-
-Be super clear about what it is you’re trying to achieve #GoodData
-
-Understand how to establish an objective #GoodData
-
-Understand how progress is tracked #GoodData
-
-Start off with a high level goal, then trickle down to specific event metrics #GoodData
-
-While a goal is overarching, an objective is specific. 
-
-If the goal is to get more customers, the objective is to increase daily users of the store site by 8% by Q2.
-
-It may seem like a pain, but it's a good idea #gettingStronger
-
-If you can’t break down a quantifiable goal at the beginning, you might want to question the whole thing. #GoodData
-
-Establish the metric you will use to determine whether something succeeds or fails
-
-Design tests
-
-Good Data is Good Design
-
-Develop multiple concurrent designs
-
-Track the performance, and ultimately determine which designs yield the best results #GoodData
-
-Use web-based tools to route a small percentage of users into test buckets
-
-Alternate. Design. Iterations.
-
-The performance of each design iteration is tracked and compared, which determines winners and losers.
-
-Go overboard!
-
-Test versions should be decently fleshed out, but keep in mind that they’re still just prototypes
-
-What do you want the user to click? #thingyoushouldask
-
-What does success look like? #thingyoushouldask
-
-Is it an email? Is it a download? #thingyoushouldask
-
-Is it a location you want the user to reach? #thingyoushouldask
-
-How can you give the user queues to complete the target action? #thingyoushouldask
-
-What different options can you run against each other? #thingyoushouldask
-
-Different hypotheses might require different types of tests
-
-Figure out what you want to learn.
-
-A/B Splits are when you test one design against another, such as the same layout and different button color.
-
-hone in on what works and what doesn’t
+Hone in on what works and what doesn’t
 
 A multi-variate test puts together different combinations and lets you know which is the winning combination.
 
@@ -321,7 +175,15 @@ Modularity is everything #TheStitchExperience
 
 Connections are everywhere #TheStitchExperience
 
-Durability is stylish #TheStitchExperience
+
+
+
+
+
+
+
+
+
 
 
 
@@ -332,8 +194,6 @@ Durability is stylish #TheStitchExperience
 // TWEETS WITH LINKS
 Check out the audio for my blog articles: https://soundcloud.com/nickcottrell
 
-Here's a link to my sort of Podcast: https://soundcloud.com/nickcottrell
-
 Podcasting, without the pod: https://soundcloud.com/nickcottrell
 
 Who gives a shit about RSS anymore anyway? I podcast on SoundCloud: https://soundcloud.com/nickcottrell
@@ -342,39 +202,11 @@ Apparently, podcasts are invite only on SoundCloud... Didn't stop me from postin
 
 Who says we're disconnected? I keep in contact with way more people than before: https://soundcloud.com/nickcottrell/save-it-for-the-cloud
 
-Um, the internet? https://soundcloud.com/nickcottrell/save-it-for-the-cloud
-
-Listen Up! Here's how you can "do social media" better: https://soundcloud.com/nickcottrell/the-social-funnel
-
-Listen to 5 easy steps to improving your social media strategies: https://soundcloud.com/nickcottrell/the-social-funnel
-
-Um, the internet.
-https://soundcloud.com/nickcottrell/the-social-funnel
-
-Listen to 5 ways you can build a modern website:
-https://soundcloud.com/nickcottrell/built-for-change
-
-Listen to these tips on how to build a modern website:
-https://soundcloud.com/nickcottrell/built-for-change
-
-Listen to my podcast about designing modern websites:
-https://soundcloud.com/nickcottrell/built-for-change
-
-Listen to my podcast about open source inspired projects:
-https://soundcloud.com/nickcottrell/its-your-walled-garden
-
 Listen to a few tips on how to manage your walled garden:
 https://soundcloud.com/nickcottrell/its-your-walled-garden
 
 Listen to why I think GitHub is changing the way we think about projects:
 https://soundcloud.com/nickcottrell/its-your-walled-garden
-
-
-Apparently, I have a lot of ideas:
-http://nickcottrell.info/ideas/
-
-Please think with me.
-http://nickcottrell.info/ideas/
 
 Please. Read my effing blog:
 http://nickcottrell.info/ideas/
@@ -397,9 +229,6 @@ http://nickcottrell.info/ideas/how-to-make-a-modern-website/
 What the eff is a modern website anyway?
 http://nickcottrell.info/ideas/how-to-make-a-modern-website/
 
-Check out these 5 steps on how to make a modern website even more... uh, moderner.
-http://nickcottrell.info/ideas/how-to-make-a-modern-website/
-
 Testing is a good idea. #umkay
 http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
@@ -410,9 +239,6 @@ The art of data science
 http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
 Check out these 5 steps on how to run live data tests:
-http://nickcottrell.info/ideas/how-to-run-live-data-tests/
-
-User Testing: The Quant Years
 http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
 #quantalicious
@@ -438,9 +264,6 @@ http://nickcottrell.info/ideas/the-social-funnel/
 
 Will you B my friend?
 http://nickcottrell.info/ideas/the-social-funnel/
-
-WE ARE NOT ZOMBIES!
-http://nickcottrell.info/ideas/save-it-for-the-cloud/
 
 So... how's it going? blah blah blah #fartnoise
 http://nickcottrell.info/ideas/save-it-for-the-cloud/
@@ -484,19 +307,7 @@ http://nickcottrell.info/ideas/time-and-space/
 The right info at the right time:
 http://nickcottrell.info/ideas/time-and-space/
 
-Deliver messages that are awesome.
-http://nickcottrell.info/ideas/time-and-space/
-
-Awesome sites have awesome writing.
-http://nickcottrell.info/ideas/time-and-space/
-
-Every piece of text is an opportunity to connect with users.
-http://nickcottrell.info/ideas/time-and-space/
-
 I made a SCSS grid system called Lining for Layout:
-https://github.com/nickcottrell/lining-for-layout
-
-Hi, look at me SCSS grid system:
 https://github.com/nickcottrell/lining-for-layout
 
 Did I mention this is responsive?
@@ -541,9 +352,6 @@ http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
 Raise your hand if you know what an ink-trap is?
 http://nickcottrell.info/ideas/what-i-learned-from-print/
 
-Ah... the smell of ink on paper.
-http://nickcottrell.info/ideas/what-i-learned-from-print/
-
 So I was at this press check and I saw a typo...
 http://nickcottrell.info/ideas/what-i-learned-from-print/
 
@@ -559,35 +367,14 @@ http://nickcottrell.info/ideas/what-is-istitch/
 Stitch design uses tailoring as a metaphor for design #obvious #facepalm
 http://nickcottrell.info/ideas/what-is-istitch/
 
-This just in: Rad metaphors are fucking awesome!
-http://nickcottrell.info/ideas/what-is-istitch/
-
 Make it work:
 http://nickcottrell.info/ideas/what-is-istitch/
-
-Listen to this Nivana cover I did #MM 
-https://soundcloud.com/waytoosick/in-bloom-ncbs-epic-folk-tech
-
-Check out this Peanut Butter Wolf remix I made. #MM 
-https://soundcloud.com/waytoosick/fair-weather-friend-my-world
-
-Who likes Public Enemy? Here's a remix I did... #MM 
-https://soundcloud.com/waytoosick/public-enemy-get-up-stand-up
 
 Got some money to go, to grow, to show, to blow. #MM 
 https://soundcloud.com/waytoosick/01-i-got-money-lo-fi
 
 The story of Beowulf set to song (recorded on an iphone) #MM 
 https://soundcloud.com/waytoosick/the-story-of-beowulf-set-to
-
-This is a rap song about the Matrix that me and my friend made. #MM 
-https://soundcloud.com/waytoosick/04-white-rabbit
-
-Check out this old school song I recorded in 2003. #StillRocks #MM 
-https://soundcloud.com/waytoosick/02-means-to-an-end
-
-Own that shit, that shit is gold! #MM 
-https://soundcloud.com/waytoosick/01-own-that-shit-that-shit-is
 
 Still, by far, the best guitar solo I ever managed to pull off. #MM
 https://soundcloud.com/waytoosick/12-load-up
@@ -626,7 +413,6 @@ front end
 https://github.com/nickcottrell/lining-for-layout
 https://github.com/nickcottrell/spool
 https://github.com/nickcottrell/nickcottrell.github.com
-
 
 past experience
 http://nickcottrell.info/ideas/what-i-learned-from-urban-design/

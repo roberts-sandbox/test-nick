@@ -1,1 +1,267 @@
 // TWEETS THAT HAVE BEEN SCHEDULED
+
+
+A website is not a precious artifact. It’s a tool. #realness
+
+Welcome to the post-web-standards era. #iJustSaidThat
+
+Listen to this Nivana cover I did #MM 
+https://soundcloud.com/waytoosick/in-bloom-ncbs-epic-folk-tech
+
+This is a rap song about the Matrix that me and my friend made. #MM http://ow.ly/nbzzr
+
+Here's a link to my sort of Podcast: https://soundcloud.com/nickcottrell
+
+Make interchangeable shit.
+
+A grid system is very helpful in developing a consistent layout #indeed
+
+
+Variations in user behavior and strategy require new user flows to be tested and vetted.
+
+
+Responsive grid systems, modular UI elements, platform detection and event tracking #dopeness
+
+Please think with me.
+http://nickcottrell.info/ideas/
+
+Listen Up! Here's how you can "do social media" better: https://soundcloud.com/nickcottrell/the-social-funnel
+
+Listen to 5 easy steps to improving your social media strategies: https://soundcloud.com/nickcottrell/the-social-funnel
+
+Define the layout globally #css
+
+Use modular interface elements #UI
+
+Don’t design a website. Design a UI. 
+
+Templates can be mixed, matched and re-arranged
+
+Affect tactical change #makeithappen
+
+The most crippling issue faced with those tasked to manage a website is an inability to make rapid changes.
+
+Components are the nuts and bolts of the interface #UI
+
+Durable components fit nicely into the space provided for them 
+
+100% width as default #yesplease
+
+Design for action, not demographic.
+
+Many times, discussions about *users* will circle back to demographics. #dontdoit
+
+Awesome sites have awesome writing.
+http://nickcottrell.info/ideas/time-and-space/
+
+Different motivations and priorities result in different actions #UserAction
+
+Optimize for *action profiles* instead of demographics #UserAction
+
+“Looking for cat toys” is much different than "loves cats" #UserAction
+
+An action-based profile is more directly related to a user’s actual needs.
+
+Check out these 5 steps on how to make a modern website even more... uh, moderner.
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+Listen to 5 ways you can build a modern website:
+https://soundcloud.com/nickcottrell/built-for-change
+
+Make sites responsive and adaptive #bestcomboever
+
+Multiplicity of screens #noun
+
+Basing the features of a particular layout on screen size is a pretty good idea #yup #sureis
+
+This just in: Rad metaphors are fucking awesome!
+http://nickcottrell.info/ideas/what-is-istitch/
+
+Ah... the smell of ink on paper.
+http://nickcottrell.info/ideas/what-i-learned-from-print/
+
+Start with a single breakpoint #css #simple
+
+If you’re below a certain screen size, stack everything.
+
+Detect for platforms and devices #justdoit
+
+Code adaptive logic in a modular way 
+
+Tailor content to various platforms and devices
+
+Track events and test out ideas
+
+Events are trackable actions #GoodData
+
+Follow a consistent naming schema when setting up custom events #GoodData
+
+Every design should include a discussion about what events will be tracked #GoodData
+
+Measure success.
+
+Collect data and insight from real users 
+
+User tests fall into two categories: qualitative and quantitative #GoodData
+
+Qualitative testing involves a small group of users #GoodData
+
+Quantitative testing involves a statistically significant sample of users #GoodData
+
+Set an objective #GoodData
+
+
+Who likes Public Enemy? Here's a remix I did... #MM 
+https://soundcloud.com/waytoosick/public-enemy-get-up-stand-up
+
+Own that shit, that shit is gold! #MM 
+https://soundcloud.com/waytoosick/01-own-that-shit-that-shit-is
+
+Hi, look at me SCSS grid system:
+https://github.com/nickcottrell/lining-for-layout
+
+Every piece of text is an opportunity to connect with users.
+http://nickcottrell.info/ideas/time-and-space/
+
+Goals seem obvious but they're not #vaguebook
+
+Most of the time we deal with complex plans to achieve a variety of goals. 
+
+Goals usually compete with each other
+
+
+WE ARE NOT ZOMBIES!
+http://nickcottrell.info/ideas/save-it-for-the-cloud/
+
+
+
+Be super clear about what it is you’re trying to achieve #GoodData
+
+Understand how to establish an objective #GoodData
+
+Start off with a high level goal, then trickle down to specific event metrics #GoodData
+
+If the goal is to get more customers, the objective is to increase daily users of the store site by 8% by Q2.
+
+It may seem like a pain, but it's a good idea #gettingStronger
+
+User Testing: The Quant Years
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+Listen to my podcast about designing modern websites:
+https://soundcloud.com/nickcottrell/built-for-change
+
+Deliver messages that are awesome.
+http://nickcottrell.info/ideas/time-and-space/
+
+If you can’t break down a quantifiable goal at the beginning, you might want to question the whole thing. #GoodData
+
+Establish the metric you will use to determine whether something succeeds or fails
+
+Design tests
+
+Good Data is Good Design
+
+Develop multiple concurrent designs
+
+Track the performance, and ultimately determine which designs yield the best results #GoodData
+
+Use web-based tools to route a small percentage of users into test buckets
+
+Alternate. Design. Iterations.
+
+The performance of each design iteration is tracked and compared, which determines winners and losers.
+
+Check out this old school song I recorded in 2003. #StillRocks
+https://soundcloud.com/waytoosick/02-means-to-an-end
+
+Go overboard!
+
+Test versions should be decently fleshed out, but keep in mind that they’re still just prototypes
+
+What do you want the user to click? #thingyoushouldask
+
+What does success look like? #thingyoushouldask
+
+Is it an email? Is it a download? #thingyoushouldask
+
+Is it a location you want the user to reach? #thingyoushouldask
+
+How can you give the user queues to complete the target action? #thingyoushouldask
+
+What different options can you run against each other? #thingyoushouldask
+
+Different hypotheses might require different types of tests
+
+A/B Splits are when you test one design against another, such as the same layout and different button color.
+
+Apparently, I have a lot of ideas:
+http://nickcottrell.info/ideas/
+
+Um, the internet? https://soundcloud.com/nickcottrell/save-it-for-the-cloud
+
+Um, the internet.
+https://soundcloud.com/nickcottrell/the-social-funnel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
