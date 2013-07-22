@@ -147,7 +147,7 @@ a.twitter:active {}
 
 
 /*elements*/
-#logo {display:block;background-color:#fff;width:259px;height:68px; margin:0 auto; padding-top:36px;
+#logo {display:block;background-color:#fff;width:259px;height:68px; float:none; margin:0 auto; padding-top:36px;
 	@include easing (1s);	
 	}
 #logo a:link {width:259px; height:68px; display:block; background-image:url('/img/interface/nick_cottrell.gif');background-position:0 0;
@@ -249,6 +249,7 @@ background-color: transparent;
 
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
+#logo {float:left;}
 .heading {background-color:transparent;}
 .page-content {background-color:transparent;}
 .page-block {background-color:transparent;}

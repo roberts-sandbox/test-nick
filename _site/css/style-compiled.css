@@ -358,6 +358,7 @@ a.twitter:hover {
   background-color: #fff;
   width: 259px;
   height: 68px;
+  float: none;
   margin: 0 auto;
   padding-top: 36px;
   -webkit-transition: all 1s ease-in-out;
@@ -663,6 +664,9 @@ select {
 
 /*for 770px and up*/
 @media screen and (min-width: 770px) {
+  #logo {
+    float: left; }
+
   .heading {
     background-color: transparent; }
 
