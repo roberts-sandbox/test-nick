@@ -1,0 +1,662 @@
+// SIMPLE TWEETS
+
+
+A website is not a precious artifact. It’s a tool. #realness
+
+Welcome to the post-web-standards era. #iJustSaidThat
+
+Variations in user behavior and strategy require new user flows to be tested and vetted.
+
+Responsive grid systems, modular UI elements, platform detection and event tracking #dopeness
+
+Make interchangeable shit.
+
+A grid system is very helpful in developing a consistent layout #indeed
+
+Define the layout globally #css
+
+define each element in relation to what’s been defined globally #css #grid
+
+Use modular interface elements #UI
+
+Don’t design a website. Design a UI. 
+
+Templates can be mixed, matched and re-arranged
+
+Affect tactical change #makeithappen
+
+The most crippling issue faced with those tasked to manage a website is an inability to make rapid changes.
+
+Design modular components #UI
+
+Components are the nuts and bolts of the interface #UI
+
+Durable components fit nicely into the space provided for them 
+
+100% width as default #yesplease
+
+Design for action, not demographic.
+
+Many times, discussions about *users* will circle back to demographics. #dontdoit
+
+Demographic is not the only factor that should be considered. #UserAction
+
+Different motivations and priorities result in different actions #UserAction
+
+Optimize for *action profiles* instead of demographics #UserAction
+
+“Looking for cat toys” is much different than "loves cats" #UserAction
+
+An action-based profile is more directly related to a user’s actual needs.
+
+Make sites responsive and adaptive #bestcomboever
+
+Multiplicity of screens #noun
+
+Basing the features of a particular layout on screen size is a pretty good idea #yup #sureis
+
+Start with a single breakpoint #css #simple
+
+If you’re below a certain screen size, stack everything.
+
+Detect for platforms and devices #justdoit
+
+Code adaptive logic in a modular way 
+
+Tailor content to various platforms and devices 
+
+Track events and test out ideas
+
+Events are trackable actions #GoodData
+
+Follow a consistent naming schema when setting up custom events #GoodData
+
+Organize event information for analysis and comparisons #GoodData
+
+Every design should include a discussion about what events will be tracked #GoodData
+
+Measure success.
+
+Collect data and insight from real users 
+
+User tests fall into two categories: qualitative and quantitative #GoodData
+
+Qualitative testing involves a small group of users #GoodData
+
+Quantitative testing involves a statistically significant sample of users #GoodData
+
+Set an objective #GoodData
+
+Goals seem obvious but they're not #vaguebook
+
+Most of the time we deal with complex plans to achieve a variety of goals. 
+
+Goals usually compete with each other
+
+Be super clear about what it is you’re trying to achieve #GoodData
+
+Understand how to establish an objective #GoodData
+
+Understand how progress is tracked #GoodData
+
+Start off with a high level goal, then trickle down to specific event metrics #GoodData
+
+While a goal is overarching, an objective is specific. 
+
+If the goal is to get more customers, the objective is to increase daily users of the store site by 8% by Q2.
+
+It may seem like a pain, but it's a good idea #gettingStronger
+
+If you can’t break down a quantifiable goal at the beginning, you might want to question the whole thing. #GoodData
+
+Establish the metric you will use to determine whether something succeeds or fails
+
+Design tests
+
+Good Data is Good Design
+
+Develop multiple concurrent designs
+
+Track the performance, and ultimately determine which designs yield the best results #GoodData
+
+Use web-based tools to route a small percentage of users into test buckets
+
+Alternate. Design. Iterations.
+
+The performance of each design iteration is tracked and compared, which determines winners and losers.
+
+Go overboard!
+
+Test versions should be decently fleshed out, but keep in mind that they’re still just prototypes
+
+What do you want the user to click? #thingyoushouldask
+
+What does success look like? #thingyoushouldask
+
+Is it an email? Is it a download? #thingyoushouldask
+
+Is it a location you want the user to reach? #thingyoushouldask
+
+How can you give the user queues to complete the target action? #thingyoushouldask
+
+What different options can you run against each other? #thingyoushouldask
+
+Different hypotheses might require different types of tests
+
+Figure out what you want to learn.
+
+A/B Splits are when you test one design against another, such as the same layout and different button color.
+
+hone in on what works and what doesn’t
+
+A multi-variate test puts together different combinations and lets you know which is the winning combination.
+
+Multi-paged tests let you test funnel vs funnel
+
+Organize your data
+
+Streamline your event tracking plan
+
+Use tools such as Google Analytics or @Optimizely
+
+Never underestimate the power of a simple, well-organized spreadsheet
+
+Map and track variations and the data that goes along with each one
+
+Spreadsheets fucking rule #GoodData
+
+Share the information with the team, especially the Data Science team #GoodData
+
+A prototype is an event tracking machine. #GoodData
+
+Make sure you have an established schema #GoodData
+
+Tag information such as the category and label can be used to help catalog and archive multiple experiments
+
+Build and run tests
+
+WYSIWYG!
+
+Use your own web servers to host your own design variations
+
+Variations on a web server, Optimizely to facilitate the test, collect events with Google Analytics #combo
+
+use Optimizely to route traffic from production to test buckets
+
+Use Google Analytics to track and archive all clicks, visits, and conversions
+
+Compare and factor in overlap or discrepancies
+
+In a process that can be both complicated and fast-paced, a little redundancy can be a good thing #GoodData
+
+As I mentioned before, well-organized spreadsheets effing rule.
+
+While your test prototype may looked polished, its main purpose is not to be perfect, but to track events.
+
+Build things in a way that is easy to spin off new versions and new variations
+
+Modular grid systems and UI components are useful tools in designing prototypes for rapid iteration
+
+Use variables on event tracking scripts #IfYouLikeAwesome
+
+Avoid releasing to 100% of production, ever.
+
+Collect data about what works and what doesn’t
+
+When it comes time to building the final production version, blah blah blah...
+
+Tell the truth #dontlie
+
+Compare the redundant information to make sure everything is consistent
+
+Make sure the data is organized coherently in a format that can be shared
+
+Testing is risk management #GoodData
+
+Too many variations #StatisticalPitfalls
+
+Timing and duration of tests #StatisticalPitfalls
+
+Scaling to production #StatisticalPitfalls
+
+Test/production data mismatches #StatisticalPitfalls
+
+It’s not an exact science #LiveData
+
+Information collected in live data tests is directional
+
+Live data tests are best thought of in terms of risk management
+
+Rule it out.
+
+Each live data test should be based on a clear objective
+
+Live data tests will help you settle debates
+
+It's not a *page*
+
+Dedicated, separate mobile websites are a thing of the past.
+
+Devices interpret layouts in different ways, depending on the context in which the information is viewed
+
+Different outputs on different devices with the same code? Yup.
+
+Designs should melt into a whatever format is best for the device on which they are viewed. 
+
+A moldable cluster of information
+
+Get jiggy, but not too jiggy...
+
+Set up breakpoints to correspond to the screen sizes of the most popular devices
+
+The trick with responsive design is to keep it simple.
+
+1 or 2 breakpoints, tops
+
+Just pick one break point and go with it. #noyoudidnt
+
+If you’re above this threshold, show the whole layout, otherwise stack everything. #keepitsimplefolks
+
+A brand is not a logo, a visual style guide, a color palette, or a set of icons. #noshit
+
+A solid brand experience is achieved using a set of messages that exist in time and space. 
+
+Effective brand execution involves the efforts of product, user-experience, engineering and marketing.
+
+Establish a #BrandSpace that contains consistent visual and verbal content
+
+Each web property, UI element, image, copy line, tweet, notification, advertisement, business card is an opportunity for consistent messaging.
+
+Tailor designs to a particular audience (or better yet, action profile) #UserAction
+
+Successful brand execution involves elements that exist in the right place at the right time
+
+A brand is greater than the sum of it’s parts
+
+Gestalt much?
+
+Identifiers: logos, icons marks, names. Think of these as equivalent to proper nouns. #BrandElements
+
+Language: visual/verbal tone, editorial style, color and type palettes, layout and visual design, etc. #BrandElements
+
+Relevant information: call to action hierarchy, product information, company information, up-to-date information. items that pull, instead of push. #BrandElements
+
+Promotional: product marketing, suggestions, offers, calendar-related content, items that push. #BrandElements
+
+A time and a place #GoodBrand
+
+Time is the primary factor in determining the relevance of information or messaging. #GoodBrand
+
+Create a message that is on-brand, and most importantly, on-point.
+
+Stories unfold via elements that each have a specific shelf life
+
+The logo of a company should hold it’s structure and relevance over time
+
+Timely, calendar-driven, promotional content can take the form of the latest visual and verbal trends #GoodBrand
+
+The devil is in the details #GoodBrand
+
+Granular items such as notifications or error messages represent an opportunity for the personality of a brand to shine #GoodBrand
+
+Map out verbal messaging the same way you map out visual design and promotional initiatives. #GoodBrand
+
+Keep it real #GoodBrand
+
+Messages are affected by time and space #GoodBrand
+
+The shelf life of each item is useful in understanding how elements work together #GoodBrand
+
+Shelf Life #GoodBrand
+
+User-driven technology feels good and fits right #TheStitchExperience
+
+Experiences are tailored for each user #TheStitchExperience
+
+Hooks are encouraged and essential #TheStitchExperience
+
+Good design is well-structured, crisp and effective #TheStitchExperience
+
+Modularity is everything #TheStitchExperience
+
+Connections are everywhere #TheStitchExperience
+
+Durability is stylish #TheStitchExperience
+
+
+
+
+
+
+
+// TWEETS WITH LINKS
+Check out the audio for my blog articles: https://soundcloud.com/nickcottrell
+
+Here's a link to my sort of Podcast: https://soundcloud.com/nickcottrell
+
+Podcasting, without the pod: https://soundcloud.com/nickcottrell
+
+Who gives a shit about RSS anymore anyway? I podcast on SoundCloud: https://soundcloud.com/nickcottrell
+
+Apparently, podcasts are invite only on SoundCloud... Didn't stop me from posting it here: https://soundcloud.com/nickcottrell
+
+Who says we're disconnected? I keep in contact with way more people than before: https://soundcloud.com/nickcottrell/save-it-for-the-cloud
+
+Um, the internet? https://soundcloud.com/nickcottrell/save-it-for-the-cloud
+
+Listen Up! Here's how you can "do social media" better: https://soundcloud.com/nickcottrell/the-social-funnel
+
+Listen to 5 easy steps to improving your social media strategies: https://soundcloud.com/nickcottrell/the-social-funnel
+
+Um, the internet.
+https://soundcloud.com/nickcottrell/the-social-funnel
+
+Listen to 5 ways you can build a modern website:
+https://soundcloud.com/nickcottrell/built-for-change
+
+Listen to these tips on how to build a modern website:
+https://soundcloud.com/nickcottrell/built-for-change
+
+Listen to my podcast about designing modern websites:
+https://soundcloud.com/nickcottrell/built-for-change
+
+Listen to my podcast about open source inspired projects:
+https://soundcloud.com/nickcottrell/its-your-walled-garden
+
+Listen to a few tips on how to manage your walled garden:
+https://soundcloud.com/nickcottrell/its-your-walled-garden
+
+Listen to why I think GitHub is changing the way we think about projects:
+https://soundcloud.com/nickcottrell/its-your-walled-garden
+
+
+Apparently, I have a lot of ideas:
+http://nickcottrell.info/ideas/
+
+Please think with me.
+http://nickcottrell.info/ideas/
+
+Please. Read my effing blog:
+http://nickcottrell.info/ideas/
+
+I don't have dates on my posts because I continually edit them to keep them relevant. #justsayin
+http://nickcottrell.info/ideas/
+
+My blog is less of a blog and more of a garden.
+http://nickcottrell.info/ideas/
+
+Make your website dope as fuc.
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+Please read my article about what goes into making modern websites.
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+Make sure it's shiny! ...and extra modern!
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+What the eff is a modern website anyway?
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+Check out these 5 steps on how to make a modern website even more... uh, moderner.
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+Testing is a good idea. #umkay
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+Testing? 1... 2... 3?
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+The art of data science
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+Check out these 5 steps on how to run live data tests:
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+User Testing: The Quant Years
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+#quantalicious
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+I got mad spreadsheets, bro.
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+Manage a closed source project like it's an open source project.
+http://nickcottrell.info/ideas/intra-source/
+
+Even if you can't share it with the world...
+http://nickcottrell.info/ideas/intra-source/
+
+Tend to your walled garden.
+http://nickcottrell.info/ideas/intra-source/
+
+Here's how you do social media:
+http://nickcottrell.info/ideas/the-social-funnel/
+
+Social media, the extra nerdy way.
+http://nickcottrell.info/ideas/the-social-funnel/
+
+Will you B my friend?
+http://nickcottrell.info/ideas/the-social-funnel/
+
+WE ARE NOT ZOMBIES!
+http://nickcottrell.info/ideas/save-it-for-the-cloud/
+
+So... how's it going? blah blah blah #fartnoise
+http://nickcottrell.info/ideas/save-it-for-the-cloud/
+
+Keeping in touch has never been easier.
+http://nickcottrell.info/ideas/save-it-for-the-cloud/
+
+So, tell me about this *responsive* design thing...
+http://nickcottrell.info/ideas/its-not-a-page/
+
+So how should I respond?
+http://nickcottrell.info/ideas/its-not-a-page/
+
+A single breakpoint?? Are you fucking crazy?????
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Let's breakdance on these breakpoints!
+http://nickcottrell.info/ideas/its-not-a-page/
+
+How many breakpoints we talkin' bout here?
+http://nickcottrell.info/ideas/its-not-a-page/
+
+You got more breakpoints than bootstrap! #ahsnap
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Breakpoints? I got breakpoints...
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Breakpoints 'n shit...
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Yah so this is a thing:
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Don't let your mobile users down.
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Time and Space
+http://nickcottrell.info/ideas/time-and-space/
+
+The right info at the right time:
+http://nickcottrell.info/ideas/time-and-space/
+
+Deliver messages that are awesome.
+http://nickcottrell.info/ideas/time-and-space/
+
+Awesome sites have awesome writing.
+http://nickcottrell.info/ideas/time-and-space/
+
+Every piece of text is an opportunity to connect with users.
+http://nickcottrell.info/ideas/time-and-space/
+
+I made a SCSS grid system called Lining for Layout:
+https://github.com/nickcottrell/lining-for-layout
+
+Hi, look at me SCSS grid system:
+https://github.com/nickcottrell/lining-for-layout
+
+Did I mention this is responsive?
+https://github.com/nickcottrell/lining-for-layout
+
+Minified with PHP
+https://github.com/nickcottrell/spool
+
+Really I just like the name:
+https://github.com/nickcottrell/spool
+
+All into a single string:
+https://github.com/nickcottrell/spool
+
+My site, is jekyllicious:
+https://github.com/nickcottrell/nickcottrell.github.com
+
+I bet my jekyll site is different than yours.
+https://github.com/nickcottrell/nickcottrell.github.com
+
+Yah, so I pretty much love jekyll.
+https://github.com/nickcottrell/nickcottrell.github.com
+
+I totally used to work at an urban planning firm. It was hella awesome and weird:
+http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
+
+Urban design is a thing:
+http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
+
+Urban design is similar to tech but much slower. #bummer
+http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
+
+I used to run a small business.
+http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
+
+Own it.
+http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
+
+Know when to hold 'em...
+http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
+
+Raise your hand if you know what an ink-trap is?
+http://nickcottrell.info/ideas/what-i-learned-from-print/
+
+Ah... the smell of ink on paper.
+http://nickcottrell.info/ideas/what-i-learned-from-print/
+
+So I was at this press check and I saw a typo...
+http://nickcottrell.info/ideas/what-i-learned-from-print/
+
+Who? The? Fuck? Are? You?
+http://nickcottrell.info/ideas/what-is-istitch/
+
+Who, me?
+http://nickcottrell.info/ideas/what-is-istitch/
+
+You lookin' at me punk?
+http://nickcottrell.info/ideas/what-is-istitch/
+
+Stitch design uses tailoring as a metaphor for design #obvious #facepalm
+http://nickcottrell.info/ideas/what-is-istitch/
+
+This just in: Rad metaphors are fucking awesome!
+http://nickcottrell.info/ideas/what-is-istitch/
+
+Make it work:
+http://nickcottrell.info/ideas/what-is-istitch/
+
+Listen to this Nivana cover I did #MM 
+https://soundcloud.com/waytoosick/in-bloom-ncbs-epic-folk-tech
+
+Check out this Peanut Butter Wolf remix I made. #MM 
+https://soundcloud.com/waytoosick/fair-weather-friend-my-world
+
+Who likes Public Enemy? Here's a remix I did... #MM 
+https://soundcloud.com/waytoosick/public-enemy-get-up-stand-up
+
+Got some money to go, to grow, to show, to blow. #MM 
+https://soundcloud.com/waytoosick/01-i-got-money-lo-fi
+
+The story of Beowulf set to song (recorded on an iphone) #MM 
+https://soundcloud.com/waytoosick/the-story-of-beowulf-set-to
+
+This is a rap song about the Matrix that me and my friend made. #MM 
+https://soundcloud.com/waytoosick/04-white-rabbit
+
+Check out this old school song I recorded in 2003. #StillRocks #MM 
+https://soundcloud.com/waytoosick/02-means-to-an-end
+
+Own that shit, that shit is gold! #MM 
+https://soundcloud.com/waytoosick/01-own-that-shit-that-shit-is
+
+Still, by far, the best guitar solo I ever managed to pull off. #MM
+https://soundcloud.com/waytoosick/12-load-up
+
+
+
+
+// RANDOM AS FUC
+
+
+
+// CURRENT EVENTS
+
+
+
+
+// LINKS TO PROMOTE
+podcasts
+https://soundcloud.com/nickcottrell
+https://soundcloud.com/nickcottrell/save-it-for-the-cloud
+https://soundcloud.com/nickcottrell/the-social-funnel
+https://soundcloud.com/nickcottrell/built-for-change
+https://soundcloud.com/nickcottrell/its-your-walled-garden
+
+core stories
+http://nickcottrell.info/ideas/
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+http://nickcottrell.info/ideas/intra-source/
+http://nickcottrell.info/ideas/the-social-funnel/
+http://nickcottrell.info/ideas/save-it-for-the-cloud/
+http://nickcottrell.info/ideas/its-not-a-page/
+http://nickcottrell.info/ideas/time-and-space/
+
+front end
+https://github.com/nickcottrell/lining-for-layout
+https://github.com/nickcottrell/spool
+https://github.com/nickcottrell/nickcottrell.github.com
+
+
+past experience
+http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
+http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
+http://nickcottrell.info/ideas/what-i-learned-from-print/
+
+me
+http://nickcottrell.info/ideas/what-is-istitch/
+
+songs
+https://soundcloud.com/waytoosick/in-bloom-ncbs-epic-folk-tech
+https://soundcloud.com/waytoosick/fair-weather-friend-my-world
+https://soundcloud.com/waytoosick/public-enemy-get-up-stand-up
+https://soundcloud.com/waytoosick/01-i-got-money-lo-fi
+https://soundcloud.com/waytoosick/the-story-of-beowulf-set-to
+https://soundcloud.com/waytoosick/04-white-rabbit
+https://soundcloud.com/waytoosick/02-means-to-an-end
+https://soundcloud.com/waytoosick/01-own-that-shit-that-shit-is
+https://soundcloud.com/waytoosick/12-load-up
+
+sets
+https://soundcloud.com/waytoosick/sets/this-is-lo-fi
+In the year, 2020, I will travel back in time to the year 1957 with a drum machine and record this album. I will store the record in a safe place, travel back to the present, locate the record, transcode it, and re-release it right now.
+
+https://soundcloud.com/waytoosick/sets/dot-bomb-shit
+https://soundcloud.com/waytoosick/sets/ncb-friends-greatest-hits
+
+
+
+
+
+
+
