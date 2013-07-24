@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: What is istitch?
+  title: WTH is istitch?
   permalink: ideas/what-is-istitch
   categories: [articles]
 ---
