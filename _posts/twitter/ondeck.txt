@@ -1,53 +1,58 @@
 // SIMPLE TWEETS
 
-
-Hone in on what works and what doesn’t
-
-A multi-variate test puts together different combinations and lets you know which is the winning combination.
-
-Multi-paged tests let you test funnel vs funnel
-
-Organize your data
-
-Streamline your event tracking plan
-
-Use tools such as Google Analytics or @Optimizely
-
-Never underestimate the power of a simple, well-organized spreadsheet
-
-Map and track variations and the data that goes along with each one
-
-Spreadsheets fucking rule #GoodData
-
-Share the information with the team, especially the Data Science team #GoodData
-
-A prototype is an event tracking machine. #GoodData
-
-Make sure you have an established schema #GoodData
-
-Tag information such as the category and label can be used to help catalog and archive multiple experiments
-
-Build and run tests
-
-WYSIWYG!
-
-Use your own web servers to host your own design variations
-
-Variations on a web server, Optimizely to facilitate the test, collect events with Google Analytics #combo
-
-use Optimizely to route traffic from production to test buckets
-
-Use Google Analytics to track and archive all clicks, visits, and conversions
-
 Compare and factor in overlap or discrepancies
+
+Collect redundant data
+
+Data science is risk management
+
+Data synthesis is an educated guessing game.
 
 In a process that can be both complicated and fast-paced, a little redundancy can be a good thing #GoodData
 
 As I mentioned before, well-organized spreadsheets effing rule.
 
-While your test prototype may looked polished, its main purpose is not to be perfect, but to track events.
+Did I mention how much I love spreadsheets?
+
+I got mad spreadsheets, bro.
+
+This is the internet.
+
+Is this the best the internet can do?
+
+Wait, but where is the internet?
+
+While your test prototype may look polished, its main purpose is not to be perfect, but to track events.
+
+The prototype is only there to provide data.
+
+Don't worry about users who get caught in your test bucket. They will get over it.
+
+Sometimes in order to improve user experience, you must first destroy it.
+
+The Invisible Test Buckets #UXbandnames
+
+The Base Layers #UXbandnames
+
+Soma Food Truck #UXbandnames
+
+Boom Bust #UXbandnames
+
+Minimum Viable Jam #UXbandnames
+
+The CTA's #UXbandnames
+
+The Breakpoints #UXbandnames
 
 Build things in a way that is easy to spin off new versions and new variations
+
+Favor workflows that allow you to create and deploy new variations
+
+Don't host alternate designs on production servers
+
+Add "Content Areas" to your list of UI staples
+
+Develop "component sets"
 
 Modular grid systems and UI components are useful tools in designing prototypes for rapid iteration
 
@@ -55,11 +60,21 @@ Use variables on event tracking scripts #IfYouLikeAwesome
 
 Avoid releasing to 100% of production, ever.
 
+Set up a subdomain that always has new, weird versions of your site/product
+
+Divert traffic to a "canary server"
+
 Collect data about what works and what doesn’t
+
+Live data tests are a risk management best practice
 
 When it comes time to building the final production version, blah blah blah...
 
 Tell the truth #dontlie
+
+Tell the truth #GoodData
+
+Collect as much data as you can
 
 Compare the redundant information to make sure everything is consistent
 
@@ -86,20 +101,6 @@ Rule it out.
 Each live data test should be based on a clear objective
 
 Live data tests will help you settle debates
-
-It's not a *page*
-
-Dedicated, separate mobile websites are a thing of the past.
-
-Devices interpret layouts in different ways, depending on the context in which the information is viewed
-
-Different outputs on different devices with the same code? Yup.
-
-Designs should melt into a whatever format is best for the device on which they are viewed. 
-
-A moldable cluster of information
-
-Get jiggy, but not too jiggy...
 
 Set up breakpoints to correspond to the screen sizes of the most popular devices
 
@@ -129,15 +130,13 @@ A brand is greater than the sum of it’s parts
 
 Gestalt much?
 
-Identifiers: logos, icons marks, names. Think of these as equivalent to proper nouns. #BrandElements
+Identifiers: logos, icons marks, names. Think of these as equivalent to proper nouns. #GoodBrand
 
-Language: visual/verbal tone, editorial style, color and type palettes, layout and visual design, etc. #BrandElements
+Language: visual/verbal tone, editorial style, color and type palettes, layout and visual design, etc. #GoodBrand
 
-Relevant information: call to action hierarchy, product information, company information, up-to-date information. items that pull, instead of push. #BrandElements
+Relevant information: call to action hierarchy, product information, company information, up-to-date information. items that pull, instead of push. #GoodBrand
 
-Promotional: product marketing, suggestions, offers, calendar-related content, items that push. #BrandElements
-
-A time and a place #GoodBrand
+Promotional: product marketing, suggestions, offers, calendar-related content, items that push. #GoodBrand
 
 Time is the primary factor in determining the relevance of information or messaging. #GoodBrand
 
@@ -153,27 +152,16 @@ The devil is in the details #GoodBrand
 
 Granular items such as notifications or error messages represent an opportunity for the personality of a brand to shine #GoodBrand
 
-Map out verbal messaging the same way you map out visual design and promotional initiatives. #GoodBrand
 
-Keep it real #GoodBrand
 
-Messages are affected by time and space #GoodBrand
 
-The shelf life of each item is useful in understanding how elements work together #GoodBrand
 
-Shelf Life #GoodBrand
 
-User-driven technology feels good and fits right #TheStitchExperience
 
-Experiences are tailored for each user #TheStitchExperience
 
-Hooks are encouraged and essential #TheStitchExperience
 
-Good design is well-structured, crisp and effective #TheStitchExperience
 
-Modularity is everything #TheStitchExperience
 
-Connections are everywhere #TheStitchExperience
 
 
 
@@ -192,7 +180,6 @@ Connections are everywhere #TheStitchExperience
 
 
 // TWEETS WITH LINKS
-Check out the audio for my blog articles: https://soundcloud.com/nickcottrell
 
 Podcasting, without the pod: https://soundcloud.com/nickcottrell
 
@@ -200,18 +187,10 @@ Who gives a shit about RSS anymore anyway? I podcast on SoundCloud: https://soun
 
 Apparently, podcasts are invite only on SoundCloud... Didn't stop me from posting it here: https://soundcloud.com/nickcottrell
 
-Who says we're disconnected? I keep in contact with way more people than before: https://soundcloud.com/nickcottrell/save-it-for-the-cloud
-
 Listen to a few tips on how to manage your walled garden:
 https://soundcloud.com/nickcottrell/its-your-walled-garden
 
-Listen to why I think GitHub is changing the way we think about projects:
-https://soundcloud.com/nickcottrell/its-your-walled-garden
-
 Please. Read my effing blog:
-http://nickcottrell.info/ideas/
-
-I don't have dates on my posts because I continually edit them to keep them relevant. #justsayin
 http://nickcottrell.info/ideas/
 
 My blog is less of a blog and more of a garden.
@@ -220,20 +199,11 @@ http://nickcottrell.info/ideas/
 Make your website dope as fuc.
 http://nickcottrell.info/ideas/how-to-make-a-modern-website/
 
-Please read my article about what goes into making modern websites.
-http://nickcottrell.info/ideas/how-to-make-a-modern-website/
-
 Make sure it's shiny! ...and extra modern!
 http://nickcottrell.info/ideas/how-to-make-a-modern-website/
 
 What the eff is a modern website anyway?
 http://nickcottrell.info/ideas/how-to-make-a-modern-website/
-
-Testing is a good idea. #umkay
-http://nickcottrell.info/ideas/how-to-run-live-data-tests/
-
-Testing? 1... 2... 3?
-http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
 The art of data science
 http://nickcottrell.info/ideas/how-to-run-live-data-tests/
@@ -246,9 +216,6 @@ http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
 I got mad spreadsheets, bro.
 http://nickcottrell.info/ideas/how-to-run-live-data-tests/
-
-Manage a closed source project like it's an open source project.
-http://nickcottrell.info/ideas/intra-source/
 
 Even if you can't share it with the world...
 http://nickcottrell.info/ideas/intra-source/
@@ -274,22 +241,7 @@ http://nickcottrell.info/ideas/save-it-for-the-cloud/
 So, tell me about this *responsive* design thing...
 http://nickcottrell.info/ideas/its-not-a-page/
 
-So how should I respond?
-http://nickcottrell.info/ideas/its-not-a-page/
-
-A single breakpoint?? Are you fucking crazy?????
-http://nickcottrell.info/ideas/its-not-a-page/
-
 Let's breakdance on these breakpoints!
-http://nickcottrell.info/ideas/its-not-a-page/
-
-How many breakpoints we talkin' bout here?
-http://nickcottrell.info/ideas/its-not-a-page/
-
-You got more breakpoints than bootstrap! #ahsnap
-http://nickcottrell.info/ideas/its-not-a-page/
-
-Breakpoints? I got breakpoints...
 http://nickcottrell.info/ideas/its-not-a-page/
 
 Breakpoints 'n shit...
@@ -340,17 +292,11 @@ http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
 Urban design is similar to tech but much slower. #bummer
 http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
 
-I used to run a small business.
-http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
-
 Own it.
 http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
 
 Know when to hold 'em...
 http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
-
-Raise your hand if you know what an ink-trap is?
-http://nickcottrell.info/ideas/what-i-learned-from-print/
 
 So I was at this press check and I saw a typo...
 http://nickcottrell.info/ideas/what-i-learned-from-print/
@@ -361,10 +307,7 @@ http://nickcottrell.info/ideas/what-is-istitch/
 Who, me?
 http://nickcottrell.info/ideas/what-is-istitch/
 
-You lookin' at me punk?
-http://nickcottrell.info/ideas/what-is-istitch/
-
-Stitch design uses tailoring as a metaphor for design #obvious #facepalm
+Stitch design uses tailoring as a metaphor for design
 http://nickcottrell.info/ideas/what-is-istitch/
 
 Make it work:
@@ -373,11 +316,8 @@ http://nickcottrell.info/ideas/what-is-istitch/
 Got some money to go, to grow, to show, to blow. #MM 
 https://soundcloud.com/waytoosick/01-i-got-money-lo-fi
 
-The story of Beowulf set to song (recorded on an iphone) #MM 
-https://soundcloud.com/waytoosick/the-story-of-beowulf-set-to
 
-Still, by far, the best guitar solo I ever managed to pull off. #MM
-https://soundcloud.com/waytoosick/12-load-up
+
 
 
 

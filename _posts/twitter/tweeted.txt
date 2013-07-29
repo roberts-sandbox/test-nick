@@ -203,19 +203,131 @@ Um, the internet? https://soundcloud.com/nickcottrell/save-it-for-the-cloud
 Um, the internet.
 https://soundcloud.com/nickcottrell/the-social-funnel
 
+User-driven technology feels good and fits right #TheStitchExperience
+
+Experiences are tailored for each user #TheStitchExperience
+
+Hooks are encouraged and essential #TheStitchExperience
+
+Good design is well-structured, crisp and effective #TheStitchExperience
+
+Modularity is everything #TheStitchExperience
+
+Connections are everywhere #TheStitchExperience
+
+Durability is stylish #TheStitchExperience
+
+Hone in on what works and what doesn’t
+
+A multi-variate test puts together different combinations and lets you know which is the winning combination.
+
+Multi-paged tests let you test funnel vs funnel
+
+Organize your data
+
+Streamline your event tracking plan
+
+Manage a closed source project like it's an open source project.
+http://nickcottrell.info/ideas/intra-source/
+
+Still, by far, the best guitar solo I ever managed to pull off. #MM
+https://soundcloud.com/waytoosick/12-load-up
+
+The story of Beowulf set to song (recorded on an iphone) #MM 
+https://soundcloud.com/waytoosick/the-story-of-beowulf-set-to
+
+Who says we're disconnected? I keep in contact with way more people than before: https://soundcloud.com/nickcottrell/save-it-for-the-cloud
+
+WYSIWYG!
+
+Use your own web servers to host your own design variations
+
+Build and run tests
+
+Testing? 1... 2... 3?
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+Spreadsheets fucking rule #GoodData
+
+Share the information with the team, especially the Data Science team #GoodData
+
+A prototype is an event tracking machine. #GoodData
+
+Testing is a good idea. #umkay
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+Never underestimate the power of a simple, well-organized spreadsheet #GoodData
+
+Map and track variations and the data that goes along with each one #GoodData
+
+Breakpoints? I got breakpoints...
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Different outputs on different devices with the same code? Yup.
+
+Devices interpret layouts in different ways, depending on the context in which the information is viewed
 
 
+You got more breakpoints than bootstrap! #ahsnap
+http://nickcottrell.info/ideas/its-not-a-page/
+
+How many breakpoints we talkin' bout here?
+http://nickcottrell.info/ideas/its-not-a-page/
+
+It's not a *page*
+
+Dedicated, separate mobile websites are a thing of the past.
+
+Designs should melt into a whatever format is best for the device on which they are viewed. 
+
+So how should I respond?
+http://nickcottrell.info/ideas/its-not-a-page/
+
+A single breakpoint?? Are you fucking crazy?????
+http://nickcottrell.info/ideas/its-not-a-page/
 
 
+Tag information such as the category and label can be used to help catalog and archive multiple experiments
 
 
+Variations on a web server, Optimizely to facilitate the test, collect events with Google Analytics #combo
 
+use Optimizely to route traffic from production to test buckets
 
+Please read my article about what goes into making modern websites.
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
 
+I don't have dates on my posts because I continually edit them to keep them relevant. #justsayin
+http://nickcottrell.info/ideas/
 
+Get jiggy, but not too jiggy... #ModernWeb
 
+A moldable cluster of information #ModernWeb
 
+Listen to why I think GitHub is changing the way we think about projects: https://soundcloud.com/nickcottrell/its-your-walled-garden
 
+Check out the audio for my blog articles: https://soundcloud.com/nickcottrell
+
+You lookin' at me punk? http://nickcottrell.info/ideas/what-is-istitch/
+
+I post the audio of my articles on SoundCloud: https://soundcloud.com/nickcottrell
+
+---
+
+I used to run a small business.
+http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
+
+Map out verbal messaging the same way you map out visual design and promotional initiatives. #GoodBrand
+
+Keep it real #GoodBrand
+
+Messages are affected by time and space #GoodBrand
+
+The shelf life of each item is useful in understanding how elements work together #GoodBrand
+
+Shelf Life #GoodBrand
+
+A time and a place #GoodBrand
 
 
 
