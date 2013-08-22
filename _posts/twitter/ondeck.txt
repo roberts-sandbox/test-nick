@@ -1,22 +1,21 @@
 // SIMPLE TWEETS
 
-Compare and factor in overlap or discrepancies
 
-Collect redundant data
 
-Data science is risk management
+
+
 
 Data synthesis is an educated guessing game.
 
-In a process that can be both complicated and fast-paced, a little redundancy can be a good thing #GoodData
+
 
 As I mentioned before, well-organized spreadsheets effing rule.
 
-Did I mention how much I love spreadsheets?
+
 
 I got mad spreadsheets, bro.
 
-This is the internet.
+
 
 Is this the best the internet can do?
 
@@ -28,21 +27,21 @@ The prototype is only there to provide data.
 
 Don't worry about users who get caught in your test bucket. They will get over it.
 
-Sometimes in order to improve user experience, you must first destroy it.
 
-The Invisible Test Buckets #UXbandnames
 
-The Base Layers #UXbandnames
 
-Soma Food Truck #UXbandnames
 
-Boom Bust #UXbandnames
 
-Minimum Viable Jam #UXbandnames
 
-The CTA's #UXbandnames
 
-The Breakpoints #UXbandnames
+
+
+
+
+
+
+
+
 
 Build things in a way that is easy to spin off new versions and new variations
 
@@ -54,7 +53,7 @@ Add "Content Areas" to your list of UI staples
 
 Develop "component sets"
 
-Modular grid systems and UI components are useful tools in designing prototypes for rapid iteration
+
 
 Use variables on event tracking scripts #IfYouLikeAwesome
 
@@ -96,7 +95,7 @@ Information collected in live data tests is directional
 
 Live data tests are best thought of in terms of risk management
 
-Rule it out.
+
 
 Each live data test should be based on a clear objective
 
@@ -112,7 +111,7 @@ Just pick one break point and go with it. #noyoudidnt
 
 If you’re above this threshold, show the whole layout, otherwise stack everything. #keepitsimplefolks
 
-A brand is not a logo, a visual style guide, a color palette, or a set of icons. #noshit
+
 
 A solid brand experience is achieved using a set of messages that exist in time and space. 
 
@@ -122,27 +121,27 @@ Establish a #BrandSpace that contains consistent visual and verbal content
 
 Each web property, UI element, image, copy line, tweet, notification, advertisement, business card is an opportunity for consistent messaging.
 
-Tailor designs to a particular audience (or better yet, action profile) #UserAction
+
 
 Successful brand execution involves elements that exist in the right place at the right time
 
 A brand is greater than the sum of it’s parts
 
-Gestalt much?
 
-Identifiers: logos, icons marks, names. Think of these as equivalent to proper nouns. #GoodBrand
 
-Language: visual/verbal tone, editorial style, color and type palettes, layout and visual design, etc. #GoodBrand
+
+
+
 
 Relevant information: call to action hierarchy, product information, company information, up-to-date information. items that pull, instead of push. #GoodBrand
 
 Promotional: product marketing, suggestions, offers, calendar-related content, items that push. #GoodBrand
 
-Time is the primary factor in determining the relevance of information or messaging. #GoodBrand
 
-Create a message that is on-brand, and most importantly, on-point.
 
-Stories unfold via elements that each have a specific shelf life
+
+
+
 
 The logo of a company should hold it’s structure and relevance over time
 
@@ -181,7 +180,7 @@ Granular items such as notifications or error messages represent an opportunity 
 
 // TWEETS WITH LINKS
 
-Podcasting, without the pod: https://soundcloud.com/nickcottrell
+
 
 Who gives a shit about RSS anymore anyway? I podcast on SoundCloud: https://soundcloud.com/nickcottrell
 
@@ -196,8 +195,7 @@ http://nickcottrell.info/ideas/
 My blog is less of a blog and more of a garden.
 http://nickcottrell.info/ideas/
 
-Make your website dope as fuc.
-http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
 
 Make sure it's shiny! ...and extra modern!
 http://nickcottrell.info/ideas/how-to-make-a-modern-website/
@@ -211,14 +209,10 @@ http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 Check out these 5 steps on how to run live data tests:
 http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
-#quantalicious
-http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
-I got mad spreadsheets, bro.
-http://nickcottrell.info/ideas/how-to-run-live-data-tests/
 
-Even if you can't share it with the world...
-http://nickcottrell.info/ideas/intra-source/
+
+
 
 Tend to your walled garden.
 http://nickcottrell.info/ideas/intra-source/
@@ -232,11 +226,9 @@ http://nickcottrell.info/ideas/the-social-funnel/
 Will you B my friend?
 http://nickcottrell.info/ideas/the-social-funnel/
 
-So... how's it going? blah blah blah #fartnoise
-http://nickcottrell.info/ideas/save-it-for-the-cloud/
 
-Keeping in touch has never been easier.
-http://nickcottrell.info/ideas/save-it-for-the-cloud/
+
+
 
 So, tell me about this *responsive* design thing...
 http://nickcottrell.info/ideas/its-not-a-page/
@@ -250,8 +242,7 @@ http://nickcottrell.info/ideas/its-not-a-page/
 Yah so this is a thing:
 http://nickcottrell.info/ideas/its-not-a-page/
 
-Don't let your mobile users down.
-http://nickcottrell.info/ideas/its-not-a-page/
+
 
 Time and Space
 http://nickcottrell.info/ideas/time-and-space/
@@ -286,8 +277,7 @@ https://github.com/nickcottrell/nickcottrell.github.com
 I totally used to work at an urban planning firm. It was hella awesome and weird:
 http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
 
-Urban design is a thing:
-http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
+
 
 Urban design is similar to tech but much slower. #bummer
 http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
@@ -313,8 +303,7 @@ http://nickcottrell.info/ideas/what-is-istitch/
 Make it work:
 http://nickcottrell.info/ideas/what-is-istitch/
 
-Got some money to go, to grow, to show, to blow. #MM 
-https://soundcloud.com/waytoosick/01-i-got-money-lo-fi
+
 
 
 
