@@ -402,8 +402,182 @@ http://nickcottrell.info/ideas/save-it-for-the-cloud/
 Got some money to go, to grow, to show, to blow. #MM 
 https://soundcloud.com/waytoosick/01-i-got-money-lo-fi
 
+Thank God for all these benevolent corporations who graciously allow us to use their internet.
 
+The internet is like a bunch of interconnected shopping malls. #NotPublic
 
+Tell the truth #dontlie
+
+Don't worry about users who get caught in your test bucket. They will get over it.
+
+Collect data about what works and what doesn’t
+
+Instead of reading Fifty Shades of Gray, you should just read the reviews on Amazon #better
+
+MY EMOJIS DON'T WORK! - said a 12 year old, and me
+
+The internet is feudalistic at best.
+
+Things like notifications or error messages represent an opportunity for the personality of a brand to shine
+
+Information collected in live data tests is directional
+
+Live data tests are best thought of in terms of risk management
+
+The trick with responsive design is to keep it simple.
+
+The US Constitution #goodread
+
+Jane Jacobs on Good Gentrification:
+http://www.theatlantic.com/national/archive/2010/04/getting-jane-jacobs-right/38391/
+
+The internet is not a public place.
+
+Establish a #BrandSpace that contains consistent visual and verbal content
+
+The logo of a company should hold it’s structure and relevance over time
+
+1 or 2 breakpoints, tops
+
+Set up breakpoints to correspond to the screen sizes of the most popular devices
+
+There is unfortunately no public space on the internet.
+
+Too many variations #StatisticalPitfalls
+
+Timing and duration of tests #StatisticalPitfalls
+
+Scaling to production #StatisticalPitfalls
+
+Test/production data mismatches #StatisticalPitfalls
+
+Collect as much data as you can
+
+Data empowers.
+
+Neo-feudalism is happening already--on the internetz. lolz........
+
+Please. Read my effing blog:
+http://nickcottrell.info/ideas/
+
+The art of data science
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+I made a SCSS grid system called Lining for Layout:
+https://github.com/nickcottrell/lining-for-layout
+
+Really I just like the name:
+https://github.com/nickcottrell/spool
+
+I totally used to work at an urban planning firm. It was awesome and weird:
+http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
+
+There should always be tension between private and public interest.
+
+Who? The? Fuck? Are? You?
+http://nickcottrell.info/ideas/what-is-istitch/
+
+As soon as this bay bridge thing is done I'm gonna drive from Berkeley to SF to Pacifica to HMB and pass through that new tunnel
+
+Prototypes only exist to provide data.
+
+As I mentioned before, spreadsheets effing rule.
+
+Use variables on event tracking scripts #IfYouLikeAwesome
+
+Avoid releasing to 100% of production, ever.
+
+When it comes time to building the final production version, blah blah blah...
+
+Tell the truth #GoodData
+
+Just pick one break point and go with it. #noyoudidnt
+
+Experience is achieved through a set of messages that exist in time and space.
+
+Successful brand execution involves elements that exist in the right place at the right time
+
+Organize your ideas in a format that can be shared
+
+I podcast on SoundCloud: https://soundcloud.com/nickcottrell
+
+Check out these 5 steps on how to run live data tests:
+http://nickcottrell.info/ideas/how-to-run-live-data-tests/
+
+Let's breakdance on these breakpoints!
+http://nickcottrell.info/ideas/its-not-a-page/
+
+So, tell me about this *responsive* design thing...
+http://nickcottrell.info/ideas/its-not-a-page/
+
+Yah, so I pretty much love jekyll.
+https://github.com/nickcottrell/nickcottrell.github.com
+
+Each web property, UI element, image, copy line, tweet, notification, advertisement, business card is an opportunity for consistent messaging.
+
+Each live data test should be based on a clear objective
+
+It’s not an exact science #LiveData
+
+Live data tests are a risk management best practice
+
+Add "Content Areas" to your list of UI staples
+
+I bet you #Twerking is no longer trending.
+
+I got mad spreadsheets, bro.
+
+Is this the best the internet can do?
+
+The internet is not free.
+
+Listen to a few tips on how to manage your walled garden:
+https://soundcloud.com/nickcottrell/its-your-walled-garden
+
+Will you B my friend?
+http://nickcottrell.info/ideas/the-social-funnel/
+
+Time and Space
+http://nickcottrell.info/ideas/time-and-space/
+
+Build things in a way that is easy to spin off new versions and new variations
+
+While your prototype may look polished, its main purpose is not to be perfect, but to track events.
+
+Favor workflows that allow you to create and deploy new variations
+
+Don't host alternate options designs on production servers
+
+Set up a subdomain that always has new, weird versions of your site/product
+
+Divert traffic to a "canary server"
+
+Compare the redundant information to make sure everything is consistent
+
+Testing is risk management #GoodData
+
+Relevant information: call to action hierarchy, product information, company information, up-to-date information. items that pull, instead of push. #GoodBrand
+
+Timely, calendar-driven, promotional content can take the form of the latest visual and verbal trends #GoodBrand
+
+If you’re above this threshold, show the whole layout, otherwise stack everything. #keepitsimplefolks
+
+Effective brand execution involves the efforts of product, user-experience, engineering and marketing.
+
+Data is an educated guessing game.
+
+Wait, but where *is* the internet?
+
+Make sure it's shiny! ...and extra modern!
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+What the eff is a "modern website" anyway?
+http://nickcottrell.info/ideas/how-to-make-a-modern-website/
+
+Urban design is similar to tech but much slower. #bummer
+http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
+
+Promotional: product marketing, suggestions, offers, calendar-related content, items that push. #GoodBrand
 
 
 

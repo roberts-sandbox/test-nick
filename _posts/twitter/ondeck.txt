@@ -1,31 +1,23 @@
-// SIMPLE TWEETS
+// DESIGN/UX/CODE/DATA TWEETS
 
 
 
 
 
 
-Data synthesis is an educated guessing game.
 
 
 
-As I mentioned before, well-organized spreadsheets effing rule.
 
 
 
-I got mad spreadsheets, bro.
 
 
 
-Is this the best the internet can do?
 
-Wait, but where is the internet?
 
-While your test prototype may look polished, its main purpose is not to be perfect, but to track events.
 
-The prototype is only there to provide data.
 
-Don't worry about users who get caught in your test bucket. They will get over it.
 
 
 
@@ -43,89 +35,54 @@ Don't worry about users who get caught in your test bucket. They will get over i
 
 
 
-Build things in a way that is easy to spin off new versions and new variations
 
-Favor workflows that allow you to create and deploy new variations
 
-Don't host alternate designs on production servers
 
-Add "Content Areas" to your list of UI staples
 
-Develop "component sets"
 
 
 
-Use variables on event tracking scripts #IfYouLikeAwesome
 
-Avoid releasing to 100% of production, ever.
 
-Set up a subdomain that always has new, weird versions of your site/product
 
-Divert traffic to a "canary server"
 
-Collect data about what works and what doesn’t
 
-Live data tests are a risk management best practice
 
-When it comes time to building the final production version, blah blah blah...
 
-Tell the truth #dontlie
 
-Tell the truth #GoodData
 
-Collect as much data as you can
 
-Compare the redundant information to make sure everything is consistent
 
-Make sure the data is organized coherently in a format that can be shared
 
-Testing is risk management #GoodData
 
-Too many variations #StatisticalPitfalls
 
-Timing and duration of tests #StatisticalPitfalls
 
-Scaling to production #StatisticalPitfalls
 
-Test/production data mismatches #StatisticalPitfalls
 
-It’s not an exact science #LiveData
 
-Information collected in live data tests is directional
 
-Live data tests are best thought of in terms of risk management
 
+//INTERNET FREEDOM
 
 
-Each live data test should be based on a clear objective
 
-Live data tests will help you settle debates
 
-Set up breakpoints to correspond to the screen sizes of the most popular devices
 
-The trick with responsive design is to keep it simple.
 
-1 or 2 breakpoints, tops
 
-Just pick one break point and go with it. #noyoudidnt
 
-If you’re above this threshold, show the whole layout, otherwise stack everything. #keepitsimplefolks
 
 
 
-A solid brand experience is achieved using a set of messages that exist in time and space. 
+//POLITICS & MEDIA
 
-Effective brand execution involves the efforts of product, user-experience, engineering and marketing.
 
-Establish a #BrandSpace that contains consistent visual and verbal content
 
-Each web property, UI element, image, copy line, tweet, notification, advertisement, business card is an opportunity for consistent messaging.
 
 
 
-Successful brand execution involves elements that exist in the right place at the right time
+// BOOKS READING
 
-A brand is greater than the sum of it’s parts
 
 
 
@@ -133,9 +90,8 @@ A brand is greater than the sum of it’s parts
 
 
 
-Relevant information: call to action hierarchy, product information, company information, up-to-date information. items that pull, instead of push. #GoodBrand
 
-Promotional: product marketing, suggestions, offers, calendar-related content, items that push. #GoodBrand
+// HILARITY
 
 
 
@@ -143,76 +99,8 @@ Promotional: product marketing, suggestions, offers, calendar-related content, i
 
 
 
-The logo of a company should hold it’s structure and relevance over time
 
-Timely, calendar-driven, promotional content can take the form of the latest visual and verbal trends #GoodBrand
-
-The devil is in the details #GoodBrand
-
-Granular items such as notifications or error messages represent an opportunity for the personality of a brand to shine #GoodBrand
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// TWEETS WITH LINKS
-
-
-
-Who gives a shit about RSS anymore anyway? I podcast on SoundCloud: https://soundcloud.com/nickcottrell
-
-Apparently, podcasts are invite only on SoundCloud... Didn't stop me from posting it here: https://soundcloud.com/nickcottrell
-
-Listen to a few tips on how to manage your walled garden:
-https://soundcloud.com/nickcottrell/its-your-walled-garden
-
-Please. Read my effing blog:
-http://nickcottrell.info/ideas/
-
-My blog is less of a blog and more of a garden.
-http://nickcottrell.info/ideas/
-
-
-
-Make sure it's shiny! ...and extra modern!
-http://nickcottrell.info/ideas/how-to-make-a-modern-website/
-
-What the eff is a modern website anyway?
-http://nickcottrell.info/ideas/how-to-make-a-modern-website/
-
-The art of data science
-http://nickcottrell.info/ideas/how-to-run-live-data-tests/
-
-Check out these 5 steps on how to run live data tests:
-http://nickcottrell.info/ideas/how-to-run-live-data-tests/
-
-
-
-
-
+// LINKS I'M PROMOTING
 
 Tend to your walled garden.
 http://nickcottrell.info/ideas/intra-source/
@@ -223,43 +111,19 @@ http://nickcottrell.info/ideas/the-social-funnel/
 Social media, the extra nerdy way.
 http://nickcottrell.info/ideas/the-social-funnel/
 
-Will you B my friend?
-http://nickcottrell.info/ideas/the-social-funnel/
-
-
-
-
-
-So, tell me about this *responsive* design thing...
-http://nickcottrell.info/ideas/its-not-a-page/
-
-Let's breakdance on these breakpoints!
-http://nickcottrell.info/ideas/its-not-a-page/
-
 Breakpoints 'n shit...
 http://nickcottrell.info/ideas/its-not-a-page/
 
 Yah so this is a thing:
 http://nickcottrell.info/ideas/its-not-a-page/
 
-
-
-Time and Space
-http://nickcottrell.info/ideas/time-and-space/
-
 The right info at the right time:
 http://nickcottrell.info/ideas/time-and-space/
-
-I made a SCSS grid system called Lining for Layout:
-https://github.com/nickcottrell/lining-for-layout
 
 Did I mention this is responsive?
 https://github.com/nickcottrell/lining-for-layout
 
 Minified with PHP
-https://github.com/nickcottrell/spool
-
-Really I just like the name:
 https://github.com/nickcottrell/spool
 
 All into a single string:
@@ -271,17 +135,6 @@ https://github.com/nickcottrell/nickcottrell.github.com
 I bet my jekyll site is different than yours.
 https://github.com/nickcottrell/nickcottrell.github.com
 
-Yah, so I pretty much love jekyll.
-https://github.com/nickcottrell/nickcottrell.github.com
-
-I totally used to work at an urban planning firm. It was hella awesome and weird:
-http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
-
-
-
-Urban design is similar to tech but much slower. #bummer
-http://nickcottrell.info/ideas/what-i-learned-from-urban-design/
-
 Own it.
 http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
 
@@ -290,9 +143,6 @@ http://nickcottrell.info/ideas/what-i-learned-when-i-ran-my-own-business/
 
 So I was at this press check and I saw a typo...
 http://nickcottrell.info/ideas/what-i-learned-from-print/
-
-Who? The? Fuck? Are? You?
-http://nickcottrell.info/ideas/what-is-istitch/
 
 Who, me?
 http://nickcottrell.info/ideas/what-is-istitch/
@@ -304,23 +154,7 @@ Make it work:
 http://nickcottrell.info/ideas/what-is-istitch/
 
 
-
-
-
-
-
-
-
-// RANDOM AS FUC
-
-
-
-// CURRENT EVENTS
-
-
-
-
-// LINKS TO PROMOTE
+// THE STRAIGHT DOPE
 podcasts
 https://soundcloud.com/nickcottrell
 https://soundcloud.com/nickcottrell/save-it-for-the-cloud
