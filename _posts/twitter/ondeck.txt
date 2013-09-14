@@ -1,4 +1,9 @@
-// DESIGN/UX/CODE/DATA TWEETS
+//DESIGN/UX/CODE/DATA TWEETS
+
+
+
+
+//QUANTUM PHYSICS
 
 
 
@@ -7,53 +12,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//3D PRINTING
 
 
 
@@ -67,21 +26,7 @@
 
 
 
-
-
-
-
-
-
-
-//POLITICS & MEDIA
-
-
-
-
-
-
-// BOOKS READING
+//VOICE COMMAND
 
 
 
@@ -91,7 +36,15 @@
 
 
 
-// HILARITY
+
+
+
+
+
+
+
+
+//HILARITY
 
 
 
