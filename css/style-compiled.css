@@ -68,6 +68,18 @@ body {
   width: 80%;
   padding: 0 10% 0 10%; }
 
+.fullscreen {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 11px; }
+
+.fullscreen .group {
+  width: 100%;
+  background-color: #000;
+  opacity: .7;
+  min-height: 30px; }
+
 /*global*/
 h1 {
   font-family: helvetica, arial, sans-serif;
@@ -454,6 +466,7 @@ article li {
   padding: 0 0 0 22px; }
 
 .img_wrap {
+  position: relative;
   max-width: 1024px;
   background-color: #eee;
   display: block;
@@ -498,6 +511,32 @@ article li {
 
 .nav-icon {
   color: #ccc !important; }
+
+.expand {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  font-size: 10px; }
+
+.fullscreen .btn {
+  display: block;
+  padding: 8px 10px; }
+
+.fullscreen a.btn:link {
+  color: #fff;
+  text-decoration: none; }
+
+.fullscreen a.btn:visited {
+  color: #fff;
+  text-decoration: none; }
+
+.fullscreen a.btn:hover {
+  color: #666 !important;
+  text-decoration: none; }
+
+.fullscreen a.btn:active {
+  color: #666 !important;
+  text-decoration: none; }
 
 /*contact form*/
 #form1 {

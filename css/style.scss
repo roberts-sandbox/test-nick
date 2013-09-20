@@ -57,7 +57,8 @@ body {background-image:url('/img/interface/bg_flat_adaptive_diffusion.gif'); bac
 .footing {background-color:#999; min-height:100px; padding:0; margin:0;}
 .footing .group {width:80%; padding:0 10% 0 10%;}
 	
-
+.fullscreen {margin:0; padding:0; font-family:"Helvetica", arial, sans-serif; font-size:11px;}
+.fullscreen .group {width:100%; background-color:#000; opacity:.7; min-height:30px;}
 
 
 
@@ -174,7 +175,7 @@ article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12
 	}
 .morelinks li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12px 24px; font-family:helvetica, arial, sans-serif;color: #666;}		
 .post_date {font-family:helvetica, arial, sans-serif;font-size:12px;color:#a2a3a6;height:22px;width:200px;background-image:url('/img/interface/time.gif');background-position:0 6px;background-repeat:no-repeat;padding:0 0 0 22px;}
-.img_wrap {max-width: 1024px;background-color:#eee;display:block;padding:8px 8px 6px 8px;margin: 0 4px 24px 4px;
+.img_wrap {position:relative; max-width: 1024px;background-color:#eee;display:block;padding:8px 8px 6px 8px;margin: 0 4px 24px 4px;
 	@include rounded (4px);
 	}	
 .content img {max-width: 1024px; margin: 0;
@@ -188,6 +189,20 @@ article li {text-decoration:none; list-style-type:none; margin:0; padding:0 0 12
 .page-bottom {border-top:1px dashed #ccc; margin-top:56px; padding-top:35px;}
 .sm_caption {font-size:12px; margin:-24px 0 20px 20px; color:#999;}
 .nav-icon {color:#ccc !important;}
+
+.expand {
+	position:absolute; 
+	top: 14px; 
+	right: 18px; 
+	font-size:10px;
+	}
+
+.fullscreen .btn {display:block; padding:8px 10px;}
+.fullscreen a.btn:link {color:#fff; text-decoration:none;}
+.fullscreen a.btn:visited {color:#fff; text-decoration:none;}
+.fullscreen a.btn:hover {color:#666 !important; text-decoration:none;}
+.fullscreen a.btn:active {color:#666 !important; text-decoration:none;}
+
 
 
 
