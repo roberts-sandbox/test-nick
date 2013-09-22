@@ -3,12 +3,9 @@
   title: It's Not a *Page*
   permalink: ideas/its-not-a-page
   categories: [articles]
+  blurb: Different outputs on different devices with the same code? Yup. We're no longer required to create multiple designs for multiple devices. Instead, devices interpret layouts in different ways, depending on the context in which the information is viewed. Separate mobile websites are a thing of the past.
+  postimg: snap-1024x574.jpg
 ---
-
-<h2>Different outputs on different devices with the same code? Yup. We're no longer required to create multiple designs for multiple devices. Instead, devices interpret layouts in different ways, depending on the context in which the information is viewed. Separate mobile websites are a thing of the past.</h2>
-
-
-<div class="img_wrap"><img src="/img/articles/snap-1024x574.jpg" width="100%" /></div><br />
 
 For too long, web design has been an extension of print design, hence antiquated terms we use every day such as ‘web page.’ Until recently, designs started off with constrained proportions, with the designer laying out a page, as though it was going to be printed and cut to a particular size. For the web, that’s the wrong approach. Designs should melt into a whatever format is best for the device on which they are viewed. It should be thought of as a moldable cluster of information, with variables and tolerances built to mesh with different formats and devices. Techniques used to make a site <em>responsive</em> will help you achieve this.
 

@@ -3,11 +3,11 @@
   title: 99 Problems
   permalink: ideas/what-i-learned-when-i-ran-my-own-business
   categories: [articles]
+  blurb: Many people dream of being their own boss. It's not always what it's made out to be, but there are many lessons I learned when running my own business.
+  postimg: office-1024x574.jpg
 ---
 
-<h2>Many people dream of being their own boss. It's not always what it's made out to be, but there are many lessons I learned when running my own business.</h2>
 
-<div class="img_wrap"><img src="/img/articles/office-1024x574.jpg" width="100%" /></div>
 
 <h3>It's not about being your own boss</h3>
 It's more about having more than one boss. If you don't want to work for just one person, this will give you an opportunity to work for many different people. The more projects you have, the more people you work with. So it's still important that you maintain your presentability and "people skills." Just making the point that while running your own business allows you to set your own schedule (most of the time), it does not free you from any and all obligation. Clients, projects, deadlines are all part of getting people to pay you money to do projects. If you're doing a good job managing your projects, it's awesome because you've got clients' demands under control, but it requires a lot of work to make a bunch of different people happy!

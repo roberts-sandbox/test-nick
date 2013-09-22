@@ -3,11 +3,11 @@
   title: Designing Places
   permalink: ideas/what-i-learned-from-urban-design
   categories: [articles]
+  blurb: When I worked at an urban design firm, we worked on big scale projects, building many bridges and connections. Now, in technology, I'm doing the same stuff, just much faster.
+  postimg: urban-design-1024x574.jpg
 ---
 
-<h2>When I worked at an urban design firm, we worked on big scale projects, building many bridges and connections. Now, in technology, I'm doing the same stuff, just much faster.</h2>
 
-<div class="img_wrap"><img src="/img/articles/urban-design-1024x574.jpg" width="100%" /></div>
 
 <h3>Urban design is good</h3>
 First thing's first, urban design rules. Like many other fields of design such as typography and font design, the artifacts are everywhere, but so frequently unnoticed. Any stroll through the city (suburb too), you'll find the effects of the zoning and design guidelines that dictate and shape the environment. The general density, number of floors in the buildings, space between the buildings, size of the sidewalk and streets, types of trees, brand of streetlight, you name it. It's all been spec'd out by someone, probably an architect. These guidelines are where the "design" of "urban design" comes from.

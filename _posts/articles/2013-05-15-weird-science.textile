@@ -3,11 +3,10 @@
   title: Weird Science
   permalink: ideas/how-to-run-live-data-tests/
   categories: [articles]
+  blurb: Simply put: we argue a lot. Live data tests are a great way to collect quantitative data about how users interact with a web site or product. They provide data we can use to move forward, incrementally and objectively--so we can argue less.
+  postimg: live_data-1024x574.jpg
+    
 ---
-
-<h2>Simply put: we argue a lot. Live data tests are a great way to collect quantitative data about how users interact with a web site or product. They provide data we can use to move forward, incrementally and objectively--so we can argue less.</h2>
-
-<div class="img_wrap"><img src="/img/articles/live_data-1024x574.jpg" width="100%" /></div>
 
 Testing can be a great way to collect data and insight from real users. Process varies greatly, but for the most part, there are two categories: qualitative and quantitative. Qualitative testing usually involves discussing designs or prototypes with a small group of users in order to get a wide range of info about how the users understand the design and how it will likely be used. Quantitative, or <em>live data</em> testing involves putting designs or prototypes in front of many users to collect data about how a statistically significant sample of users actually interact with the design. That is the subject of this article. There are many factors in creating designs and collecting data for live data tests. Here are five key steps.
 

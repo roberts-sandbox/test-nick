@@ -3,11 +3,11 @@
   title: Time &amp; Space
   permalink: ideas/time-and-space
   categories: [articles]
+  blurb: A brand is not a logo, a visual style guide, a color palette, or a set of icons. It’s a set of feelings or impressions people have about a company and its products or services. A solid brand experience is achieved using a set of messages that exist in time and space.
+  postimg: brandspace_galaxy-1024x574.jpg
+  
 ---
 
-<h2>A brand is not a logo, a visual style guide, a color palette, or a set of icons. It’s a set of feelings or impressions people have about a company and its products or services. A solid brand experience is achieved using a set of messages that exist in time and space.</h2>
-
-<div class="img_wrap"><img src="/img/articles/brandspace_galaxy-1024x574.jpg" width="100%" /></div><br />
 
 In a product company, an effective brand execution strategy involves the coordinated effort of the product, user-experience, engineering and marketing teams. With a non-linear relationship, the combined effort of these departments touches on each aspect of the user-experience. The overarching goal is to establish a <em>brand space</em> that contains consistent visual and verbal content, providing users with useful features and relevant information.
 

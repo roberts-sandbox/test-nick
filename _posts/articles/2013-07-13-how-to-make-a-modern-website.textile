@@ -3,11 +3,10 @@
   title: Built for Change
   permalink: ideas/how-to-make-a-modern-website
   categories: [articles]
+  blurb: A website is not a precious artifact. It's a tool. In the post-web-standards era, techniques used to build websites have evolved. Here are 5 key tips to building a modern website.
+  postimg: ui-1024x574.jpg
+  podcast: https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F101112577
 ---
-
-<h2>A website is not a precious artifact. It's a tool. In the post-web-standards era, techniques used to build websites have evolved. Here are 5 key tips to building a modern website.</h2>
-
-<div class="img_wrap"><img src="/img/articles/ui-1024x574.jpg" width="100%" /></div>
 
 A good site is built to change. It should be a framework that serves to encourage action and engagement. Variations in user behavior and strategy require new user flows to be tested and vetted. That means sites must be built with pieces that can be set up and rearrange rapidly. These pieces include responsive grid systems, modular, interchangeable, UI elements, platform detection and event tracking. When combined effectively, project teams can spend less time cobbling together updates and more time focusing on designing and improving how a user effectively moves through a site.
 
@@ -38,7 +37,3 @@ An adaptive site is a site that contains logic to detect specific platforms and 
 Events are basically the trackable actions that occur on a web page such as clicks, hovers, form submissions and more. Tools like Google Analytics allow you to set up custom events in addition to other various handy metrics. By tagging custom events while following a consistent naming schema, event information can be organized and used efficiently in analysis and comparisons. Each design or conversion strategy should include a discussion about what events will be tracked to measure the success of the initiative.
 
 
-<br />
-<h2>Listen to this article:</h2>
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F101112577"></iframe>

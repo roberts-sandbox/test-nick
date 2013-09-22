@@ -3,11 +3,9 @@
   title: Ink on Paper
   permalink: ideas/what-i-learned-from-print
   categories: [articles]
+  blurb: While elements like A/B testing, funnel marketing, and product development are essential, I'm thankful I had a chance to spend time focusing on a core design skill set while developing an appreciation for well crafted handiwork.
+  postimg: print-design-1024x574.jpg
 ---
-
-<h2>While elements like A/B testing, funnel marketing, and product development are essential, I'm thankful I had a chance to spend time focusing on a core design skill set while developing an appreciation for well crafted handiwork.</h2>
-
-<div class="img_wrap"><img src="/img/articles/print-design-1024x574.jpg" width="100%" /></div>
 
 <h3>Solid foundation</h3>
 My first job was at a newspaper. I worked in the "back shop" at <em>The Daily Aztec</em>, the bustling place where designers would typeset each page and work with writers on headlines that fit the designated space on each layout. The freely distributed college newspaper provided a new issue, every Monday through Friday, and was the cornerstone of sports news, political discussions and gossip, in a time before the ubiquity of smartphones and trending reddit threads. 

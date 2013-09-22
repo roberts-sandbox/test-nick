@@ -3,10 +3,9 @@
   title: WTF is istitch?
   permalink: ideas/wtf-is-istitch
   categories: [articles]
+  blurb: So what's this "stitch" thing all about? It's a theme I've been playing around with for years related to user interface. It's about bringing elements together to create practical user experiences&mdash;leveraging the things that work and scrapping the things that don't. Design should be reasonable and durable. Welcome to the manifesto.
+  postimg: stitch-1024x574.jpg
 ---
-
-<h2>So what's this "stitch" thing all about? It's a theme I've been playing around with for years related to user interface. It's about bringing elements together to create practical user experiences&mdash;leveraging the things that work and scrapping the things that don't. Design should be reasonable and durable. Welcome to the manifesto.</h2>
-<div class="img_wrap"><img src="/img/articles/stitch-1024x574.jpg" width="100%" /></div><br />
 
 Design and technology are similar to the craft of tailoring. At the root, much of it has do with stitching things together--finding connections and linking things. Even more so, in the pragmatic field of user experience engineering, there is a lot of hookery and hackery involved as things actually get done, when links and connections become reality. 
 
