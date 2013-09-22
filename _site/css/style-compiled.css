@@ -78,7 +78,7 @@ body {
   width: 100%;
   background-color: #000;
   opacity: .7;
-  min-height: 30px; }
+  min-height: 32px; }
 
 /*global*/
 h1 {
@@ -258,6 +258,136 @@ pre {
   font-size: 14px;
   line-height: 20px;
   padding: 20px 30px; }
+
+a:link.icon-link {
+  opacity: .6;
+  border-radius: 4px;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: #000; }
+
+a:visited.icon-link {
+  opacity: .6;
+  border-radius: 4px;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: #000; }
+
+a:hover.icon-link {
+  opacity: .9;
+  border-radius: 4px;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: #000; }
+
+a:active.icon-link {
+  opacity: .9;
+  border-radius: 4px;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: #000; }
+
+.icon-expand {
+  background-image: url("/img/interface/icon-expand-16px.png"); }
+
+.icon-next {
+  background-image: url("/img/interface/icon-next-16px.png"); }
+
+.icon-pause {
+  background-image: url("/img/interface/icon-pause-16px.png"); }
+
+.icon-play {
+  background-image: url("/img/interface/icon-play-16px.png"); }
+
+.icon-prev {
+  background-image: url("/img/interface/icon-prev-16px.png"); }
+
+.icon-unfullscreen {
+  background-image: url("/img/interface/icon-unfullscreen-16px.png"); }
+
+a:link.tooltip-top div {
+  position: absolute;
+  display: none; }
+
+a:visited.tooltip-top div {
+  position: absolute;
+  display: none; }
+
+a:hover.tooltip-top div {
+  position: absolute;
+  text-indent: 0px;
+  text-align: center;
+  display: block;
+  width: 80px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: -38px;
+  margin-left: -50px;
+  opacity: .6;
+  border-radius: 3px; }
+
+a:active.tooltip-top div {
+  position: absolute;
+  text-indent: 0px;
+  text-align: center;
+  display: block;
+  width: 80px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: -38px;
+  margin-left: -50px;
+  opacity: .6;
+  border-radius: 3px; }
+
+a:link.tooltip-bottom div {
+  position: absolute;
+  display: none; }
+
+a:visited.tooltip-bottom div {
+  position: absolute;
+  display: none; }
+
+a:hover.tooltip-bottom div {
+  position: absolute;
+  text-indent: 0px;
+  text-align: center;
+  display: block;
+  width: 80px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 34px;
+  margin-left: -50px;
+  opacity: .6;
+  border-radius: 3px; }
+
+a:active.tooltip-bottom div {
+  position: absolute;
+  text-indent: 0px;
+  text-align: center;
+  display: block;
+  width: 80px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 34px;
+  margin-left: -50px;
+  opacity: .6;
+  border-radius: 3px; }
 
 /*navigation*/
 ul {

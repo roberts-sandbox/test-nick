@@ -1,13 +1,16 @@
 $(document).ready(function() {
 
-		var searchString = document.location.search;
-		var currenturl = searchString.split("&");
+	var searchString = document.location.search;
+	
+	if (searchString) {
+		var currenturl = searchString.split("&");		
 		var slide_control = currenturl[0];
 		slide_control = slide_control.split("=");
 		slide_control = slide_control[1];
 		var play_control = currenturl[1];
 		play_control = play_control.split("=");
-		play_control = play_control[1];		
+		play_control = play_control[1];
+			
 
 		var images=$('.BG_IMG');
 
@@ -77,6 +80,11 @@ $(document).ready(function() {
 			var refresh = "/visual-samples/#slide=" + index;
 			window.location.href = refresh;		
 		});	
+
+
+	};
+
+
 
 });
 
