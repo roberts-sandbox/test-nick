@@ -3,7 +3,7 @@
   title: It's *Your* Walled Garden
   permalink: ideas/intra-source
   categories: [articles]
-  blurb: "Open source" is great. But what if you're in a situation where you aren't able to share your ideas publicly? There are still many lessons we can learn from the projects that are free to the world, even if your project isn't. Here are a few things that are easy to apply as you tend to your walled garden.
+  blurb: Open source is great. But what if you're in a situation where you aren't able to share your ideas publicly? There are still many lessons we can learn from the projects that are free to the world, even if your project isn't. Here are a few things that are easy to apply as you tend to your walled garden.
   postimg: intra-source-1024x574.jpg
   podcast: https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F100956577
 ---
