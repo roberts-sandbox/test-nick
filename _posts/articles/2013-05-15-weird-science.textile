@@ -3,7 +3,7 @@
   title: Weird Science
   permalink: ideas/how-to-run-live-data-tests/
   categories: [articles]
-  blurb: Simply put: we argue a lot. Live data tests are a great way to collect quantitative data about how users interact with a web site or product. They provide data we can use to move forward, incrementally and objectively--so we can argue less.
+  blurb: Simply put, we argue a lot. Live data tests are a great way to collect quantitative data about how users interact with a web site or product. They provide data we can use to move forward, incrementally and objectively--so we can argue less.
   postimg: live_data-1024x574.jpg
     
 ---
