@@ -1,0 +1,21 @@
+---
+  layout: default
+  title: Ideas
+  permalink: ideas/podcast
+---
+		
+
+{% for category in site.categories %} 
+       {% for post in site.categories['articles'] %} 
+<article>
+
+	
+	{% if post.podcast %}
+	<iframe width="100%" height="166" scrolling="no" frameborder="no" src="{{ post.podcast }}"></iframe>
+	{% endif %}
+	
+
+</article>
+        {% endfor %} 
+{% endfor %}
+
